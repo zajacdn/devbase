@@ -14,6 +14,51 @@
   "path": "links/design/aceternity-ui.md"
  },
  {
+  "title": "AI UI Design (Google)",
+  "url": "https://aistudio.google.com/learn/ai-ui-design-google-ai-studio",
+  "category": "design",
+  "tags": [
+   "ui",
+   "guide",
+   "prompts",
+   "ai"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Гайд Google по дизайну вайбкод-приложений: типографика, цвет, компоненты + 8 советов с готовыми промптами.",
+  "path": "links/design/ai-ui-design-google.md"
+ },
+ {
+  "title": "ArtCraft",
+  "url": "https://app.getartcraft.com/",
+  "category": "design",
+  "tags": [
+   "adobe",
+   "rust",
+   "opensource",
+   "graphics"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Опенсорс-клоны инструментов Adobe на Rust: быстрее оригиналов, работают на ПК и прямо в браузере.",
+  "path": "links/design/artcraft.md"
+ },
+ {
+  "title": "Bento",
+  "url": "https://bento.page/",
+  "category": "design",
+  "tags": [
+   "presentations",
+   "slides",
+   "ai",
+   "free"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Браузерный редактор презентаций: анимации, графики, тысячи шаблонов и встроенные ИИ-агенты. Файл живёт в редакторе, ПК и телефон синхронны.",
+  "path": "links/design/bento.md"
+ },
+ {
   "title": "caniuse",
   "url": "https://caniuse.com",
   "category": "design",
@@ -51,6 +96,21 @@
   "added_by": "Заяц",
   "note": "Градиенты с готовым CSS-кодом.",
   "path": "links/design/css-gradient.md"
+ },
+ {
+  "title": "Design Systems One",
+  "url": "https://www.designsystems.one/",
+  "category": "design",
+  "tags": [
+   "design-systems",
+   "tokens",
+   "ui",
+   "reference"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "120 публичных дизайн-систем в одном месте: Material 3, Apple HIG, Carbon от IBM, Stripe — цвета, типографика, отступы.",
+  "path": "links/design/design-systems-one.md"
  },
  {
   "title": "Excalidraw",
@@ -106,6 +166,21 @@
   "path": "links/design/iconify.md"
  },
  {
+  "title": "logo-design-skill",
+  "url": "https://github.com/kaankiziltug/logo-design-skill",
+  "category": "design",
+  "tags": [
+   "logo",
+   "claude-code",
+   "skill",
+   "svg"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Скилл для Claude Code и Codex: полный цикл разработки лого по законам типографики и вёрстки, на выходе SVG + бренд-гайдлайн.",
+  "path": "links/design/logo-design-skill.md"
+ },
+ {
   "title": "Lucide Icons",
   "url": "https://lucide.dev",
   "category": "design",
@@ -133,6 +208,21 @@
   "path": "links/design/motion.md"
  },
  {
+  "title": "Namelix",
+  "url": "https://namelix.com/",
+  "category": "design",
+  "tags": [
+   "naming",
+   "logo",
+   "branding",
+   "ai"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Генератор названий и логотипов: описание проекта → десятки вариантов, регулировка креативности. Бесплатно.",
+  "path": "links/design/namelix.md"
+ },
+ {
   "title": "OpenMoji",
   "url": "https://openmoji.org",
   "category": "design",
@@ -158,6 +248,21 @@
   "added_by": "Заяц",
   "note": "Замер Core Web Vitals по URL.",
   "path": "links/design/pagespeed-insights.md"
+ },
+ {
+  "title": "Photon Studio",
+  "url": "https://tenzen.studio/photon/",
+  "category": "design",
+  "tags": [
+   "photoshop",
+   "editor",
+   "layers",
+   "psd"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Бесплатная замена Photoshop в браузере: слои, маски, смарт-объекты, кривые, Liquify, удаление фона, открытие PSD.",
+  "path": "links/design/photon-studio.md"
  },
  {
   "title": "Photopea",
@@ -252,6 +357,20 @@
   "path": "links/design/undraw.md"
  },
  {
+  "title": "Draw Your Font",
+  "url": "https://drawyourfont.com/",
+  "category": "fonts",
+  "tags": [
+   "handwriting",
+   "font-generator",
+   "free"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Превращает почерк в шрифт: пишешь буквы на листе, фотографируешь, загружаешь — получаешь файл шрифта.",
+  "path": "links/fonts/draw-your-font.md"
+ },
+ {
   "title": "Fontshare",
   "url": "https://www.fontshare.com",
   "category": "fonts",
@@ -305,6 +424,35 @@
   "path": "links/ai/apiyi.md"
  },
  {
+  "title": "Arena Skill",
+  "url": "https://github.com/jakeschincariol/arena-skill",
+  "category": "ai",
+  "tags": [
+   "skill",
+   "agents",
+   "prompts"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Запускает сотни агентов, которые спорят между собой за лучший ответ на один запрос.",
+  "path": "links/ai/arena-skill.md"
+ },
+ {
+  "title": "buildwithclaude",
+  "url": "https://buildwithclaude.com/",
+  "category": "ai",
+  "tags": [
+   "claude",
+   "mcp",
+   "plugins",
+   "skills"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Библиотека для Claude: 2700 плагинов, 4100 скиллов и 6200 MCP-серверов с поиском по сотням категорий.",
+  "path": "links/ai/buildwithclaude.md"
+ },
+ {
   "title": "cheapvibecode",
   "url": "https://cheapvibecode.ru",
   "category": "ai",
@@ -317,6 +465,64 @@
   "added_by": "Заяц",
   "note": "OpenAI-совместимый прокси, дешёвые модели для агентов и кодинга.",
   "path": "links/ai/cheapvibecode.md"
+ },
+ {
+  "title": "CL4R1T4S",
+  "url": "https://github.com/elder-plinius/CL4R1T4S",
+  "category": "ai",
+  "tags": [
+   "prompts",
+   "system-prompt",
+   "reference"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Слив системных промптов моделей (GPT-6 Astra и др.): роли, команды и логика принятия решений.",
+  "path": "links/ai/cl4r1t4s.md"
+ },
+ {
+  "title": "Cloud.ru Agents Space",
+  "url": "https://cloud.ru/agents-space",
+  "category": "ai",
+  "tags": [
+   "agents",
+   "russian",
+   "cloud"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Конструктор ИИ-агентов в чате: по клику подключаются сервисы разработки, почта, календарь и облачное хранилище.",
+  "path": "links/ai/cloud-ru-agents-space.md"
+ },
+ {
+  "title": "DeepSeek Harness",
+  "url": "https://www.deepseek.com/en/harness/",
+  "category": "ai",
+  "tags": [
+   "agent",
+   "desktop",
+   "opensource",
+   "code"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Опенсорсный десктоп-агент: файлы, код и терминал локально, плагины, поиск в сети и генерация текста.",
+  "path": "links/ai/deepseek-harness.md"
+ },
+ {
+  "title": "DeepSeek-V4.1-Flash",
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+  "category": "ai",
+  "tags": [
+   "llm",
+   "deepseek",
+   "cheap",
+   "model"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Дешёвая модель с уровнем топовых: $0.003 за 1М входных токенов и $0.6 за 1М выходных.",
+  "path": "links/ai/deepseek-v41-flash.md"
  },
  {
   "title": "fal.ai",
@@ -333,6 +539,21 @@
   "path": "links/ai/falai.md"
  },
  {
+  "title": "Free Router",
+  "url": "https://github.com/www222fff/free-router",
+  "category": "ai",
+  "tags": [
+   "llm",
+   "router",
+   "free",
+   "tokens"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Автопереключение агента между 25 бесплатными провайдерами LLM: DeepSeek, GLM-5.3, Qwen-3.8 и другие.",
+  "path": "links/ai/free-router.md"
+ },
+ {
   "title": "Hugging Face",
   "url": "https://huggingface.co",
   "category": "ai",
@@ -344,6 +565,21 @@
   "added_by": "Заяц",
   "note": "Модели, датасеты, спейсы. Всё open-source в одном месте.",
   "path": "links/ai/hugging-face.md"
+ },
+ {
+  "title": "OpenClaude Portable",
+  "url": "https://github.com/techjarves/OpenClaude-Portable",
+  "category": "ai",
+  "tags": [
+   "local",
+   "portable",
+   "llm",
+   "offline"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Локальный ИИ на флешке: LLM, генерация картинок, STT и TTS — без установки и интернета, Win/macOS/Linux.",
+  "path": "links/ai/openclaude-portable.md"
  },
  {
   "title": "OpenRouter",
@@ -359,6 +595,21 @@
   "path": "links/ai/openrouter.md"
  },
  {
+  "title": "Portal (Spotify)",
+  "url": "https://github.com/spotify/portal-ai-plugins",
+  "category": "ai",
+  "tags": [
+   "claude-code",
+   "tokens",
+   "cost",
+   "plugins"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Плагины Spotify для Claude Code: рутина уходит на дешёвые модели, экономия до 90% токенов.",
+  "path": "links/ai/portal-spotify.md"
+ },
+ {
   "title": "Replicate",
   "url": "https://replicate.com",
   "category": "ai",
@@ -370,6 +621,109 @@
   "added_by": "Заяц",
   "note": "Запуск чужих моделей по API, оплата за секунды GPU.",
   "path": "links/ai/replicate.md"
+ },
+ {
+  "title": "Strata",
+  "url": "https://github.com/mach10x/strata",
+  "category": "ai",
+  "tags": [
+   "local",
+   "llm",
+   "qwen",
+   "gpu"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Локальный запуск модели на 125B параметров на GPU всего с 8 ГБ памяти: чат, код, анализ изображений.",
+  "path": "links/ai/strata.md"
+ },
+ {
+  "title": "SynthID Detector",
+  "url": "https://synthid.com/",
+  "category": "ai",
+  "tags": [
+   "detector",
+   "watermark",
+   "ai-content"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Детектор ИИ-контента: находит невидимые метки Google, OpenAI, NVIDIA и Kakao в изображениях, видео и аудио.",
+  "path": "links/ai/synthid-detector.md"
+ },
+ {
+  "title": "youtube-skills",
+  "url": "https://github.com/ZeroPointRepo/youtube-skills",
+  "category": "ai",
+  "tags": [
+   "youtube",
+   "skills",
+   "agent",
+   "transcript"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Скиллы для ИИ-агентов: смотреть ролики, делать расшифровки, искать видео, парсить каналы и плейлисты.",
+  "path": "links/ai/youtube-skills.md"
+ },
+ {
+  "title": "Free Upscaler",
+  "url": "https://freeupscaler.app/",
+  "category": "images",
+  "tags": [
+   "upscale",
+   "webgpu",
+   "local",
+   "free"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Апскейл картинок и видео x2/x4 локально через WebGPU: файлы не уходят на сервер, без водяных знаков.",
+  "path": "links/images/free-upscaler.md"
+ },
+ {
+  "title": "ImageFlow",
+  "url": "https://imageflow.dev/",
+  "category": "images",
+  "tags": [
+   "lighting",
+   "photo",
+   "opensource",
+   "local"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Меняет свет на фото прямо в браузере: направление и характер освещения, другое время суток — локально и бесплатно.",
+  "path": "links/images/imageflow.md"
+ },
+ {
+  "title": "Nano Banana 2.1",
+  "url": "https://gemini.google.com/",
+  "category": "images",
+  "tags": [
+   "google",
+   "image-gen",
+   "4k"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Генерация и правка фото в 4К от Google: детали остаются чёткими после множества итераций.",
+  "path": "links/images/nano-banana-21.md"
+ },
+ {
+  "title": "Onepromptdesign",
+  "url": "https://onepromptdesign.com/",
+  "category": "images",
+  "tags": [
+   "prompts",
+   "image-gen",
+   "database",
+   "free"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "База промптов для генерации картинок с фильтрами по стилям: гиперреализм, аниме, киберпанк и десятки других.",
+  "path": "links/images/onepromptdesign.md"
  },
  {
   "title": "remove.bg",
@@ -438,6 +792,35 @@
   "path": "links/voice/elevenlabs.md"
  },
  {
+  "title": "VoiceStudio",
+  "url": "https://github.com/debpalash/VoiceStudio",
+  "category": "voice",
+  "tags": [
+   "tts",
+   "voice-clone",
+   "local",
+   "opensource"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Локальный ElevenLabs: клонирование голоса, чистка от шума, дубляж фильмов, озвучка аудиокниг — всё на своём ПК.",
+  "path": "links/voice/voicestudio.md"
+ },
+ {
+  "title": "Spotifast",
+  "url": "https://spotifast.rocks/",
+  "category": "music",
+  "tags": [
+   "spotify",
+   "client",
+   "lightweight"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Лёгкий клиент Spotify: старт за секунду, 100–250 МБ памяти, плейлисты, подкасты, Spotify Connect, режим Winamp.",
+  "path": "links/music/spotifast.md"
+ },
+ {
   "title": "Suno",
   "url": "https://suno.com",
   "category": "music",
@@ -449,6 +832,123 @@
   "added_by": "Заяц",
   "note": "Генерация треков с вокалом по текстовому промпту.",
   "path": "links/music/suno.md"
+ },
+ {
+  "title": "Anything2Explainer",
+  "url": "https://github.com/Vincentwei1021/anything2explainer",
+  "category": "video",
+  "tags": [
+   "skill",
+   "youtube",
+   "script",
+   "claude"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Скилл Claude: статья или тема → сценарий, раскадровка, анимация, озвучка, субтитры и готовый MP4.",
+  "path": "links/video/anything2explainer.md"
+ },
+ {
+  "title": "procedural-film",
+  "url": "https://github.com/kuhnhomeuk-cell/procedural-film",
+  "category": "video",
+  "tags": [
+   "javascript",
+   "animation",
+   "generation"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Генерация 30-секундных короткометражек на чистом JavaScript: сценарий, саунд-дизайн и кадры делает агент.",
+  "path": "links/video/procedural-film.md"
+ },
+ {
+  "title": "Recordly",
+  "url": "https://recordly.dev/",
+  "category": "video",
+  "tags": [
+   "screen-recorder",
+   "macos",
+   "opensource"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Опенсорс-рекордер экрана для macOS: авто-приближение курсора, плавные анимации, фоны, веб-камера и звук.",
+  "path": "links/video/recordly.md"
+ },
+ {
+  "title": "vflow.live",
+  "url": "https://vflow.live/",
+  "category": "video",
+  "tags": [
+   "prompts",
+   "video-gen",
+   "database"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "База 9000+ промптов для генерации видео: локации, свет, ракурсы, текстуры и атмосфера под каждый жанр.",
+  "path": "links/video/vflow.md"
+ },
+ {
+  "title": "Video Shotcraft",
+  "url": "https://github.com/Vincentwei1021/video-shotcraft",
+  "category": "video",
+  "tags": [
+   "skill",
+   "promo",
+   "storyboard",
+   "claude"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Скилл генерации промо-роликов: раскадровки, анимации, звук. 157 примеров сцен и 214 стилей и анимаций.",
+  "path": "links/video/video-shotcraft.md"
+ },
+ {
+  "title": "WeftCut",
+  "url": "https://github.com/WeftCut/WeftCut",
+  "category": "video",
+  "tags": [
+   "editor",
+   "agent",
+   "claude",
+   "opensource"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Видеоредактор под управление ИИ-агентом: закидываешь исходники и текстом описываешь, что смонтировать.",
+  "path": "links/video/weftcut.md"
+ },
+ {
+  "title": "WolfCut",
+  "url": "https://github.com/jub0t/WolfCut",
+  "category": "video",
+  "tags": [
+   "editor",
+   "capcut",
+   "opensource",
+   "crossplatform"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Бесплатная замена CapCut: нарезка, несколько дорожек, субтитры и звук — без подписок и водяных знаков, Win/macOS/Linux.",
+  "path": "links/video/wolfcut.md"
+ },
+ {
+  "title": "XPADE Watermark Remover",
+  "url": "https://xpade.dothome.co.kr/watermark/",
+  "category": "video",
+  "tags": [
+   "watermark",
+   "remove",
+   "browser",
+   "free"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Убирает водяные знаки с видео в браузере: выделяешь область — сервис восстанавливает фон под меткой.",
+  "path": "links/video/xpade-watermark.md"
  },
  {
   "title": "Cryptomus",
@@ -556,6 +1056,21 @@
   "path": "links/hosting/vercel.md"
  },
  {
+  "title": "ESP32 AdBlock",
+  "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+  "category": "infra",
+  "tags": [
+   "adblock",
+   "dns",
+   "esp32",
+   "hardware"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "DNS-адблок на плате ESP32-C3 за $2: питается от USB роутера, режет рекламу на всю сеть.",
+  "path": "links/infra/esp32-adblock.md"
+ },
+ {
   "title": "Neon",
   "url": "https://neon.tech",
   "category": "infra",
@@ -621,6 +1136,51 @@
   "path": "links/proxies/proxyshard.md"
  },
  {
+  "title": "untidetect-tools",
+  "url": "https://github.com/TheGP/untidetect-tools",
+  "category": "proxies",
+  "tags": [
+   "antidetect",
+   "anonymity",
+   "browsers"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Список инструментов для анонимности: анти-детект браузеры, библиотеки для анонимного серфа, эмуляция живого поведения.",
+  "path": "links/proxies/untidetect-tools.md"
+ },
+ {
+  "title": "21st.dev (Magic MCP)",
+  "url": "https://21st.dev/",
+  "category": "code",
+  "tags": [
+   "ui",
+   "mcp",
+   "components",
+   "react",
+   "tailwind"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "10 000+ React/Tailwind компонентов и генерация UI агентом прямо в редакторе (Cursor, Claude Code, Codex, Windsurf).",
+  "path": "links/code/21st-dev.md"
+ },
+ {
+  "title": "ai-job-search",
+  "url": "https://github.com/MadsLorentzen/ai-job-search",
+  "category": "code",
+  "tags": [
+   "claude-code",
+   "skill",
+   "jobs",
+   "resume"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Скилл Claude Code: мониторит вакансии, оценивает совпадение, адаптирует резюме и пишет сопроводительные.",
+  "path": "links/code/ai-job-search.md"
+ },
+ {
   "title": "Cursor",
   "url": "https://cursor.com",
   "category": "code",
@@ -645,6 +1205,21 @@
   "added_by": "Заяц",
   "note": "Все документации в одном поиске, работает офлайн.",
   "path": "links/code/devdocs.md"
+ },
+ {
+  "title": "GenOffice",
+  "url": "https://github.com/genspark-ai/genoffice",
+  "category": "code",
+  "tags": [
+   "office",
+   "documents",
+   "ai",
+   "opensource"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Документы, таблицы и презентации через чат с нейросетью: правки с показом изменений и откатом.",
+  "path": "links/code/genoffice.md"
  },
  {
   "title": "GitHub",
@@ -686,6 +1261,35 @@
   "path": "links/code/json-crack.md"
  },
  {
+  "title": "Open Steps",
+  "url": "https://opensteps.ai/",
+  "category": "code",
+  "tags": [
+   "claude-code",
+   "codex",
+   "skills",
+   "devops"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Семь навыков для Claude Code и Codex: разбор ТЗ, стадии работы агента с кодом, отчёты по деплою и продакшену.",
+  "path": "links/code/open-steps.md"
+ },
+ {
+  "title": "REA",
+  "url": "https://github.com/morluto/rea",
+  "category": "code",
+  "tags": [
+   "reverse",
+   "agent",
+   "opensource"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Агент исследует чужое приложение и собирает его копию по механикам — без исходников и внутренностей.",
+  "path": "links/code/rea.md"
+ },
+ {
   "title": "regex101",
   "url": "https://regex101.com",
   "category": "code",
@@ -712,6 +1316,124 @@
   "path": "links/no-code/n8n.md"
  },
  {
+  "title": "Claude Code: Everything You Need",
+  "url": "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+  "category": "learning",
+  "tags": [
+   "claude-code",
+   "agents",
+   "course",
+   "free"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Полный бесплатный курс по Claude Code: промпты, Git, обвязки, субагенты и кастомные скиллы.",
+  "path": "links/learning/claude-code-everything.md"
+ },
+ {
+  "title": "Educational Channels",
+  "url": "https://educational-channels.com/ru",
+  "category": "learning",
+  "tags": [
+   "youtube",
+   "channels",
+   "catalog"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Поиск YouTube-каналов, видео и плейлистов по любой теме: от ИТ и маркетинга до сварки и рукоделия.",
+  "path": "links/learning/educational-channels.md"
+ },
+ {
+  "title": "Generative AI (Google)",
+  "url": "https://www.skills.google/course_templates/536",
+  "category": "learning",
+  "tags": [
+   "courses",
+   "google",
+   "ai",
+   "free"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Бесплатный курс Google по генеративному ИИ: как устроены модели и как их применять.",
+  "path": "links/learning/google-generative-ai-course.md"
+ },
+ {
+  "title": "Generative AI for Everyone",
+  "url": "https://www.coursera.org/learn/generative-ai-for-everyone",
+  "category": "learning",
+  "tags": [
+   "coursera",
+   "ai",
+   "course",
+   "free"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Бесплатный курс по генеративному ИИ без кода: возможности и ограничения моделей для бизнеса.",
+  "path": "links/learning/coursera-generative-ai.md"
+ },
+ {
+  "title": "Google LLL (English)",
+  "url": "https://labs.google/lll/en",
+  "category": "learning",
+  "tags": [
+   "english",
+   "language",
+   "google",
+   "free"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Нейросеть Google для английского через живые сценарии: заказ еды, поездка, местный сленг.",
+  "path": "links/learning/google-lll.md"
+ },
+ {
+  "title": "How to Train Your GPT",
+  "url": "https://github.com/raiyanyahya/how-to-train-your-gpt",
+  "category": "learning",
+  "tags": [
+   "llm",
+   "tutorial",
+   "from-scratch"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Интерактивный учебник: собрать свой ChatGPT с нуля — данные, обучение, настройка, ИИ-агенты.",
+  "path": "links/learning/how-to-train-your-gpt.md"
+ },
+ {
+  "title": "Lyte Code",
+  "url": "https://lyte-code.com/",
+  "category": "learning",
+  "tags": [
+   "interview",
+   "coding",
+   "practice",
+   "free"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Тренажёр подготовки к IT-собесу: задачи, редактор кода, подсказки и тренировки с человеком, без аккаунта.",
+  "path": "links/learning/lyte-code.md"
+ },
+ {
+  "title": "OpenAI: практический гайд",
+  "url": "https://openai.com/index/practical-guide-building-gpt-6",
+  "category": "learning",
+  "tags": [
+   "openai",
+   "guide",
+   "prompts",
+   "gpt"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Официальный гайд OpenAI: промпты и контекст, делегирование рутины, экономия токенов, глубина рассуждений.",
+  "path": "links/learning/openai-practical-guide.md"
+ },
+ {
   "title": "roadmap.sh",
   "url": "https://roadmap.sh",
   "category": "learning",
@@ -723,5 +1445,250 @@
   "added_by": "Заяц",
   "note": "Пошаговые карты изучения профессий и технологий.",
   "path": "links/learning/roadmapsh.md"
+ },
+ {
+  "title": "System Design Notes",
+  "url": "https://github.com/liquidslr/system-design-notes",
+  "category": "learning",
+  "tags": [
+   "system-design",
+   "interview",
+   "notes"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "28 глав по проектированию систем: от хеширования и БД до архитектуры YouTube, Google Drive и Google Maps.",
+  "path": "links/learning/system-design-notes.md"
+ },
+ {
+  "title": "anything.rip",
+  "url": "https://anything.rip/",
+  "category": "utils",
+  "tags": [
+   "downloader",
+   "video",
+   "files"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Качает аудио, видео, картинки и файлы с YouTube, SoundCloud, Telegram, GitHub и других хостингов.",
+  "path": "links/utils/anything-rip.md"
+ },
+ {
+  "title": "BetterCast",
+  "url": "https://github.com/StephenLovino/BetterCast",
+  "category": "utils",
+  "tags": [
+   "second-screen",
+   "monitor",
+   "crossplatform"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Превращает телефон или планшет во второй монитор: несколько устройств, 60 FPS по USB или Wi-Fi, все платформы.",
+  "path": "links/utils/bettercast.md"
+ },
+ {
+  "title": "Boomlify",
+  "url": "https://boomlify.com/ru/",
+  "category": "utils",
+  "tags": [
+   "email",
+   "edu",
+   "student",
+   "discounts"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Студенческая edu-почта в один клик — доступ к студенческим тарифам Adobe, JetBrains, ChatGPT и Office.",
+  "path": "links/utils/boomlify.md"
+ },
+ {
+  "title": "CrossPaste",
+  "url": "https://github.com/CrossPaste/crosspaste-desktop",
+  "category": "utils",
+  "tags": [
+   "clipboard",
+   "sync",
+   "encryption",
+   "local"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Единый буфер обмена между устройствами: текст, картинки, файлы и цвета, шифрование и хранение локально.",
+  "path": "links/utils/crosspaste.md"
+ },
+ {
+  "title": "Deviload",
+  "url": "https://github.com/Pronexsteam/deviload",
+  "category": "utils",
+  "tags": [
+   "downloader",
+   "yt-dlp",
+   "playlists"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Загрузчик на yt-dlp: целые плейлисты, звук в MP3/FLAC, авто-подгрузка новых роликов из подписок.",
+  "path": "links/utils/deviload.md"
+ },
+ {
+  "title": "Foresight (Google)",
+  "url": "https://developers.google.com/edge/foresight",
+  "category": "utils",
+  "tags": [
+   "notes",
+   "ai",
+   "local",
+   "macos"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "ИИ-блокнот от Google на Embedding Gemma 2: прокачивает заметки локально, данные не уходят в облако. Бесплатно.",
+  "path": "links/utils/google-foresight.md"
+ },
+ {
+  "title": "GoHide",
+  "url": "https://gohide.net/en",
+  "category": "utils",
+  "tags": [
+   "privacy",
+   "hide",
+   "hotkeys",
+   "windows"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Тревожная кнопка для ПК: по хоткею окна полностью исчезают с панели задач, из «Пуска» и списка процессов.",
+  "path": "links/utils/gohide.md"
+ },
+ {
+  "title": "MagicSlides YouTube→PPT",
+  "url": "https://www.magicslides.app/tools/youtube-to-ppt",
+  "category": "utils",
+  "tags": [
+   "youtube",
+   "presentations",
+   "ai"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Превращает YouTube-ролик в готовую презентацию: вытаскивает тезисы и раскладывает их по слайдам.",
+  "path": "links/utils/magicslides-yt-ppt.md"
+ },
+ {
+  "title": "mail.cx",
+  "url": "https://mail.cx/ru/email-generator",
+  "category": "utils",
+  "tags": [
+   "temp-mail",
+   "email",
+   "privacy"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Одноразовые email-адреса для регистраций: письма и коды подтверждения приходят прямо в окно сервиса.",
+  "path": "links/utils/mail-cx.md"
+ },
+ {
+  "title": "OpenKB",
+  "url": "https://github.com/VectifyAI/OpenKB",
+  "category": "utils",
+  "tags": [
+   "knowledge-base",
+   "documents",
+   "opensource"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Превращает PDF, Word, презентации, таблицы и статьи в связанную базу знаний с поиском по содержимому.",
+  "path": "links/utils/openkb.md"
+ },
+ {
+  "title": "Purge",
+  "url": "https://purgemac.com/",
+  "category": "utils",
+  "tags": [
+   "macos",
+   "cleaner",
+   "opensource",
+   "free"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Бесплатный аналог CleanMyMac: чистит кэши, логи, ищет дубликаты и забытые локальные ИИ-модели.",
+  "path": "links/utils/purge-mac.md"
+ },
+ {
+  "title": "ReClip",
+  "url": "https://github.com/averygan/reclip",
+  "category": "utils",
+  "tags": [
+   "downloader",
+   "video",
+   "audio",
+   "opensource"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Загрузчик видео и музыки с 1000+ сайтов (YouTube, TikTok, Instagram, X): веб-интерфейс, MP4/MP3, качество на выбор.",
+  "path": "links/utils/reclip.md"
+ },
+ {
+  "title": "SlothMon",
+  "url": "https://kuuhugu.github.io/SlothMon/",
+  "category": "utils",
+  "tags": [
+   "second-screen",
+   "phone",
+   "qr",
+   "no-install"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Смартфон как отдельный дисплей: сканируешь QR с ПК — работает тач и окна, ставить на телефон ничего не надо.",
+  "path": "links/utils/slothmon.md"
+ },
+ {
+  "title": "Snap",
+  "url": "https://github.com/deniza-png/snap",
+  "category": "utils",
+  "tags": [
+   "chrome-extension",
+   "meet",
+   "privacy"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Расширение для Google Meet: запоминает фон пустой комнаты и растворяет тебя в частицы — можно уйти с созвона.",
+  "path": "links/utils/snap-meet.md"
+ },
+ {
+  "title": "SyncUp",
+  "url": "https://syncup.tv/",
+  "category": "utils",
+  "tags": [
+   "watch-party",
+   "video",
+   "sync"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Совместный кинозал: YouTube, Netflix и Twitch с друзьями в реальном времени, без регистрации и ограничений.",
+  "path": "links/utils/syncup.md"
+ },
+ {
+  "title": "OSINT Search",
+  "url": "https://osintsearch.org/",
+  "category": "misc",
+  "tags": [
+   "osint",
+   "accounts",
+   "username"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "По юзернейму находит забытые аккаунты на сайтах, в играх и маркетплейсах, показывает даты регистрации.",
+  "path": "links/misc/osintsearch.md"
  }
 ]
