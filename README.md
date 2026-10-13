@@ -74,5 +74,6 @@ git add . && git commit -m "add: <название>" && git push
 ## Технически
 
 - `links/**/*.md` — источник истины (Obsidian-vault).
-- `build.py` — генератор: читает markdown, пишет `docs/index.html` (поиск + фильтры, статика без зависимостей) и `docs/data.json`.
+- `template.html` — вёрстка портала (светлый брутализм, поиск, фильтры по категориям и тегам, сортировка, «мне повезёт»).
+- `build.py` — генератор: читает markdown + шаблон, пишет `docs/index.html` и `docs/data.json`. Зависимостей нет.
 - `docs/` — то, что отдаёт GitHub Pages. Зависимостей нет, только stdlib Python.

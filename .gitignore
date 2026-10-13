@@ -2,3 +2,4 @@
 *.pyc
 __pycache__/
 .obsidian/workspace*
+shot-*.png

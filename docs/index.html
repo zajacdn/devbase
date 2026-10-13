@@ -1,69 +1,233 @@
 <!doctype html>
-<html lang="ru"><head>
+<html lang="ru">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DEVBASE — база ссылок для веб-разработки</title>
-<meta name="description" content="Открытая база сервисов и инструментов: шрифты, дизайн, AI, голос, платежи, хостинг, прокси.">
+<meta name="description" content="Открытая база сервисов и инструментов для веб-разработки: шрифты, UI-киты, AI-API, голос, платёжки, хостинг, прокси. Поиск по тегам и категориям.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Manrope:wght@400;500;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#0a0a0a;--line:#0a0a0a;--bg:#ffffff;--muted:#6b6b6b;--soft:#f4f4f2;--acc:#ff3b00}
+:root{
+  --ink:#0d0d0d; --bg:#ffffff; --soft:#f4f5f7; --soft2:#eceef1;
+  --line:#0d0d0d; --hair:#dcdfe4; --muted:#69707a; --acc:#ff3b00;
+  --cut:9px; --shadow:4px 4px 0 var(--ink);
+}
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
- -webkit-text-size-adjust:100%}
-.wrap{max-width:1180px;margin:0 auto;padding:22px 16px 80px}
-header{border-bottom:3px solid var(--line);padding-bottom:18px;margin-bottom:20px}
-h1{font:800 clamp(30px,7vw,58px)/0.95 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:-2px;text-transform:uppercase}
-.sub{display:flex;flex-wrap:wrap;gap:10px;align-items:baseline;margin-top:10px;font-size:13px;color:var(--muted)}
-.sub b{color:var(--ink)}
-.tagline{margin-top:12px;font-size:14px;max-width:70ch}
-.bar{position:sticky;top:0;background:var(--bg);border-bottom:2px solid var(--line);padding:12px 0;z-index:9;margin-bottom:16px}
-input[type=search]{width:100%;font:16px ui-monospace,Menlo,monospace;padding:13px 14px;border:2px solid var(--line);
- background:var(--bg);color:var(--ink);outline:none}
-input[type=search]:focus{background:#fffdf7;box-shadow:4px 4px 0 var(--line)}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}
-.chip{font:600 12px ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.5px;padding:7px 12px;
- border:2px solid var(--line);background:var(--bg);cursor:pointer;user-select:none;
- clip-path:polygon(7px 0,100% 0,100% calc(100% - 7px),calc(100% - 7px) 100%,0 100%,0 7px)}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 Manrope,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  overflow-x:hidden}
+.mono{font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace}
+.disp{font-family:Unbounded,Manrope,sans-serif}
+.wrap{max-width:1240px;margin:0 auto;padding:0 18px}
+a{color:inherit}
+
+/* ---------- кнопки: система срезов ---------- */
+.btn{display:inline-flex;align-items:center;gap:9px;padding:11px 17px;border:2px solid var(--line);
+  background:var(--bg);color:var(--ink);font:700 11.5px/1 "JetBrains Mono",monospace;text-transform:uppercase;
+  letter-spacing:.07em;cursor:pointer;text-decoration:none;position:relative;overflow:hidden;
+  transition:transform .12s ease,box-shadow .12s ease,background .12s ease;white-space:nowrap}
+.btn-l{clip-path:polygon(var(--cut) 0,100% 0,100% 100%,0 100%,0 var(--cut))}
+.btn-r{clip-path:polygon(0 0,calc(100% - var(--cut)) 0,100% var(--cut),100% 100%,0 100%)}
+.btn-deep{clip-path:polygon(0 0,calc(100% - 15px) 0,100% 15px,100% 100%,15px 100%,0 calc(100% - 15px))}
+.btn-notch{clip-path:polygon(0 0,100% 0,100% 100%,calc(50% + 9px) 100%,50% calc(100% - 9px),calc(50% - 9px) 100%,0 100%)}
+.btn-ink{background:var(--ink);color:#fff}
+.btn-acc{background:var(--acc);color:#fff}
+.btn-soft{background:var(--soft)}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:var(--shadow)}
+.btn:active{transform:translate(0,0);box-shadow:none}
+.btn-ink:hover{background:#000}
+.btn-shine::before{content:"";position:absolute;top:0;left:-120%;width:60%;height:100%;
+  background:linear-gradient(100deg,transparent,rgba(255,255,255,.45),transparent);animation:shine 3.6s ease-in-out infinite}
+@keyframes shine{0%,62%{left:-120%}82%,100%{left:130%}}
+
+/* ---------- topbar ---------- */
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  padding:16px 0;border-bottom:3px solid var(--line)}
+.brand{display:flex;align-items:baseline;gap:12px;min-width:0}
+.brand b{font:800 clamp(20px,4.6vw,27px)/1 Unbounded,sans-serif;letter-spacing:-.5px;text-transform:uppercase}
+.brand .tag{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.12em}
+.brand .sq{width:11px;height:11px;background:var(--acc);display:inline-block;
+  clip-path:polygon(0 0,100% 0,100% 65%,65% 100%,0 100%)}
+.topnav{display:flex;gap:10px;flex-wrap:wrap}
+
+/* ---------- hero ---------- */
+.hero{padding:40px 0 30px;border-bottom:3px solid var(--line)}
+.kicker{font-size:11px;text-transform:uppercase;letter-spacing:.16em;color:var(--muted);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.kicker .dotmark{width:8px;height:8px;background:var(--acc);border-radius:50%;display:inline-block}
+h1{font:800 clamp(27px,6.5vw,68px)/0.98 Unbounded,sans-serif;letter-spacing:-2.2px;text-transform:uppercase;margin:18px 0 0}
+h1 em{font-style:normal;display:inline-block;padding-bottom:.06em;background-image:linear-gradient(var(--acc),var(--acc));
+  background-size:100% .1em;background-position:0 100%;background-repeat:no-repeat}
+.lead{max-width:66ch;margin-top:20px;font-size:clamp(15px,2.4vw,18px);color:#2b3038}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:26px}
+.stat{border:2px solid var(--line);padding:13px 15px;background:var(--bg);box-shadow:var(--shadow);
+  display:flex;align-items:baseline;justify-content:space-between;gap:14px}
+.stat b{display:block;font:800 clamp(22px,4.4vw,30px)/1 Unbounded,sans-serif;letter-spacing:-1px}
+.stat span{font-size:10.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+
+/* ---------- панель инструментов ---------- */
+.tools{position:sticky;top:0;z-index:30;background:var(--bg);border-bottom:3px solid var(--line);padding:14px 0 12px}
+.searchwrap{position:relative;display:flex;align-items:center}
+.searchwrap svg{position:absolute;left:14px;width:18px;height:18px;stroke:var(--ink);fill:none;stroke-width:2.2;pointer-events:none}
+#q{width:100%;font:16px/1 "JetBrains Mono",monospace;padding:15px 74px 15px 44px;border:2px solid var(--line);
+  background:var(--bg);color:var(--ink);outline:none;clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,12px 100%,0 calc(100% - 12px))}
+#q::placeholder{color:#98a0aa}
+#q:focus{background:#fffdf8;box-shadow:var(--shadow)}
+.searchwrap kbd{position:absolute;right:12px;font:700 11px "JetBrains Mono",monospace;border:2px solid var(--line);
+  padding:3px 8px;background:var(--soft);pointer-events:none}
+.toolsbar{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-top:14px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;min-width:0}
+.chip{padding:8px 12px;border:2px solid var(--line);background:var(--bg);cursor:pointer;user-select:none;
+  font:700 11px/1 "JetBrains Mono",monospace;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap;
+  display:inline-flex;align-items:center;gap:7px;clip-path:polygon(7px 0,100% 0,100% calc(100% - 7px),calc(100% - 7px) 100%,0 100%,0 7px);
+  transition:transform .1s ease,box-shadow .1s ease,background .1s ease}
+.chip i{font-style:normal;opacity:.55;font-weight:600}
+.chip:hover{transform:translate(-2px,-2px);box-shadow:var(--shadow)}
 .chip.on{background:var(--ink);color:#fff}
-.chip span{opacity:.5}
-.count{font:600 12px ui-monospace,Menlo,monospace;color:var(--muted);margin:14px 0}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
-.card{display:block;border:2px solid var(--line);background:var(--bg);padding:14px 15px;color:inherit;
- text-decoration:none;transition:transform .08s,box-shadow .08s}
-.card:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--line)}
-.card h3{font-size:16px;font-weight:800;letter-spacing:-.2px;display:flex;gap:8px;justify-content:space-between;align-items:baseline}
-.dom{font:600 11px ui-monospace,Menlo,monospace;color:var(--acc);white-space:nowrap}
-.cat{display:inline-block;font:700 10px ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.6px;
- border:1px solid var(--line);padding:2px 6px;margin:8px 0 6px;background:var(--soft)}
-.card p{font-size:13.5px;color:#242424;margin-bottom:10px}
-.tags{display:flex;flex-wrap:wrap;gap:6px}
-.t{font:600 10.5px ui-monospace,Menlo,monospace;color:var(--muted);border:1px dashed #c9c9c9;padding:2px 6px}
-.empty{border:2px dashed var(--line);padding:34px;text-align:center;font:600 14px ui-monospace,Menlo,monospace}
-footer{margin-top:44px;border-top:3px solid var(--line);padding-top:16px;font-size:12.5px;color:var(--muted)}
-footer a{color:var(--ink)}
-code{font:600 12px ui-monospace,Menlo,monospace;background:var(--soft);padding:2px 5px;border:1px solid #e2e2e2}
-@media(max-width:520px){.grid{grid-template-columns:1fr}.wrap{padding:16px 12px 60px}}
-</style></head><body><div class="wrap">
-<header>
- <h1>Devbase</h1>
- <div class="sub"><b id="total"></b> <span>записей</span> · <span id="cats"></span> <span>категорий</span>
- · <span>обновлено <b id="upd"></b></span></div>
- <p class="tagline">Открытая база сервисов, инструментов и ссылок для веб-разработки.
- Копится из чатов: кидаешь ссылку агенту — она попадает в нужную категорию.
- Люди открывают сайт, агенты читают <code>docs/data.json</code>.</p>
-</header>
-<div class="bar">
- <input type="search" id="q" placeholder="поиск: шрифт, tts, платёжка, прокси, sitemap..." autocomplete="off">
- <div class="chips" id="chips"></div>
+.chip.on i{opacity:.7}
+.sortwrap{display:flex;align-items:center;gap:9px;flex:0 0 auto}
+.sortwrap label{font-size:10.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+select{appearance:none;-webkit-appearance:none;border:2px solid var(--line);background:var(--bg);color:var(--ink);
+  font:700 11.5px/1 "JetBrains Mono",monospace;text-transform:uppercase;letter-spacing:.05em;padding:10px 34px 10px 12px;cursor:pointer;
+  clip-path:polygon(0 0,calc(100% - 9px) 0,100% 9px,100% 100%,0 100%)}
+select:focus{outline:none;box-shadow:var(--shadow)}
+.sortwrap .sel{position:relative}
+.sortwrap .sel::after{content:"▼";position:absolute;right:11px;top:50%;transform:translateY(-50%);font-size:8px;pointer-events:none}
+.count{font-size:11.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+
+/* ---------- выдача ---------- */
+main{padding:34px 0 10px}
+.group{margin-bottom:34px}
+.ghead{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+.gnum{font:800 12px/1 "JetBrains Mono",monospace;border:2px solid var(--line);padding:6px 9px;background:var(--ink);color:#fff}
+.gtitle{font:800 clamp(17px,3.4vw,24px)/1 Unbounded,sans-serif;text-transform:uppercase;letter-spacing:-.6px}
+.gcount{font:700 11px/1 "JetBrains Mono",monospace;color:var(--muted);border:1px dashed var(--hair);padding:5px 8px}
+.gline{flex:1;height:0;border-top:2px dashed var(--hair)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.card{position:relative;display:flex;flex-direction:column;border:2px solid var(--line);background:var(--bg);padding:15px;
+  transition:transform .1s ease,box-shadow .1s ease;animation:pop .26s ease both;animation-delay:calc(var(--i,0) * 9ms)}
+.card:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink)}
+.card .hit{position:absolute;inset:0;z-index:1}
+.chead{display:flex;gap:11px;align-items:flex-start;margin-bottom:11px}
+.ava{flex:0 0 auto;width:38px;height:38px;background:var(--ink);color:#fff;display:grid;place-items:center;
+  font:800 16px/1 "JetBrains Mono",monospace;
+  clip-path:polygon(0 0,100% 0,100% 68%,68% 100%,0 100%)}
+.card:hover .ava{background:var(--acc)}
+.chead h3{font:800 16.5px/1.22 Unbounded,sans-serif;letter-spacing:-.4px;word-break:break-word}
+.dom{display:block;font-size:11px;color:var(--acc);margin-top:5px;font-weight:600;word-break:break-all}
+.arrow{position:absolute;top:13px;right:13px;font:700 15px/1 "JetBrains Mono",monospace;color:#a9b1ba;
+  transition:color .12s ease,transform .12s ease}
+.card:hover .arrow{color:var(--acc);transform:translate(2px,-2px)}
+.card p{font-size:13.8px;color:#2f343b;margin-bottom:12px;flex:1 1 auto}
+.tags{display:flex;flex-wrap:wrap;gap:6px;position:relative;z-index:2;margin-top:auto}
+.t{font:600 10.5px/1 "JetBrains Mono",monospace;color:var(--muted);border:1px dashed var(--hair);padding:4px 7px;
+  background:var(--bg);cursor:pointer;transition:all .1s ease}
+.t:hover{color:var(--ink);border-style:solid;border-color:var(--line);background:var(--soft)}
+.t.on{background:var(--acc);border-color:var(--acc);color:#fff;border-style:solid}
+mark{background:var(--acc);color:#fff;padding:0 2px}
+.empty{border:2px dashed var(--line);padding:44px 20px;text-align:center}
+.empty b{font:800 clamp(18px,4vw,26px)/1.1 Unbounded,sans-serif;text-transform:uppercase;display:block;margin-bottom:10px}
+.empty span{color:var(--muted);font-size:14px}
+.empty .btn{margin-top:18px}
+@keyframes pop{from{opacity:0;transform:translateY(7px)}}
+
+/* ---------- футер / наверх ---------- */
+footer{margin-top:40px;border-top:3px solid var(--line);padding:24px 0 90px;display:flex;gap:18px;flex-wrap:wrap;
+  justify-content:space-between;align-items:flex-start}
+footer .fcol{display:flex;flex-direction:column;gap:7px;font-size:13px;color:var(--muted)}
+footer .fcol a{text-decoration:none;border-bottom:1px solid var(--hair)}
+footer .fcol a:hover{color:var(--ink);border-color:var(--ink)}
+footer .fnote{font-size:11.5px;text-transform:uppercase;letter-spacing:.1em}
+#totop{position:fixed;right:16px;bottom:16px;z-index:40;opacity:0;pointer-events:none;transition:opacity .2s ease}
+#totop.show{opacity:1;pointer-events:auto}
+@media(max-width:760px){
+  .topbar{padding:13px 0}
+  .topnav{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:100%}
+  .topnav .btn{justify-content:center}
+  .topnav .btn:last-child{grid-column:1 / -1}
+  .hero{padding:26px 0 22px}
+  h1{letter-spacing:-1px;line-height:1.02}
+  .searchwrap kbd{display:none}
+  #q{padding:14px 14px 14px 42px}
+  .stat{display:block}
+  .stat b{margin-bottom:4px}
+  .chips{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .chips::-webkit-scrollbar{display:none}
+  .toolsbar{gap:10px}
+  .count{font-size:10.5px}
+  select{max-width:100%}
+  .grid{grid-template-columns:1fr}
+  .stats{gap:9px}
+  .stat{padding:10px 11px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <div class="brand">
+      <b>Devbase</b>
+      <span class="tag mono">ссылки для веба</span>
+    </div>
+    <div class="topnav">
+      <button class="btn btn-l btn-acc" id="rand">мне повезёт ↗</button>
+      <a class="btn btn-r btn-ghost" href="data.json">data.json</a>
+      <a class="btn btn-deep btn-ink btn-shine" href="https://github.com/zajacdn/devbase" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="kicker mono"><span class="dotmark"></span> открытая база · обновлено <span id="upd"></span></div>
+    <h1>Всё, что кидают<br>в чаты — <em>в одном месте</em></h1>
+    <p class="lead">Шрифты, UI-киты, AI-API, TTS, платёжки, хостинг, прокси. Кидаешь ссылку агенту — она ложится в нужную категорию
+      и находится поиском за секунду. Люди читают сайт, боты читают <span class="mono">data.json</span>.</p>
+    <div class="stats">
+      <div class="stat"><b id="s1">0</b><span class="mono">записей</span></div>
+      <div class="stat"><b id="s2">0</b><span class="mono">категорий</span></div>
+      <div class="stat"><b id="s3">0</b><span class="mono">тегов</span></div>
+    </div>
+  </header>
+
+  <div class="tools">
+    <div class="searchwrap">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4.2-4.2"></path></svg>
+      <input id="q" type="search" placeholder="поиск по базе — tts, шрифт, прокси…" autocomplete="off">
+      <kbd>/</kbd>
+    </div>
+    <div class="chips" id="chips"></div>
+    <div class="toolsbar">
+      <div class="count mono" id="count"></div>
+      <div class="sortwrap">
+        <label class="mono" for="sort">сортировка</label>
+        <span class="sel"><select id="sort">
+          <option value="cat">по категориям</option>
+          <option value="az">A → Z</option>
+          <option value="new">сначала новые</option>
+        </select></span>
+      </div>
+    </div>
+  </div>
+
+  <main id="grid"></main>
+
+  <footer>
+    <div class="fcol">
+      <b class="mono">DEVBASE</b>
+      <span>Открытая база сервисов и инструментов для веб-разработки.</span>
+      <span class="fnote mono">добавлено через Hermes</span>
+    </div>
+    <div class="fcol">
+      <a href="https://github.com/zajacdn/devbase" target="_blank" rel="noopener">Репозиторий на GitHub</a>
+      <a href="data.json">Машинный индекс (data.json)</a>
+      <a href="https://github.com/zajacdn/devbase/blob/main/AGENTS.md" target="_blank" rel="noopener">AGENTS.md — как читать ботам</a>
+      <a href="https://github.com/zajacdn/devbase/blob/main/README.md" target="_blank" rel="noopener">Как добавить запись</a>
+    </div>
+  </footer>
 </div>
-<div class="count" id="count"></div>
-<div class="grid" id="grid"></div>
-<footer>
- Репозиторий: <a href="https://github.com/zajacdn/devbase">github.com/zajacdn/devbase</a> ·
- машинный индекс: <a href="data.json">data.json</a> ·
- формат: Obsidian-vault (<code>links/&lt;категория&gt;/&lt;слаг&gt;.md</code>)<br>
- Добавить запись: кинуть ссылку агенту Hermes или сделать PR с новым .md + <code>python3 build.py</code>.
-</footer>
-</div>
+<a id="totop" class="btn btn-notch btn-ink" href="#top">наверх ↑</a>
+
 <script id="data" type="application/json">[
  {
   "title": "Aceternity UI",
@@ -793,41 +957,98 @@ code{font:600 12px ui-monospace,Menlo,monospace;background:var(--soft);padding:2
 ]</script>
 <script>
 const DATA = JSON.parse(document.getElementById('data').textContent);
-const CATS = {"design": "Дизайн и UI", "fonts": "Шрифты", "ai": "AI-модели и API", "images": "Изображения", "voice": "Голос и TTS", "music": "Музыка и звук", "payments": "Платежи", "hosting": "Хостинг и деплой", "infra": "Базы и бэкенд", "proxies": "Прокси и аккаунты", "code": "Код и инструменты", "no-code": "No-code и боты", "learning": "Обучение", "utils": "Утилиты", "seo": "SEO и аналитика", "affiliate": "Affiliate и трафик", "scraping": "Парсинг и автоматизация", "video": "Видео и аватары", "chat": "Чаты и боты", "misc": "Разное"};
-let active = 'all', q = '';
+const CATS = {"design": "Дизайн и UI", "fonts": "Шрифты", "ai": "AI-модели и API", "images": "Изображения", "voice": "Голос и TTS", "music": "Музыка и звук", "video": "Видео и аватары", "payments": "Платежи", "hosting": "Хостинг и деплой", "infra": "Базы и бэкенд", "proxies": "Прокси и аккаунты", "scraping": "Парсинг и автоматизация", "code": "Код и инструменты", "no-code": "No-code и боты", "chat": "Чаты и боты", "seo": "SEO и аналитика", "affiliate": "Affiliate и трафик", "learning": "Обучение", "utils": "Утилиты", "misc": "Разное"};
+const UPD = "2026-10-13";
+let activeCat = 'all', activeTag = null, q = '', sort = 'cat';
 const el = id => document.getElementById(id);
-function render(){
-  const needle = q.trim().toLowerCase();
-  const rows = DATA.filter(d => {
-    if(active !== 'all' && d.category !== active) return false;
-    if(!needle) return true;
-    return (d.title+' '+d.url+' '+d.category+' '+(d.note||'')+' '+(d.tags||[]).join(' ')).toLowerCase().includes(needle);
+const esc = s => String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const dom = u => String(u).replace(/^https?:\/\//,'').replace(/^www\./,'').split('/')[0];
+const SKIP = ['www','ui','app','api','docs','get','my','web','cdn','dev','try','go','blog','shop','cloud','www2'];
+const initial = u => { const seg = dom(u).split('.'); for(const s of seg){ if(!SKIP.includes(s)) return s[0]; } return (seg[0]||'?')[0]; };
+const hl = (text, needle) => {
+  const s = String(text==null?'':text);
+  if(!needle) return esc(s);
+  const i = s.toLowerCase().indexOf(needle);
+  if(i < 0) return esc(s);
+  return esc(s.slice(0,i)) + '<mark>' + esc(s.slice(i, i+needle.length)) + '</mark>' + esc(s.slice(i+needle.length));
+};
+function filtered(){
+  const n = q.trim().toLowerCase();
+  return DATA.filter(d => {
+    if(activeCat !== 'all' && d.category !== activeCat) return false;
+    if(activeTag && !(d.tags||[]).includes(activeTag)) return false;
+    if(!n) return true;
+    return (d.title+' '+d.url+' '+d.category+' '+(d.note||'')+' '+(d.tags||[]).join(' ')).toLowerCase().includes(n);
   });
-  el('count').textContent = 'Показано ' + rows.length + ' из ' + DATA.length;
-  el('grid').innerHTML = rows.length ? rows.map(d => `
-    <a class="card" href="${d.url}" target="_blank" rel="noopener">
-      <h3>${esc(d.title)}<span class="dom">${esc(dom(d.url))}</span></h3>
-      <div class="cat">${esc(CATS[d.category]||d.category)}</div>
-      <p>${esc(d.note||'')}</p>
-      <div class="tags">${(d.tags||[]).map(t=>`<span class="t">${esc(t)}</span>`).join('')}</div>
-    </a>`).join('') : '<div class="empty">Ничего не найдено</div>';
 }
-function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
-function dom(u){return String(u).replace(/^https?:\/\/(www\.)?/,'').split('/')[0];}
+function cardHTML(d, i){
+  const n = q.trim().toLowerCase();
+  return '<article class="card" style="--i:'+i+'">' +
+    '<a class="hit" href="'+esc(d.url)+'" target="_blank" rel="noopener" aria-label="'+esc(d.title)+'"></a>' +
+    '<span class="arrow">↗</span>' +
+    '<div class="chead"><span class="ava">'+esc((initial(d.url)||'?').toUpperCase())+'</span>' +
+    '<div><h3>'+hl(d.title,n)+'</h3><span class="dom mono">'+esc(dom(d.url))+'</span></div></div>' +
+    '<p>'+hl(d.note||'',n)+'</p>' +
+    '<div class="tags">'+(d.tags||[]).map(t=>'<span class="t'+(t===activeTag?' on':'')+'" data-tag="'+esc(t)+'">'+esc(t)+'</span>').join('')+'</div>' +
+  '</article>';
+}
+function render(){
+  const rows = filtered();
+  const needle = q.trim().toLowerCase();
+  el('count').textContent = 'Показано ' + rows.length + ' из ' + DATA.length +
+    (activeCat !== 'all' ? ' · ' + CATS[activeCat] : '') + (activeTag ? ' · #' + activeTag : '');
+  const g = el('grid');
+  if(!rows.length){
+    g.innerHTML = '<div class="empty"><b>Ничего не найдено</b><span>Попробуй другое слово или сбрось фильтры.</span>' +
+      '<br><button class="btn btn-r btn-ink" onclick="resetAll()">сбросить фильтры</button></div>';
+    return;
+  }
+  if(sort === 'cat'){
+    const order = Object.keys(CATS).filter(c => rows.some(r => r.category === c));
+    g.innerHTML = order.map((c, gi) => {
+      const items = rows.filter(r => r.category === c);
+      return '<section class="group"><div class="ghead"><span class="gnum">'+String(gi+1).padStart(2,'0')+'</span>' +
+        '<h2 class="gtitle">'+esc(CATS[c])+'</h2><span class="gcount mono">'+items.length+'</span><span class="gline"></span></div>' +
+        '<div class="grid">'+items.map((d,i)=>cardHTML(d,i)).join('')+'</div></section>';
+    }).join('');
+  } else {
+    let list = rows.slice();
+    if(sort === 'az') list.sort((a,b)=>a.title.localeCompare(b.title,'ru'));
+    if(sort === 'new') list.sort((a,b)=>String(b.added||'').localeCompare(String(a.added||'')) || a.title.localeCompare(b.title,'ru'));
+    g.innerHTML = '<div class="grid">'+list.map((d,i)=>cardHTML(d,i)).join('')+'</div>';
+  }
+}
 function chips(){
   const counts = {}; DATA.forEach(d => counts[d.category] = (counts[d.category]||0)+1);
-  const list = Object.keys(CATS).filter(c => counts[c]).map(c => [c,counts[c]]);
-  el('chips').innerHTML = `<div class="chip on" data-c="all">Все <span>${DATA.length}</span></div>` +
-    list.map(([c,n]) => `<div class="chip" data-c="${c}">${CATS[c]} <span>${n}</span></div>`).join('');
-  el('chips').querySelectorAll('.chip').forEach(ch => ch.onclick = () => {
-    active = ch.dataset.c;
-    el('chips').querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x === ch));
-    render();
-  });
+  const list = Object.keys(CATS).filter(c => counts[c]).map(c => [c, counts[c]]);
+  el('chips').innerHTML = '<div class="chip'+(activeCat==='all'?' on':'')+'" data-c="all">все <i>'+DATA.length+'</i></div>' +
+    list.map(([c,n]) => '<div class="chip'+(c===activeCat?' on':'')+'" data-c="'+c+'">'+esc(CATS[c])+' <i>'+n+'</i></div>').join('');
 }
+function resetAll(){ activeCat='all'; activeTag=null; q=''; el('q').value=''; chips(); render(); }
+document.addEventListener('click', e => {
+  const ch = e.target.closest('.chip');
+  if(ch){ activeCat = ch.dataset.c; chips(); render(); return; }
+  const tg = e.target.closest('.t');
+  if(tg){ const t = tg.dataset.tag; activeTag = (activeTag === t) ? null : t; render(); }
+});
 el('q').oninput = e => { q = e.target.value; render(); };
-el('total').textContent = DATA.length;
-el('cats').textContent = new Set(DATA.map(d=>d.category)).size;
-el('upd').textContent = "2026-10-13";
+el('rand').onclick = () => {
+  const rows = filtered();
+  if(!rows.length) return;
+  window.open(rows[Math.floor(Math.random()*rows.length)].url, '_blank', 'noopener');
+};
+el('sort').onchange = e => { sort = e.target.value; render(); };
+document.addEventListener('keydown', e => {
+  if(e.key === '/' && document.activeElement !== el('q')){ e.preventDefault(); el('q').focus(); }
+  if(e.key === 'Escape'){ resetAll(); }
+});
+const toTop = el('totop');
+addEventListener('scroll', () => toTop.classList.toggle('show', scrollY > 700), {passive:true});
+el('upd').textContent = UPD;
+el('s1').textContent = DATA.length;
+el('s2').textContent = new Set(DATA.map(d=>d.category)).size;
+el('s3').textContent = new Set(DATA.flatMap(d=>d.tags||[])).size;
 chips(); render();
-</script></body></html>
+</script>
+</body>
+</html>
