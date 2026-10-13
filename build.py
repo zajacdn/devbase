@@ -67,7 +67,7 @@ def main():
     clean = [{k: v for k, v in it.items()} for it in items]
     data = json.dumps(clean, ensure_ascii=False, indent=1)
     open(os.path.join(DOCS, "data.json"), "w", encoding="utf-8").write(data)
-    upd = datetime.date.today().isoformat()
+    upd = datetime.date.today().strftime("%d.%m.%Y")
     tpl = open(TEMPLATE, encoding="utf-8").read()
     out = (tpl.replace("__DATA__", data)
               .replace("__CATS__", json.dumps(CATS, ensure_ascii=False))
