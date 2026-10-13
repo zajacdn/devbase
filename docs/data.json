@@ -1,0 +1,727 @@
+[
+ {
+  "title": "Aceternity UI",
+  "url": "https://ui.aceternity.com",
+  "category": "design",
+  "tags": [
+   "components",
+   "animation",
+   "tailwind"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Готовые анимированные блоки: hero, бегущие строки, 3D-карточки.",
+  "path": "links/design/aceternity-ui.md"
+ },
+ {
+  "title": "caniuse",
+  "url": "https://caniuse.com",
+  "category": "design",
+  "tags": [
+   "compatibility",
+   "css"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Поддержка фич в браузерах. Проверять до внедрения.",
+  "path": "links/design/caniuse.md"
+ },
+ {
+  "title": "Coolors",
+  "url": "https://coolors.co",
+  "category": "design",
+  "tags": [
+   "palette",
+   "colors"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Генератор палитр, экспорт в CSS/Tailwind.",
+  "path": "links/design/coolors.md"
+ },
+ {
+  "title": "CSS Gradient",
+  "url": "https://cssgradient.io",
+  "category": "design",
+  "tags": [
+   "css",
+   "gradient"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Градиенты с готовым CSS-кодом.",
+  "path": "links/design/css-gradient.md"
+ },
+ {
+  "title": "Excalidraw",
+  "url": "https://excalidraw.com",
+  "category": "design",
+  "tags": [
+   "diagrams",
+   "whiteboard"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Рисованные схемы и архитектура за минуту.",
+  "path": "links/design/excalidraw.md"
+ },
+ {
+  "title": "Figma",
+  "url": "https://www.figma.com",
+  "category": "design",
+  "tags": [
+   "design",
+   "ui",
+   "collab"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Макеты и прототипы. Смотри с телефона через приложение.",
+  "path": "links/design/figma.md"
+ },
+ {
+  "title": "Haikei",
+  "url": "https://haikei.app",
+  "category": "design",
+  "tags": [
+   "svg",
+   "backgrounds"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Генератор SVG-фонов: волны, блобы, сетки.",
+  "path": "links/design/haikei.md"
+ },
+ {
+  "title": "Iconify",
+  "url": "https://iconify.design",
+  "category": "design",
+  "tags": [
+   "icons",
+   "search"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Поиск по 200k+ иконок из 150 наборов, отдаёт SVG одним API.",
+  "path": "links/design/iconify.md"
+ },
+ {
+  "title": "Lucide Icons",
+  "url": "https://lucide.dev",
+  "category": "design",
+  "tags": [
+   "icons",
+   "svg",
+   "mit"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "1500+ иконок, MIT. Пакеты под React/Vue/Svelte + CDN.",
+  "path": "links/design/lucide-icons.md"
+ },
+ {
+  "title": "Motion",
+  "url": "https://motion.dev",
+  "category": "design",
+  "tags": [
+   "animation",
+   "react"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Анимации (бывший Framer Motion). Простые spring/scroll-эффекты.",
+  "path": "links/design/motion.md"
+ },
+ {
+  "title": "OpenMoji",
+  "url": "https://openmoji.org",
+  "category": "design",
+  "tags": [
+   "emoji",
+   "svg",
+   "stickers"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Открытые эмодзи-стикеры, SVG/PNG, без лицензионных вопросов.",
+  "path": "links/design/openmoji.md"
+ },
+ {
+  "title": "PageSpeed Insights",
+  "url": "https://pagespeed.web.dev",
+  "category": "design",
+  "tags": [
+   "performance",
+   "seo"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Замер Core Web Vitals по URL.",
+  "path": "links/design/pagespeed-insights.md"
+ },
+ {
+  "title": "Photopea",
+  "url": "https://www.photopea.com",
+  "category": "design",
+  "tags": [
+   "editor",
+   "graphics"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Photoshop в браузере: PSD, слои, экспорт. Бесплатно.",
+  "path": "links/design/photopea.md"
+ },
+ {
+  "title": "Responsively",
+  "url": "https://responsively.app",
+  "category": "design",
+  "tags": [
+   "responsive",
+   "testing"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Проверка адаптива на 10 экранах одновременно.",
+  "path": "links/design/responsively.md"
+ },
+ {
+  "title": "shadcn/ui",
+  "url": "https://ui.shadcn.com",
+  "category": "design",
+  "tags": [
+   "components",
+   "react",
+   "tailwind"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Компоненты копипастом на Tailwind + Radix. База для лендингов и апок.",
+  "path": "links/design/shadcn-ui.md"
+ },
+ {
+  "title": "SVGRepo",
+  "url": "https://www.svgrepo.com",
+  "category": "design",
+  "tags": [
+   "icons",
+   "svg"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "500k+ SVG-иконок и иллюстраций, фильтр по лицензии.",
+  "path": "links/design/svgrepo.md"
+ },
+ {
+  "title": "Tailwind CSS",
+  "url": "https://tailwindcss.com",
+  "category": "design",
+  "tags": [
+   "css",
+   "framework"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Utility-first CSS. Стандарт для быстрых лендингов.",
+  "path": "links/design/tailwind-css.md"
+ },
+ {
+  "title": "Transform Tools",
+  "url": "https://transform.tools",
+  "category": "design",
+  "tags": [
+   "convert",
+   "json"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Конвертер HTML↔JSX, JSON↔TS, SVG↔JSX и т.д.",
+  "path": "links/design/transform-tools.md"
+ },
+ {
+  "title": "unDraw",
+  "url": "https://undraw.co",
+  "category": "design",
+  "tags": [
+   "illustrations",
+   "svg"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Бесплатные иллюстрации, цвет меняется под бренд.",
+  "path": "links/design/undraw.md"
+ },
+ {
+  "title": "Fontshare",
+  "url": "https://www.fontshare.com",
+  "category": "fonts",
+  "tags": [
+   "fonts",
+   "free"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Бесплатные коммерческие шрифты от Indian Type Foundry.",
+  "path": "links/fonts/fontshare.md"
+ },
+ {
+  "title": "Google Fonts",
+  "url": "https://fonts.google.com",
+  "category": "fonts",
+  "tags": [
+   "fonts",
+   "free"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "1500+ бесплатных шрифтов, включая кириллицу и CJK.",
+  "path": "links/fonts/google-fonts.md"
+ },
+ {
+  "title": "Velvetyne",
+  "url": "https://velvetyne.fr",
+  "category": "fonts",
+  "tags": [
+   "fonts",
+   "libre"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Либре-шрифты, экспериментальная типографика.",
+  "path": "links/fonts/velvetyne.md"
+ },
+ {
+  "title": "apiyi",
+  "url": "https://apiyi.com",
+  "category": "ai",
+  "tags": [
+   "api",
+   "llm",
+   "images"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Дешёвый агрегатор: GPT/Claude/Gemini + картинки (Flux, nano-banana).",
+  "path": "links/ai/apiyi.md"
+ },
+ {
+  "title": "cheapvibecode",
+  "url": "https://cheapvibecode.ru",
+  "category": "ai",
+  "tags": [
+   "api",
+   "llm",
+   "proxy"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "OpenAI-совместимый прокси, дешёвые модели для агентов и кодинга.",
+  "path": "links/ai/cheapvibecode.md"
+ },
+ {
+  "title": "fal.ai",
+  "url": "https://fal.ai",
+  "category": "ai",
+  "tags": [
+   "api",
+   "images",
+   "video"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Быстрая генерация картинок и видео: Flux, Kling, Wan.",
+  "path": "links/ai/falai.md"
+ },
+ {
+  "title": "Hugging Face",
+  "url": "https://huggingface.co",
+  "category": "ai",
+  "tags": [
+   "models",
+   "datasets"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Модели, датасеты, спейсы. Всё open-source в одном месте.",
+  "path": "links/ai/hugging-face.md"
+ },
+ {
+  "title": "OpenRouter",
+  "url": "https://openrouter.ai",
+  "category": "ai",
+  "tags": [
+   "api",
+   "llm"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "400+ моделей через один ключ, автофолбэк при ошибках.",
+  "path": "links/ai/openrouter.md"
+ },
+ {
+  "title": "Replicate",
+  "url": "https://replicate.com",
+  "category": "ai",
+  "tags": [
+   "api",
+   "models"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Запуск чужих моделей по API, оплата за секунды GPU.",
+  "path": "links/ai/replicate.md"
+ },
+ {
+  "title": "remove.bg",
+  "url": "https://www.remove.bg",
+  "category": "images",
+  "tags": [
+   "cutout",
+   "background"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Удаление фона с фото/товара в один клик.",
+  "path": "links/images/removebg.md"
+ },
+ {
+  "title": "Squoosh",
+  "url": "https://squoosh.app",
+  "category": "images",
+  "tags": [
+   "compress",
+   "webp",
+   "avif"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Сжатие картинок в браузере, конверт в webp/avif.",
+  "path": "links/images/squoosh.md"
+ },
+ {
+  "title": "TinyPNG",
+  "url": "https://tinypng.com",
+  "category": "images",
+  "tags": [
+   "compress",
+   "png"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Сжатие PNG/JPEG, до 20 файлов за раз.",
+  "path": "links/images/tinypng.md"
+ },
+ {
+  "title": "Unsplash",
+  "url": "https://unsplash.com",
+  "category": "images",
+  "tags": [
+   "stock",
+   "photos"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Бесплатные фото высокого разрешения, лицензия без атрибуции.",
+  "path": "links/images/unsplash.md"
+ },
+ {
+  "title": "ElevenLabs",
+  "url": "https://elevenlabs.io",
+  "category": "voice",
+  "tags": [
+   "tts",
+   "voice-clone"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Лучший TTS + клонирование голоса, есть API и мультиязык.",
+  "path": "links/voice/elevenlabs.md"
+ },
+ {
+  "title": "Suno",
+  "url": "https://suno.com",
+  "category": "music",
+  "tags": [
+   "music",
+   "ai"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Генерация треков с вокалом по текстовому промпту.",
+  "path": "links/music/suno.md"
+ },
+ {
+  "title": "Cryptomus",
+  "url": "https://cryptomus.com",
+  "category": "payments",
+  "tags": [
+   "crypto",
+   "payments"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Крипто-платежи, инвойсы, мерчант-API.",
+  "path": "links/payments/cryptomus.md"
+ },
+ {
+  "title": "Fondy",
+  "url": "https://fondy.io",
+  "category": "payments",
+  "tags": [
+   "payments",
+   "eu"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Европейский провайдер: карты + локальные методы, ЕС-юрлицо.",
+  "path": "links/payments/fondy.md"
+ },
+ {
+  "title": "Plisio",
+  "url": "https://plisio.net",
+  "category": "payments",
+  "tags": [
+   "crypto",
+   "payments"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Приём крипты без KYC, авто-конверт в фиат.",
+  "path": "links/payments/plisio.md"
+ },
+ {
+  "title": "Stripe",
+  "url": "https://stripe.com",
+  "category": "payments",
+  "tags": [
+   "payments",
+   "cards"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Карты, подписки, инвойсы. Стандарт для SaaS.",
+  "path": "links/payments/stripe.md"
+ },
+ {
+  "title": "WayForPay",
+  "url": "https://wayforpay.com",
+  "category": "payments",
+  "tags": [
+   "payments",
+   "ua"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Украинский провайдер, карты + Apple/Google Pay.",
+  "path": "links/payments/wayforpay.md"
+ },
+ {
+  "title": "Cloudflare",
+  "url": "https://cloudflare.com",
+  "category": "hosting",
+  "tags": [
+   "dns",
+   "cdn",
+   "pages"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "DNS, CDN, Pages, Workers. Домен + хостинг статики бесплатно.",
+  "path": "links/hosting/cloudflare.md"
+ },
+ {
+  "title": "Railway",
+  "url": "https://railway.app",
+  "category": "hosting",
+  "tags": [
+   "hosting",
+   "backend"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Бэкенды, боты, базы — деплой из репо без DevOps.",
+  "path": "links/hosting/railway.md"
+ },
+ {
+  "title": "Vercel",
+  "url": "https://vercel.com",
+  "category": "hosting",
+  "tags": [
+   "hosting",
+   "nextjs"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Деплой Next.js в один клик из GitHub, превью-ссылки на каждый пуш.",
+  "path": "links/hosting/vercel.md"
+ },
+ {
+  "title": "Neon",
+  "url": "https://neon.tech",
+  "category": "infra",
+  "tags": [
+   "postgres",
+   "serverless"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Serverless Postgres с ветками БД, бесплатный тариф.",
+  "path": "links/infra/neon.md"
+ },
+ {
+  "title": "Supabase",
+  "url": "https://supabase.com",
+  "category": "infra",
+  "tags": [
+   "postgres",
+   "auth"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Postgres + auth + storage + realtime, free tier.",
+  "path": "links/infra/supabase.md"
+ },
+ {
+  "title": "GeeLark",
+  "url": "https://geelark.com",
+  "category": "proxies",
+  "tags": [
+   "cloud-phone",
+   "tiktok"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Облачные телефоны для мультиаккаунтинга TikTok/Instagram.",
+  "path": "links/proxies/geelark.md"
+ },
+ {
+  "title": "LZT Market",
+  "url": "https://lzt.market",
+  "category": "proxies",
+  "tags": [
+   "accounts",
+   "market"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Биржа аккаунтов и сервисов, репутация продавцов.",
+  "path": "links/proxies/lzt-market.md"
+ },
+ {
+  "title": "ProxyShard",
+  "url": "https://proxyshard.com",
+  "category": "proxies",
+  "tags": [
+   "proxy",
+   "poland"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Мобильные и резидентские прокси, есть польские локации.",
+  "path": "links/proxies/proxyshard.md"
+ },
+ {
+  "title": "Cursor",
+  "url": "https://cursor.com",
+  "category": "code",
+  "tags": [
+   "ide",
+   "ai"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "IDE с AI-агентами внутри, форк VS Code.",
+  "path": "links/code/cursor.md"
+ },
+ {
+  "title": "DevDocs",
+  "url": "https://devdocs.io",
+  "category": "code",
+  "tags": [
+   "docs",
+   "reference"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Все документации в одном поиске, работает офлайн.",
+  "path": "links/code/devdocs.md"
+ },
+ {
+  "title": "GitHub",
+  "url": "https://github.com",
+  "category": "code",
+  "tags": [
+   "git",
+   "repos"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Репозитории, Actions, Pages. Всё хранение кода тут.",
+  "path": "links/code/github.md"
+ },
+ {
+  "title": "IT Tools",
+  "url": "https://it-tools.tech",
+  "category": "code",
+  "tags": [
+   "utils",
+   "devtools"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "100+ мелких дев-утилит: хеши, base64, JWT, cron.",
+  "path": "links/code/it-tools.md"
+ },
+ {
+  "title": "JSON Crack",
+  "url": "https://jsoncrack.com",
+  "category": "code",
+  "tags": [
+   "json",
+   "visualize"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "JSON в граф, удобно разбирать вложенные ответы API.",
+  "path": "links/code/json-crack.md"
+ },
+ {
+  "title": "regex101",
+  "url": "https://regex101.com",
+  "category": "code",
+  "tags": [
+   "regex",
+   "debug"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Отладка регулярки с разбором по шагам и объяснением.",
+  "path": "links/code/regex101.md"
+ },
+ {
+  "title": "n8n",
+  "url": "https://n8n.io",
+  "category": "no-code",
+  "tags": [
+   "automation",
+   "workflows"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Self-hosted автоматизация: сценарии с API, ботами, БД.",
+  "path": "links/no-code/n8n.md"
+ },
+ {
+  "title": "roadmap.sh",
+  "url": "https://roadmap.sh",
+  "category": "learning",
+  "tags": [
+   "learning",
+   "roadmap"
+  ],
+  "added": "2026-10-13",
+  "added_by": "Заяц",
+  "note": "Пошаговые карты изучения профессий и технологий.",
+  "path": "links/learning/roadmapsh.md"
+ }
+]

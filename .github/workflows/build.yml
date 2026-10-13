@@ -1,0 +1,34 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'links/**'
+      - 'build.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Rebuild docs from links/
+        run: python3 build.py
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain docs)" ]; then
+            git config user.name "devbase-bot"
+            git config user.email "devbase-bot@users.noreply.github.com"
+            git add docs
+            git commit -m "build: пересборка портала из links/"
+            git push
+          else
+            echo "docs актуален, коммит не нужен"
+          fi
