@@ -1042,6 +1042,21 @@ footer a:hover{color:var(--accent)}
   "path": "links/voice/elevenlabs.md"
  },
  {
+  "title": "Qwen3TTS (Quasar Voice)",
+  "url": "https://qwen3tts.ai",
+  "category": "voice",
+  "tags": [
+   "tts",
+   "voice-clone",
+   "qwen",
+   "multilingual"
+  ],
+  "added": "2026-10-16",
+  "added_by": "Заяц",
+  "note": "Qwen3TTS в браузере: клонирование по 3–10 с сэмплу, эмоции промптом, 10+ языков, 97 мс TTFB, есть API. Бесплатный тариф.",
+  "path": "links/voice/qwen3tts.md"
+ },
+ {
   "title": "VoiceStudio",
   "url": "https://github.com/debpalash/VoiceStudio",
   "category": "voice",
@@ -1932,7 +1947,7 @@ footer a:hover{color:var(--accent)}
 <script>
 const DATA = JSON.parse(document.getElementById('data').textContent);
 const CATS = {"design": "Дизайн и UI", "fonts": "Шрифты", "ai": "AI-модели и API", "images": "Изображения", "voice": "Голос и TTS", "music": "Музыка и звук", "video": "Видео и аватары", "payments": "Платежи", "hosting": "Хостинг и деплой", "infra": "Базы и бэкенд", "proxies": "Прокси и аккаунты", "scraping": "Парсинг и автоматизация", "code": "Код и инструменты", "no-code": "No-code и боты", "chat": "Чаты и боты", "seo": "SEO и аналитика", "affiliate": "Affiliate и трафик", "learning": "Обучение", "utils": "Утилиты", "misc": "Разное"};
-const UPD = "13.10.2026";
+const UPD = "15.10.2026";
 let activeCat = 'all', activeTag = null, q = '', sort = 'cat';
 const el = id => document.getElementById(id);
 const esc = s => String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
