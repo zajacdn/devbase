@@ -1110,6 +1110,22 @@ footer a:hover{color:var(--accent)}
   "path": "links/images/unsplash.md"
  },
  {
+  "title": "Chatterbox (Resemble AI)",
+  "url": "https://github.com/resemble-ai/chatterbox",
+  "category": "voice",
+  "tags": [
+   "tts",
+   "voice-clone",
+   "local",
+   "mit",
+   "emotion"
+  ],
+  "added": "2026-10-17",
+  "added_by": "Гермес",
+  "note": "0.5B TTS под MIT: клонирование по короткому сэмплу, 23 языка (RU, PL), теги эмоций вроде [laugh]. Turbo 350M — для realtime-ботов. Встроенный водяной знак Perth.",
+  "path": "links/voice/chatterbox.md"
+ },
+ {
   "title": "ElevenLabs",
   "url": "https://elevenlabs.io",
   "category": "voice",
@@ -1145,12 +1161,29 @@ footer a:hover{color:var(--accent)}
    "tts",
    "voice-clone",
    "local",
-   "opensource"
+   "opensource",
+   "dubbing"
   ],
   "added": "2026-10-13",
   "added_by": "Заяц",
-  "note": "Локальный ElevenLabs: клонирование голоса, чистка от шума, дубляж фильмов, озвучка аудиокниг — всё на своём ПК.",
+  "note": "Локальный ElevenLabs: клонирование по 3–15 с сэмплу, voice design, дубляж видео, аудиокниги. 16 TTS + 11 ASR движков, 646 языков в каталоге, локальный API и MCP для ботов. 72k★, AGPL-3.0, работает и на CPU.",
   "path": "links/voice/voicestudio.md"
+ },
+ {
+  "title": "VoxCPM2 (OpenBMB)",
+  "url": "https://github.com/OpenBMB/VoxCPM",
+  "category": "voice",
+  "tags": [
+   "tts",
+   "voice-clone",
+   "local",
+   "apache-2.0",
+   "multilingual"
+  ],
+  "added": "2026-10-17",
+  "added_by": "Гермес",
+  "note": "2B TTS: клонирование и voice design по текстовому описанию, 30 языков (RU, PL), 48 кГц. Apache-2.0 — можно коммерчески. ~8 ГБ VRAM, на CPU через GGUF (llama.cpp-omni).",
+  "path": "links/voice/voxcpm2.md"
  },
  {
   "title": "Spotifast",
