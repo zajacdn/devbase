@@ -610,6 +610,22 @@ footer a:hover{color:var(--accent)}
   "path": "links/design/transform-tools.md"
  },
  {
+  "title": "UI UX Pro Max",
+  "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "category": "design",
+  "tags": [
+   "agent-skills",
+   "ui",
+   "ux",
+   "design-system",
+   "claude"
+  ],
+  "added": "2026-10-17",
+  "added_by": "Гермес",
+  "note": "Дизайн-интеллект для агента: палитры, типографика, сетки, компоненты, структура страниц. Самый звёздный дизайн-скилл — 136k★, обновляется постоянно.",
+  "path": "links/design/ui-ux-pro-max.md"
+ },
+ {
   "title": "unDraw",
   "url": "https://undraw.co",
   "category": "design",
@@ -674,6 +690,23 @@ footer a:hover{color:var(--accent)}
   "added_by": "Заяц",
   "note": "Либре-шрифты, экспериментальная типографика.",
   "path": "links/fonts/velvetyne.md"
+ },
+ {
+  "title": "Anthropic Skills (официальные)",
+  "url": "https://github.com/anthropics/skills",
+  "category": "ai",
+  "tags": [
+   "agent-skills",
+   "claude",
+   "docx",
+   "xlsx",
+   "pptx",
+   "pdf"
+  ],
+  "added": "2026-10-17",
+  "added_by": "Гермес",
+  "note": "Официальный репозиторий Anthropic: document skills для Word/Excel/PowerPoint/PDF + примеры канонического формата SKILL.md. 181k★, эталон для своих скиллов.",
+  "path": "links/ai/anthropic-skills.md"
  },
  {
   "title": "apiyi",
@@ -831,6 +864,38 @@ footer a:hover{color:var(--accent)}
   "added_by": "Заяц",
   "note": "Модели, датасеты, спейсы. Всё open-source в одном месте.",
   "path": "links/ai/hugging-face.md"
+ },
+ {
+  "title": "Humanizer",
+  "url": "https://github.com/blader/humanizer",
+  "category": "ai",
+  "tags": [
+   "agent-skills",
+   "claude",
+   "writing",
+   "text",
+   "anti-ai"
+  ],
+  "added": "2026-10-17",
+  "added_by": "Гермес",
+  "note": "Агентский скилл, вычищает признаки AI-текста: шаблонные фразы, канцелярит, рубленый ритм. Ставится в Claude Code / Codex / Cursor одной командой npx skills add.",
+  "path": "links/ai/humanizer.md"
+ },
+ {
+  "title": "Last 30 Days",
+  "url": "https://github.com/mvanhorn/last30days-skill",
+  "category": "ai",
+  "tags": [
+   "agent-skills",
+   "research",
+   "trends",
+   "reddit",
+   "x"
+  ],
+  "added": "2026-10-17",
+  "added_by": "Гермес",
+  "note": "Ресёрч-скилл: собирает, что реально обсуждали на Reddit и X за последние 30 дней, вместо устаревших знаний модели. Полезен для выбора стека и поиска трендов.",
+  "path": "links/ai/last30days.md"
  },
  {
   "title": "OpenClaude Portable",
@@ -1981,7 +2046,7 @@ footer a:hover{color:var(--accent)}
 <script>
 const DATA = JSON.parse(document.getElementById('data').textContent);
 const CATS = {"design": "Дизайн и UI", "fonts": "Шрифты", "ai": "AI-модели и API", "images": "Изображения", "voice": "Голос и TTS", "music": "Музыка и звук", "video": "Видео и аватары", "payments": "Платежи", "hosting": "Хостинг и деплой", "infra": "Базы и бэкенд", "proxies": "Прокси и аккаунты", "scraping": "Парсинг и автоматизация", "code": "Код и инструменты", "no-code": "No-code и боты", "chat": "Чаты и боты", "seo": "SEO и аналитика", "affiliate": "Affiliate и трафик", "learning": "Обучение", "utils": "Утилиты", "misc": "Разное"};
-const UPD = "16.10.2026";
+const UPD = "17.10.2026";
 let activeCat = 'all', activeTag = null, q = '', sort = 'cat';
 const el = id => document.getElementById(id);
 const esc = s => String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
