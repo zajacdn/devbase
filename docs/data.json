@@ -216,6 +216,22 @@
   "path": "links/design/iconify.md"
  },
  {
+  "title": "Liquid Glass in the Browser",
+  "url": "https://kube.io/blog/liquid-glass-css-svg/",
+  "category": "design",
+  "tags": [
+   "css",
+   "svg",
+   "glassmorphism",
+   "effects",
+   "tutorial"
+  ],
+  "added": "2026-10-18",
+  "added_by": "Гермес",
+  "note": "Рецепт эффекта Liquid Glass (как в iOS 26) на CSS + SVG displacement map: преломление по Снеллу, блик. Демо работает в Chrome.",
+  "path": "links/design/liquid-glass-css-svg.md"
+ },
+ {
   "title": "logo-design-skill",
   "url": "https://github.com/kaankiziltug/logo-design-skill",
   "category": "design",

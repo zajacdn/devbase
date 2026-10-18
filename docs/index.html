@@ -432,6 +432,22 @@ footer a:hover{color:var(--accent)}
   "path": "links/design/iconify.md"
  },
  {
+  "title": "Liquid Glass in the Browser",
+  "url": "https://kube.io/blog/liquid-glass-css-svg/",
+  "category": "design",
+  "tags": [
+   "css",
+   "svg",
+   "glassmorphism",
+   "effects",
+   "tutorial"
+  ],
+  "added": "2026-10-18",
+  "added_by": "Гермес",
+  "note": "Рецепт эффекта Liquid Glass (как в iOS 26) на CSS + SVG displacement map: преломление по Снеллу, блик. Демо работает в Chrome.",
+  "path": "links/design/liquid-glass-css-svg.md"
+ },
+ {
   "title": "logo-design-skill",
   "url": "https://github.com/kaankiziltug/logo-design-skill",
   "category": "design",
@@ -2143,7 +2159,7 @@ footer a:hover{color:var(--accent)}
 <script>
 const DATA = JSON.parse(document.getElementById('data').textContent);
 const CATS = {"design": "Дизайн и UI", "fonts": "Шрифты", "ai": "AI-модели и API", "images": "Изображения", "voice": "Голос и TTS", "music": "Музыка и звук", "video": "Видео и аватары", "payments": "Платежи", "hosting": "Хостинг и деплой", "infra": "Базы и бэкенд", "proxies": "Прокси и аккаунты", "scraping": "Парсинг и автоматизация", "code": "Код и инструменты", "no-code": "No-code и боты", "chat": "Чаты и боты", "seo": "SEO и аналитика", "affiliate": "Affiliate и трафик", "learning": "Обучение", "utils": "Утилиты", "misc": "Разное"};
-const UPD = "17.10.2026";
+const UPD = "18.10.2026";
 let activeCat = 'all', activeTag = null, q = '', sort = 'cat';
 const el = id => document.getElementById(id);
 const esc = s => String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
