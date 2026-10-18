@@ -79,6 +79,22 @@
   "path": "links/design/allsvgicons.md"
  },
  {
+  "title": "ArloUI",
+  "url": "https://arloui.com",
+  "category": "design",
+  "tags": [
+   "components",
+   "react-native",
+   "mobile",
+   "motion",
+   "copy-paste"
+  ],
+  "added": "2026-10-18",
+  "added_by": "Заяц",
+  "note": "Copy-paste компоненты для React Native: сильные дефолты, полное покрытие состояний, спецификации анимаций — мобильный интерфейс сразу выглядит дорого.",
+  "path": "links/design/arloui.md"
+ },
+ {
   "title": "ArtCraft",
   "url": "https://app.getartcraft.com/",
   "category": "design",
@@ -92,6 +108,25 @@
   "added_by": "Заяц",
   "note": "Опенсорс-клоны инструментов Adobe на Rust: быстрее оригиналов, работают на ПК и прямо в браузере.",
   "path": "links/design/artcraft.md"
+ },
+ {
+  "title": "Astryx (Meta)",
+  "url": "https://astryx.atmeta.com",
+  "category": "design",
+  "tags": [
+   "design-system",
+   "react",
+   "stylex",
+   "meta",
+   "mcp",
+   "cli",
+   "mit",
+   "agent"
+  ],
+  "added": "2026-10-18",
+  "added_by": "Заяц",
+  "note": "Open-source дизайн-система из Meta (React 19 + StyleX): 150+ доступных компонентов, темы на CSS-переменных, CLI и MCP для агентов. Бета, MIT, репо facebook/astryx.",
+  "path": "links/design/astryx.md"
  },
  {
   "title": "Bento",
@@ -203,6 +238,22 @@
   "path": "links/design/haikei.md"
  },
  {
+  "title": "HeroUI",
+  "url": "https://heroui.com",
+  "category": "design",
+  "tags": [
+   "components",
+   "react",
+   "tailwind",
+   "react-aria",
+   "accessibility"
+  ],
+  "added": "2026-10-18",
+  "added_by": "Заяц",
+  "note": "React-компоненты на React Aria и Tailwind CSS v4, «красиво по умолчанию» — альтернатива shadcn/MUI. Бывший NextUI, v3.",
+  "path": "links/design/heroui.md"
+ },
+ {
   "title": "Iconify",
   "url": "https://iconify.design",
   "category": "design",
@@ -214,6 +265,23 @@
   "added_by": "Заяц",
   "note": "Поиск по 200k+ иконок из 150 наборов, отдаёт SVG одним API.",
   "path": "links/design/iconify.md"
+ },
+ {
+  "title": "Iconimate",
+  "url": "https://iconimate.dev",
+  "category": "design",
+  "tags": [
+   "icons",
+   "animation",
+   "react",
+   "shadcn",
+   "mit",
+   "motion"
+  ],
+  "added": "2026-10-18",
+  "added_by": "Заяц",
+  "note": "220 анимированных иконок для React, ставятся через shadcn CLI, MIT — живой motion без ручных keyframes.",
+  "path": "links/design/iconimate.md"
  },
  {
   "title": "Liquid Glass in the Browser",
@@ -359,6 +427,22 @@
   "added_by": "Заяц",
   "note": "Photoshop в браузере: PSD, слои, экспорт. Бесплатно.",
   "path": "links/design/photopea.md"
+ },
+ {
+  "title": "posts.design",
+  "url": "https://posts.design",
+  "category": "design",
+  "tags": [
+   "inspiration",
+   "social",
+   "og-images",
+   "landing",
+   "reference"
+  ],
+  "added": "2026-10-18",
+  "added_by": "Заяц",
+  "note": "Галерея соцпостов, OG-картинок и хедеров 770+ брендов — референсы для лендингов и креативов.",
+  "path": "links/design/posts-design.md"
  },
  {
   "title": "Responsively",
