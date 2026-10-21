@@ -128,6 +128,108 @@ footer a{text-decoration:none;color:var(--ink2);transition:color .14s}
 footer a:hover{color:var(--accent)}
 .fnote{font-size:11.5px;color:var(--ink4);text-transform:uppercase;letter-spacing:.07em}
 
+/* ---------- коллекции ---------- */
+.collections{margin-top:26px;text-align:left}
+.coll-lbl{font-size:11px;font-weight:500;color:var(--ink4);text-transform:uppercase;letter-spacing:.07em;margin-bottom:9px}
+.coll{display:flex;align-items:center;gap:14px;width:100%;padding:14px 16px;background:#fff;
+  border:0;border-radius:var(--r);box-shadow:var(--ring);cursor:pointer;text-align:left;
+  transition:box-shadow .18s,transform .18s}
+.coll:hover{box-shadow:0 0 0 1px var(--line2),0 10px 26px -14px rgba(0,0,0,.22);transform:translateY(-1px)}
+.coll:focus-visible{outline:none;box-shadow:0 0 0 4px rgba(10,114,239,.14),0 0 0 1px var(--accent)}
+.coll-ico{flex:0 0 auto;width:40px;height:40px;border-radius:10px;background:var(--surface2);
+  display:grid;place-items:center;font-size:17px;color:var(--ink2)}
+.coll-txt{min-width:0;flex:1 1 auto}
+.coll-txt b{display:block;font-weight:600;font-size:15.5px;letter-spacing:-.012em}
+.coll-txt .desc{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  font-size:13.5px;line-height:1.5;color:var(--ink2);margin-top:3px}
+.coll-meta{display:flex;gap:8px;align-items:center;font:500 11.5px "Geist Mono",monospace;color:var(--ink4);margin-top:7px}
+.coll-meta .dot{color:var(--ink4)}
+.coll-cta{flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;height:34px;padding:0 13px;
+  border:1px solid var(--line);border-radius:9px;background:#fff;font-weight:500;font-size:13.5px;color:var(--ink)}
+.coll:hover .coll-cta{border-color:var(--line2);background:var(--surface)}
+
+/* ---------- модалка промптов ---------- */
+.pm-ov{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;
+  background:rgba(20,20,20,.34);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);padding:24px}
+.pm-ov.on{display:flex}
+.pm-sheet{display:flex;flex-direction:column;width:100%;max-width:920px;max-height:86vh;background:#fff;
+  border-radius:16px;box-shadow:0 30px 80px -30px rgba(0,0,0,.45),0 0 0 1px rgba(0,0,0,.06);overflow:hidden}
+.pm-head{padding:20px 22px 0;flex:0 0 auto}
+.pm-top{display:flex;align-items:flex-start;gap:14px}
+.pm-ttl{flex:1 1 auto;min-width:0}
+.pm-ttl h2{font-weight:600;font-size:19px;letter-spacing:-.02em;line-height:1.25}
+.pm-ttl p{font-size:13.5px;line-height:1.55;color:var(--ink2);margin-top:6px}
+.pm-ttl .src{font:500 11.5px "Geist Mono",monospace;color:var(--ink4);margin-top:8px}
+.pm-ttl .src a{color:var(--ink2);text-decoration:none;border-bottom:1px solid var(--line2)}
+.pm-x{flex:0 0 auto;width:32px;height:32px;border:1px solid var(--line);border-radius:9px;background:#fff;
+  color:var(--ink2);cursor:pointer;font-size:14px;line-height:1}
+.pm-x:hover{background:var(--surface2)}
+.pm-search{position:relative;margin:16px 0 0}
+.pm-search input{width:100%;height:42px;border:1px solid var(--line);border-radius:10px;background:var(--surface);
+  padding:0 14px;font:400 14px Geist,sans-serif;color:var(--ink);outline:none}
+.pm-search input:focus{background:#fff;border-color:var(--accent);box-shadow:0 0 0 4px rgba(10,114,239,.1)}
+.pm-cats{display:flex;gap:6px;overflow-x:auto;padding:12px 0 2px;scrollbar-width:none}
+.pm-cats::-webkit-scrollbar{display:none}
+.pm-cat{height:28px;padding:0 11px;border-radius:var(--pill);border:1px solid var(--line);background:#fff;
+  color:var(--ink2);font-weight:500;font-size:12.5px;cursor:pointer;white-space:nowrap}
+.pm-cat:hover{background:var(--surface2)}
+.pm-cat.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.pm-cnt{padding:10px 0 12px;font:500 11.5px "Geist Mono",monospace;color:var(--ink4);text-transform:uppercase;letter-spacing:.06em;border-bottom:1px solid var(--line)}
+.pm-body{overflow-y:auto;overscroll-behavior:contain;padding:14px 22px 24px;flex:1 1 auto}
+.pm-list{display:flex;flex-direction:column;gap:10px}
+.pm-item{display:grid;grid-template-columns:212px 1fr;gap:14px;padding:12px;border-radius:12px;
+  box-shadow:var(--ring);background:#fff}
+.pm-item:hover{box-shadow:0 0 0 1px var(--line2)}
+.pm-shot{position:relative;aspect-ratio:16/9;border-radius:9px;overflow:hidden;background:var(--surface2);cursor:pointer}
+.pm-shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.pm-shot video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;background:#000}
+.pm-play{position:absolute;inset:0;display:grid;place-items:center;background:rgba(0,0,0,.14);border:0;cursor:pointer}
+.pm-play i{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;
+  font-style:normal;font-size:12px;color:#111;padding-left:2px;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+.pm-shot.playing .pm-play{display:none}
+.pm-main{min-width:0;display:flex;flex-direction:column}
+.pm-h{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.pm-h b{font-weight:600;font-size:14.5px;letter-spacing:-.01em}
+.pm-h .who{font:400 11.5px "Geist Mono",monospace;color:var(--ink3);text-decoration:none}
+.pm-h .who:hover{color:var(--accent)}
+.pm-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px}
+.pm-tags span{font-size:10.5px;font-weight:500;color:var(--ink3);background:var(--surface2);border-radius:var(--pill);padding:3px 8px}
+.pm-prompt{position:relative;margin-top:9px;font:400 12.5px/1.6 "Geist Mono",monospace;color:var(--ink2);
+  background:var(--surface);border-radius:9px;padding:10px 11px;white-space:pre-wrap;word-break:break-word;
+  max-height:86px;overflow:hidden;cursor:pointer}
+.pm-prompt.open{max-height:none}
+.pm-prompt:after{content:"";position:absolute;left:0;right:0;bottom:0;height:26px;
+  background:linear-gradient(to bottom,rgba(250,250,250,0),var(--surface));pointer-events:none;border-radius:0 0 9px 9px}
+.pm-prompt.open:after{display:none}
+.pm-acts{display:flex;gap:7px;margin-top:10px;flex-wrap:wrap}
+.pm-btn{display:inline-flex;align-items:center;gap:6px;height:30px;padding:0 11px;border-radius:8px;
+  border:1px solid var(--line);background:#fff;font-weight:500;font-size:12.5px;color:var(--ink);cursor:pointer;text-decoration:none}
+.pm-btn:hover{background:var(--surface2);border-color:var(--line2)}
+.pm-btn.dark{background:var(--ink);border-color:var(--ink);color:#fff}
+.pm-btn.dark:hover{background:#000}
+.pm-empty{padding:40px 10px;text-align:center;color:var(--ink3);font-size:14px}
+#pm-toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,14px);z-index:200;opacity:0;pointer-events:none;
+  background:var(--ink);color:#fff;font-size:13px;font-weight:500;padding:9px 15px;border-radius:999px;
+  transition:opacity .18s,transform .18s}
+#pm-toast.on{opacity:1;transform:translate(-50%,0)}
+
+@media(max-width:720px){
+  .pm-ov{padding:0;align-items:flex-end;backdrop-filter:none;-webkit-backdrop-filter:none;background:rgba(20,20,20,.4)}
+  .pm-sheet{max-width:none;max-height:94vh;height:94vh;border-radius:16px 16px 0 0}
+  .pm-head{padding:16px 16px 0}
+  .pm-body{padding:12px 16px 28px}
+  .pm-item{grid-template-columns:1fr;gap:11px;padding:11px}
+  .pm-shot{max-height:184px}
+  .pm-ttl h2{font-size:17px}
+  .pm-ttl p{font-size:13px}
+  .pm-cats{mask-image:linear-gradient(to right,#000 90%,transparent);-webkit-mask-image:linear-gradient(to right,#000 90%,transparent)}
+  .pm-acts .pm-btn{flex:1 1 auto;justify-content:center}
+  .pm-acts .pm-btn.vid{display:none}
+  .coll{padding:12px 13px;gap:11px;flex-wrap:wrap}
+  .coll-ico{width:36px;height:36px;border-radius:9px}
+  .coll-cta{display:none}
+}
+
 @media(max-width:640px){
   .wrap{padding:0 18px}
   .hero{padding:40px 0 0}
@@ -194,6 +296,8 @@ footer a:hover{color:var(--accent)}
         </select>
       </div>
     </div>
+
+    <div class="collections" id="collections"></div>
   </section>
 
   <div class="count mono" id="count"></div>
@@ -209,11 +313,34 @@ footer a:hover{color:var(--accent)}
   <div class="fcol">
     <a href="https://github.com/zajacdn/devbase" target="_blank" rel="noopener">Репозиторий на GitHub</a>
     <a href="data.json">Машинный индекс (data.json)</a>
+    <a href="prompts.json">Промпты (prompts.json)</a>
     <a href="https://github.com/zajacdn/devbase/blob/main/AGENTS.md" target="_blank" rel="noopener">AGENTS.md — как читать ботам</a>
     <a href="https://github.com/zajacdn/devbase/blob/main/README.md" target="_blank" rel="noopener">Как добавить запись</a>
   </div>
 </footer>
 
+<!-- ── МОДАЛКА: коллекция промптов ─────────────────────────── -->
+<div class="pm-ov" id="pm-ov" role="dialog" aria-modal="true" aria-labelledby="pm-title">
+  <div class="pm-sheet" role="document">
+    <div class="pm-head">
+      <div class="pm-top">
+        <div class="pm-ttl">
+          <h2 id="pm-title"></h2>
+          <p id="pm-note"></p>
+          <div class="src" id="pm-src"></div>
+        </div>
+        <button class="pm-x" id="pm-x" aria-label="Закрыть">✕</button>
+      </div>
+      <div class="pm-search"><input id="pm-q" type="search" placeholder="Поиск по промптам — интерфейс, частицы, лого…" autocomplete="off"></div>
+      <div class="pm-cats" id="pm-cats"></div>
+      <div class="pm-cnt" id="pm-cnt"></div>
+    </div>
+    <div class="pm-body"><div class="pm-list" id="pm-list"></div></div>
+  </div>
+</div>
+<div id="pm-toast"></div>
+
+<script id="cols" type="application/json">__COLLECTIONS__</script>
 <script id="data" type="application/json">__DATA__</script>
 <script>
 const DATA = JSON.parse(document.getElementById('data').textContent);
@@ -300,13 +427,152 @@ el('rand').onclick = () => {
 };
 document.addEventListener('keydown', e => {
   if(e.key === '/' && document.activeElement !== el('q')){ e.preventDefault(); el('q').focus(); }
-  if(e.key === 'Escape'){ resetAll(); }
+  if(e.key === 'Escape'){ if(!el('pm-ov').classList.contains('on')) resetAll(); }
 });
 el('upd').textContent = UPD;
 el('s1').textContent = DATA.length;
 el('s2').textContent = new Set(DATA.map(d=>d.category)).size;
 el('s3').textContent = new Set(DATA.flatMap(d=>d.tags||[])).size;
 chips(); render();
+
+/* ═══════════ Коллекции промптов: кнопка в меню + модалка ═══════════ */
+const COLS = JSON.parse(document.getElementById('cols').textContent);
+let pmCol = null, pmCat = 'all', pmQ = '';
+const plural = (n, a, b, c) => { const m = n % 100, d = n % 10;
+  if (m > 10 && m < 20) return c; if (d === 1) return a; if (d > 1 && d < 5) return b; return c; };
+
+function renderCollections(){
+  if(!COLS.length) return;
+  el('collections').innerHTML = '<div class="coll-lbl mono">коллекции</div>' + COLS.map(c =>
+    '<button class="coll" data-col="' + esc(c.slug) + '">' +
+      '<span class="coll-ico">▶</span>' +
+      '<span class="coll-txt"><b>' + esc(c.title) + '</b>' +
+        '<div class="desc">' + esc(c.note) + '</div>' +
+        '<div class="coll-meta">' + c.items.length + ' ' + plural(c.items.length,'промпт','промпта','промптов') +
+          '<span class="dot">·</span>' + Object.keys(c.cats || {}).length + ' ' + plural(Object.keys(c.cats||{}).length,'раздел','раздела','разделов') +
+          '<span class="dot">·</span>' + esc(c.source_label || '') + '</div></span>' +
+      '<span class="coll-cta">Открыть список →</span>' +
+    '</button>').join('');
+}
+
+function pmCats(){
+  if(!pmCol) return;
+  const counts = {};
+  pmCol.items.forEach(it => (it.cats||[]).forEach(c => counts[c] = (counts[c]||0)+1));
+  const keys = Object.keys(pmCol.cats || {}).filter(c => counts[c]);
+  el('pm-cats').innerHTML = '<button class="pm-cat' + (pmCat==='all'?' on':'') + '" data-pc="all">все ' + pmCol.items.length + '</button>' +
+    keys.map(c => '<button class="pm-cat' + (pmCat===c?' on':'') + '" data-pc="' + esc(c) + '">' +
+      esc((pmCol.cats||{})[c] || c) + ' ' + counts[c] + '</button>').join('');
+}
+
+function pmFiltered(){
+  const n = pmQ.trim().toLowerCase();
+  return pmCol.items.filter(it => {
+    if(pmCat !== 'all' && !(it.cats||[]).includes(pmCat)) return false;
+    if(!n) return true;
+    const catNames = (it.cats||[]).map(c => (pmCol.cats||{})[c] || c).join(' ');
+    return (it.title + ' ' + it.prompt + ' ' + it.handle + ' ' + catNames).toLowerCase().includes(n);
+  });
+}
+
+function pmItemHTML(it){
+  const tags = (it.cats||[]).map(c => (pmCol.cats||{})[c] || c);
+  return '<article class="pm-item">' +
+    '<div class="pm-shot" data-vid="' + esc(it.id) + '">' +
+      '<img src="' + esc(it.poster) + '" alt="" loading="lazy" decoding="async">' +
+      '<button class="pm-play" aria-label="Смотреть превью"><i>▶</i></button>' +
+    '</div>' +
+    '<div class="pm-main">' +
+      '<div class="pm-h"><b>' + esc(it.title) + '</b>' +
+        '<a class="who" href="https://x.com/' + esc(it.handle) + '" target="_blank" rel="noopener">@' + esc(it.handle) + '</a></div>' +
+      '<div class="pm-tags">' + tags.map(t => '<span>' + esc(t) + '</span>').join('') + '</div>' +
+      '<div class="pm-prompt" data-exp="' + esc(it.id) + '" title="Развернуть">' + esc(it.prompt) + '</div>' +
+      '<div class="pm-acts">' +
+        '<button class="pm-btn dark" data-copy="' + esc(it.id) + '">Скопировать промпт</button>' +
+        '<a class="pm-btn" href="' + esc(it.url) + '" target="_blank" rel="noopener">Оригинал ↗</a>' +
+        '<a class="pm-btn vid" href="' + esc(it.video || it.url) + '" target="_blank" rel="noopener">Видео ↗</a>' +
+      '</div>' +
+    '</div></article>';
+}
+
+function pmRender(){
+  if(!pmCol) return;
+  const rows = pmFiltered();
+  el('pm-cnt').textContent = 'найдено ' + rows.length + ' из ' + pmCol.items.length +
+    (pmCat !== 'all' ? ' · ' + ((pmCol.cats||{})[pmCat] || pmCat) : '');
+  el('pm-list').innerHTML = rows.length
+    ? rows.map(pmItemHTML).join('')
+    : '<div class="pm-empty">Ничего не найдено — попробуй другое слово.</div>';
+}
+
+function openPM(slug){
+  pmCol = COLS.find(c => c.slug === slug);
+  if(!pmCol) return;
+  pmCat = 'all'; pmQ = ''; el('pm-q').value = '';
+  el('pm-title').textContent = pmCol.title;
+  el('pm-note').textContent = pmCol.note;
+  el('pm-src').innerHTML = 'Источник: <a href="' + esc(pmCol.source) + '" target="_blank" rel="noopener">' +
+    esc(pmCol.source_label || pmCol.source) + '</a>';
+  pmCats(); pmRender();
+  el('pm-ov').classList.add('on');
+  document.body.style.overflow = 'hidden';
+  setTimeout(() => { try { el('pm-q').focus(); } catch(e){} }, 60);
+}
+function closePM(){
+  el('pm-ov').classList.remove('on');
+  document.body.style.overflow = '';
+  document.querySelectorAll('.pm-shot video').forEach(v => v.remove());
+  document.querySelectorAll('.pm-shot.playing').forEach(s => s.classList.remove('playing'));
+}
+function pmToast(msg){
+  const t = el('pm-toast');
+  t.textContent = msg; t.classList.add('on');
+  clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('on'), 1700);
+}
+function copyText(txt){
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(txt).then(() => pmToast('Промпт скопирован'), () => fallbackCopy(txt));
+  } else fallbackCopy(txt);
+}
+function fallbackCopy(txt){
+  const ta = document.createElement('textarea');
+  ta.value = txt; ta.style.position = 'fixed'; ta.style.opacity = '0';
+  document.body.appendChild(ta); ta.select();
+  try { document.execCommand('copy'); pmToast('Промпт скопирован'); } catch(e){ pmToast('Не удалось скопировать'); }
+  ta.remove();
+}
+function pmFind(id){ return pmCol && pmCol.items.find(i => i.id === id); }
+
+document.addEventListener('click', e => {
+  const col = e.target.closest('[data-col]');
+  if(col){ openPM(col.dataset.col); return; }
+  if(e.target.closest('#pm-x') || (e.target.id === 'pm-ov')){ closePM(); return; }
+  const pc = e.target.closest('[data-pc]');
+  if(pc){ pmCat = pc.dataset.pc; pmCats(); pmRender(); return; }
+  const cp = e.target.closest('[data-copy]');
+  if(cp){ const it = pmFind(cp.dataset.copy); if(it) copyText(it.prompt); return; }
+  const ex = e.target.closest('[data-exp]');
+  if(ex){ ex.classList.toggle('open'); return; }
+  const shot = e.target.closest('[data-vid]');
+  if(shot){
+    const it = pmFind(shot.dataset.vid);
+    if(!it) return;
+    const cur = shot.querySelector('video');
+    if(cur){ cur.remove(); shot.classList.remove('playing'); return; }
+    const v = document.createElement('video');
+    v.src = it.preview || it.video; v.autoplay = true; v.loop = true; v.muted = true;
+    v.playsInline = true; v.setAttribute('playsinline','');
+    shot.appendChild(v); shot.classList.add('playing');
+    return;
+  }
+});
+document.addEventListener('input', e => {
+  if(e.target.id === 'pm-q'){ pmQ = e.target.value; pmRender(); }
+});
+document.addEventListener('keydown', e => {
+  if(e.key === 'Escape' && el('pm-ov').classList.contains('on')) closePM();
+});
+renderCollections();
 </script>
 </body>
 </html>

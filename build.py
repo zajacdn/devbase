@@ -8,6 +8,7 @@ import os, re, json, datetime
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 LINKS = os.path.join(ROOT, "links")
+PROMPTS = os.path.join(ROOT, "prompts")
 DOCS = os.path.join(ROOT, "docs")
 TEMPLATE = os.path.join(ROOT, "template.html")
 
@@ -61,20 +62,41 @@ def collect():
     return out
 
 
+def collect_collections():
+    """Коллекции промптов: prompts/*.json -> список словарей (без обрезки)."""
+    out = []
+    if os.path.isdir(PROMPTS):
+        for f in sorted(os.listdir(PROMPTS)):
+            if not f.endswith(".json"):
+                continue
+            try:
+                out.append(json.load(open(os.path.join(PROMPTS, f), encoding="utf-8")))
+            except Exception as e:
+                print(f"skip prompts/{f}: {e}")
+    return out
+
+
 def main():
     items = collect()
+    cols = collect_collections()
     os.makedirs(DOCS, exist_ok=True)
     clean = [{k: v for k, v in it.items()} for it in items]
     data = json.dumps(clean, ensure_ascii=False, indent=1)
     open(os.path.join(DOCS, "data.json"), "w", encoding="utf-8").write(data)
+    cols_json = json.dumps(cols, ensure_ascii=False).replace("</", "<\\/")
+    open(os.path.join(DOCS, "prompts.json"), "w", encoding="utf-8").write(
+        json.dumps(cols, ensure_ascii=False, indent=1))
     upd = datetime.date.today().strftime("%d.%m.%Y")
     tpl = open(TEMPLATE, encoding="utf-8").read()
     out = (tpl.replace("__DATA__", data)
               .replace("__CATS__", json.dumps(CATS, ensure_ascii=False))
+              .replace("__COLLECTIONS__", cols_json)
               .replace("__UPD__", json.dumps(upd)))
     open(os.path.join(DOCS, "index.html"), "w", encoding="utf-8").write(out)
     open(os.path.join(DOCS, ".nojekyll"), "w").write("")
-    print(f"built: {len(items)} записей, {len({i['category'] for i in items})} категорий -> docs/")
+    nprompts = sum(len(c.get("items", [])) for c in cols)
+    print(f"built: {len(items)} записей, {len({i['category'] for i in items})} категорий, "
+          f"{nprompts} промптов в {len(cols)} коллекциях -> docs/")
 
 
 if __name__ == "__main__":
