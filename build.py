@@ -83,7 +83,12 @@ def main():
     clean = [{k: v for k, v in it.items()} for it in items]
     data = json.dumps(clean, ensure_ascii=False, indent=1)
     open(os.path.join(DOCS, "data.json"), "w", encoding="utf-8").write(data)
-    cols_json = json.dumps(cols, ensure_ascii=False).replace("</", "<\\/")
+    index = []
+    for c in cols:
+        idx = {k: v for k, v in c.items() if k != "items"}
+        idx["n"] = len(c.get("items", []))
+        index.append(idx)
+    cols_json = json.dumps(index, ensure_ascii=False).replace("</", "<\\/")
     open(os.path.join(DOCS, "prompts.json"), "w", encoding="utf-8").write(
         json.dumps(cols, ensure_ascii=False, indent=1))
     upd = datetime.date.today().strftime("%d.%m.%Y")

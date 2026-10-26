@@ -187,6 +187,10 @@ footer a:hover{color:var(--accent)}
 .pm-play i{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;
   font-style:normal;font-size:12px;color:#111;padding-left:2px;box-shadow:0 2px 10px rgba(0,0,0,.25)}
 .pm-shot.playing .pm-play{display:none}
+.pm-shot.v{aspect-ratio:9/16}
+.pm-more{width:100%;height:38px;margin-top:4px;border:1px solid var(--line);border-radius:10px;background:#fff;
+  color:var(--ink);font-weight:500;font-size:13px;cursor:pointer}
+.pm-more:hover{background:var(--surface2);border-color:var(--line2)}
 .pm-main{min-width:0;display:flex;flex-direction:column}
 .pm-h{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
 .pm-h b{font-weight:600;font-size:14.5px;letter-spacing:-.01em}
@@ -437,7 +441,8 @@ chips(); render();
 
 /* ═══════════ Коллекции промптов: кнопка в меню + модалка ═══════════ */
 const COLS = JSON.parse(document.getElementById('cols').textContent);
-let pmCol = null, pmCat = 'all', pmQ = '';
+let pmCol = null, pmCat = 'all', pmQ = '', pmShown = 30;
+const PM_PAGE = 30;
 const plural = (n, a, b, c) => { const m = n % 100, d = n % 10;
   if (m > 10 && m < 20) return c; if (d === 1) return a; if (d > 1 && d < 5) return b; return c; };
 
@@ -448,7 +453,7 @@ function renderCollections(){
       '<span class="coll-ico">▶</span>' +
       '<span class="coll-txt"><b>' + esc(c.title) + '</b>' +
         '<div class="desc">' + esc(c.note) + '</div>' +
-        '<div class="coll-meta">' + c.items.length + ' ' + plural(c.items.length,'промпт','промпта','промптов') +
+        '<div class="coll-meta">' + (c.n || (c.items || []).length) + ' ' + plural(c.n || (c.items || []).length,'промпт','промпта','промптов') +
           '<span class="dot">·</span>' + Object.keys(c.cats || {}).length + ' ' + plural(Object.keys(c.cats||{}).length,'раздел','раздела','разделов') +
           '<span class="dot">·</span>' + esc(c.source_label || '') + '</div></span>' +
       '<span class="coll-cta">Открыть список →</span>' +
@@ -478,13 +483,16 @@ function pmFiltered(){
 function pmItemHTML(it){
   const tags = (it.cats||[]).map(c => (pmCol.cats||{})[c] || c);
   return '<article class="pm-item">' +
-    '<div class="pm-shot" data-vid="' + esc(it.id) + '">' +
+    '<div class="pm-shot' + (it.vertical ? ' v' : '') + '" data-vid="' + esc(it.id) + '"' +
+      (it.ar ? ' style="aspect-ratio:' + esc(it.ar) + '"' : '') + '>' +
       '<img src="' + esc(it.poster) + '" alt="" loading="lazy" decoding="async">' +
       '<button class="pm-play" aria-label="Смотреть превью"><i>▶</i></button>' +
     '</div>' +
     '<div class="pm-main">' +
       '<div class="pm-h"><b>' + esc(it.title) + '</b>' +
-        '<a class="who" href="https://x.com/' + esc(it.handle) + '" target="_blank" rel="noopener">@' + esc(it.handle) + '</a></div>' +
+        '<a class="who" href="' + esc(it.profile || ('https://x.com/' + it.handle)) + '" target="_blank" rel="noopener">@' + esc(it.handle) + '</a>' +
+        (it.views ? '<span class="who" style="color:var(--ink4)">' + esc(it.views) + ' просм.</span>' : '') +
+      '</div>' +
       '<div class="pm-tags">' + tags.map(t => '<span>' + esc(t) + '</span>').join('') + '</div>' +
       '<div class="pm-prompt" data-exp="' + esc(it.id) + '" title="Развернуть">' + esc(it.prompt) + '</div>' +
       '<div class="pm-acts">' +
@@ -498,25 +506,50 @@ function pmItemHTML(it){
 function pmRender(){
   if(!pmCol) return;
   const rows = pmFiltered();
+  const vis = rows.slice(0, pmShown);
   el('pm-cnt').textContent = 'найдено ' + rows.length + ' из ' + pmCol.items.length +
     (pmCat !== 'all' ? ' · ' + ((pmCol.cats||{})[pmCat] || pmCat) : '');
-  el('pm-list').innerHTML = rows.length
-    ? rows.map(pmItemHTML).join('')
+  el('pm-list').innerHTML = vis.length
+    ? vis.map(pmItemHTML).join('') +
+      (rows.length > vis.length
+        ? '<button class="pm-more" id="pm-more">Показать ещё ' + Math.min(PM_PAGE, rows.length - vis.length) + ' из ' + (rows.length - vis.length) + '</button>'
+        : '')
     : '<div class="pm-empty">Ничего не найдено — попробуй другое слово.</div>';
 }
 
-function openPM(slug){
-  pmCol = COLS.find(c => c.slug === slug);
-  if(!pmCol) return;
-  pmCat = 'all'; pmQ = ''; el('pm-q').value = '';
-  el('pm-title').textContent = pmCol.title;
-  el('pm-note').textContent = pmCol.note;
-  el('pm-src').innerHTML = 'Источник: <a href="' + esc(pmCol.source) + '" target="_blank" rel="noopener">' +
-    esc(pmCol.source_label || pmCol.source) + '</a>';
-  pmCats(); pmRender();
+let PM_LOADED = null;
+async function loadCols(){
+  if(PM_LOADED) return PM_LOADED;
+  const r = await fetch('prompts.json', {cache:'no-cache'});
+  if(!r.ok) throw new Error('HTTP ' + r.status);
+  PM_LOADED = await r.json();
+  return PM_LOADED;
+}
+async function openPM(slug){
+  const meta = COLS.find(c => c.slug === slug);
+  if(!meta) return;
+  pmCol = null;
+  pmCat = 'all'; pmQ = ''; pmShown = 30; el('pm-q').value = '';
+  el('pm-title').textContent = meta.title;
+  el('pm-note').textContent = meta.note;
+  el('pm-src').innerHTML = 'Источник: <a href="' + esc(meta.source) + '" target="_blank" rel="noopener">' +
+    esc(meta.source_label || meta.source) + '</a>';
+  el('pm-cats').innerHTML = '';
+  el('pm-cnt').textContent = 'загрузка…';
+  el('pm-list').innerHTML = '<div class="pm-empty">Загружаю список…</div>';
   el('pm-ov').classList.add('on');
   document.body.style.overflow = 'hidden';
   setTimeout(() => { try { el('pm-q').focus(); } catch(e){} }, 60);
+  try {
+    const cols = await loadCols();
+    pmCol = cols.find(c => c.slug === slug) || null;
+  } catch(e){ pmCol = null; }
+  if(!pmCol){
+    el('pm-cnt').textContent = '';
+    el('pm-list').innerHTML = '<div class="pm-empty">Не удалось загрузить список — обнови страницу.</div>';
+    return;
+  }
+  pmCats(); pmRender();
 }
 function closePM(){
   el('pm-ov').classList.remove('on');
@@ -548,7 +581,8 @@ document.addEventListener('click', e => {
   if(col){ openPM(col.dataset.col); return; }
   if(e.target.closest('#pm-x') || (e.target.id === 'pm-ov')){ closePM(); return; }
   const pc = e.target.closest('[data-pc]');
-  if(pc){ pmCat = pc.dataset.pc; pmCats(); pmRender(); return; }
+  if(pc){ pmCat = pc.dataset.pc; pmShown = 30; pmCats(); pmRender(); return; }
+  if(e.target.closest('#pm-more')){ pmShown += PM_PAGE; pmRender(); return; }
   const cp = e.target.closest('[data-copy]');
   if(cp){ const it = pmFind(cp.dataset.copy); if(it) copyText(it.prompt); return; }
   const ex = e.target.closest('[data-exp]');
@@ -567,7 +601,7 @@ document.addEventListener('click', e => {
   }
 });
 document.addEventListener('input', e => {
-  if(e.target.id === 'pm-q'){ pmQ = e.target.value; pmRender(); }
+  if(e.target.id === 'pm-q'){ pmQ = e.target.value; pmShown = 30; pmRender(); }
 });
 document.addEventListener('keydown', e => {
   if(e.key === 'Escape' && el('pm-ov').classList.contains('on')) closePM();
