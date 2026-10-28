@@ -2319,6 +2319,37 @@
   "path": "links/no-code/n8n.md"
  },
  {
+  "title": "30-Days-Of-JavaScript",
+  "url": "https://github.com/Asabeneh/30-Days-Of-JavaScript",
+  "category": "learning",
+  "tags": [
+   "javascript",
+   "30daysofjavascript",
+   "angular",
+   "challenge",
+   "css",
+   "d3",
+   "d3js",
+   "html",
+   "javascript-for-everyone",
+   "js",
+   "json",
+   "node",
+   "nodejs",
+   "programming",
+   "react",
+   "redux",
+   "typescript",
+   "vue",
+   "webdevelopment",
+   "website"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★47K. 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days, please just follow your own pace. These videos may help too:…",
+  "path": "links/learning/30-days-of-javascript.md"
+ },
+ {
   "title": "30-Days-Of-Python",
   "url": "https://github.com/Asabeneh/30-Days-Of-Python",
   "category": "learning",
@@ -2483,6 +2514,36 @@
   "path": "links/learning/awesome-public-datasets.md"
  },
  {
+  "title": "awesome-scalability",
+  "url": "https://github.com/binhnguyennus/awesome-scalability",
+  "category": "learning",
+  "tags": [
+   "awesome",
+   "awesome-list",
+   "architecture",
+   "backend",
+   "big-data",
+   "computer-science",
+   "design-patterns",
+   "devops",
+   "distributed-systems",
+   "interview",
+   "interview-practice",
+   "interview-questions",
+   "machine-learning",
+   "programming",
+   "scalability",
+   "system",
+   "system-design",
+   "web-development",
+   "systemdesign"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★75K. The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
+  "path": "links/learning/awesome-scalability.md"
+ },
+ {
   "title": "Build Your Own X",
   "url": "https://github.com/codecrafters-io/build-your-own-x",
   "category": "learning",
@@ -2583,6 +2644,36 @@
   "path": "links/learning/cs-video-courses.md"
  },
  {
+  "title": "devops-exercises",
+  "url": "https://github.com/bregman-arie/devops-exercises",
+  "category": "learning",
+  "tags": [
+   "python",
+   "ansible",
+   "aws",
+   "azure",
+   "coding",
+   "containers",
+   "devops",
+   "docker",
+   "git",
+   "interview",
+   "interview-questions",
+   "kubernetes",
+   "linux",
+   "openstack",
+   "production-engineer",
+   "prometheus",
+   "sql",
+   "sre",
+   "terraform"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★85K. Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+  "path": "links/learning/devops-exercises.md"
+ },
+ {
   "title": "Educational Channels",
   "url": "https://educational-channels.com/ru",
   "category": "learning",
@@ -2612,6 +2703,49 @@
   "added_by": "Hermes",
   "note": "★39K. A curated list of engineering blogs",
   "path": "links/learning/engineering-blogs.md"
+ },
+ {
+  "title": "filmcraft",
+  "url": "https://github.com/storytold/filmcraft",
+  "category": "learning",
+  "tags": [
+   "rust",
+   "art",
+   "video",
+   "video-editing",
+   "video-editor",
+   "video-processing"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★17K. FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
+  "path": "links/learning/filmcraft.md"
+ },
+ {
+  "title": "front-end-interview-handbook",
+  "url": "https://github.com/yangshun/front-end-interview-handbook",
+  "category": "learning",
+  "tags": [
+   "javascript",
+   "css",
+   "css-questions",
+   "front-end",
+   "front-end-development",
+   "front-end-interview",
+   "front-end-system-design",
+   "html",
+   "html-questions",
+   "interview",
+   "interview-preparation",
+   "interview-questions",
+   "interview-test",
+   "js-questions",
+   "web-development"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★44K. Front End interview preparation materials for busy engineers (updated for 2026)",
+  "path": "links/learning/front-end-interview-handbook.md"
  },
  {
   "title": "Generative AI (Google)",
@@ -2671,6 +2805,58 @@
   "added_by": "Заяц",
   "note": "Интерактивный учебник: собрать свой ChatGPT с нуля — данные, обучение, настройка, ИИ-агенты.",
   "path": "links/learning/how-to-train-your-gpt.md"
+ },
+ {
+  "title": "javascript-algorithms",
+  "url": "https://github.com/trekhleb/javascript-algorithms",
+  "category": "learning",
+  "tags": [
+   "javascript",
+   "algorithm",
+   "algorithms",
+   "computer-science",
+   "data-structures",
+   "interview",
+   "interview-preparation",
+   "javascript-algorithms"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★197K. 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+  "path": "links/learning/javascript-algorithms.md"
+ },
+ {
+  "title": "javascript-questions",
+  "url": "https://github.com/lydiahallie/javascript-questions",
+  "category": "learning",
+  "tags": [
+   "javascript",
+   "long",
+   "advanced",
+   "questions",
+   "explanations"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★65K. A long list of (advanced) JavaScript questions, and their explanations",
+  "path": "links/learning/javascript-questions.md"
+ },
+ {
+  "title": "lightcraft",
+  "url": "https://github.com/storytold/lightcraft",
+  "category": "learning",
+  "tags": [
+   "rust",
+   "art",
+   "photography",
+   "raw",
+   "raw-editor",
+   "raw-processing"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★15K. LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
+  "path": "links/learning/lightcraft.md"
  },
  {
   "title": "Lyte Code",
@@ -2747,6 +2933,68 @@
   "added_by": "Заяц",
   "note": "28 глав по проектированию систем: от хеширования и БД до архитектуры YouTube, Google Drive и Google Maps.",
   "path": "links/learning/system-design-notes.md"
+ },
+ {
+  "title": "system-design",
+  "url": "https://github.com/karanpratapsingh/system-design",
+  "category": "learning",
+  "tags": [
+   "architecture",
+   "distributed-systems",
+   "engineering",
+   "interview",
+   "interview-preparation",
+   "microservices",
+   "scalability",
+   "system-design",
+   "system-design-interview",
+   "tech",
+   "systemdesign"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★47K. Learn how to design systems at scale and prepare for system design interviews",
+  "path": "links/learning/system-design.md"
+ },
+ {
+  "title": "system-design-101",
+  "url": "https://github.com/ByteByteGoHq/system-design-101",
+  "category": "learning",
+  "tags": [
+   "aws",
+   "cloud-computing",
+   "coding-interviews",
+   "computer-science",
+   "interview-questions",
+   "software-architecture",
+   "software-development",
+   "software-engineering",
+   "system-design",
+   "system-design-interview",
+   "systemdesign"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★91K. Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+  "path": "links/learning/system-design-101.md"
+ },
+ {
+  "title": "wordcraft",
+  "url": "https://github.com/storytold/wordcraft",
+  "category": "learning",
+  "tags": [
+   "rust",
+   "open-source",
+   "clean-room",
+   "reimplementation",
+   "microsoft",
+   "word",
+   "pure"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★16K. An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+  "path": "links/learning/wordcraft.md"
  },
  {
   "title": "You-Dont-Know-JS",
