@@ -746,6 +746,24 @@
   "path": "links/ai/awesome-claude-skills.md"
  },
  {
+  "title": "awesome-llm-apps",
+  "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+  "category": "ai",
+  "tags": [
+   "awesome",
+   "awesome-list",
+   "python",
+   "agents",
+   "llms",
+   "rag",
+   "claudecode"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★143K. 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+  "path": "links/ai/awesome-llm-apps.md"
+ },
+ {
   "title": "buildwithclaude",
   "url": "https://buildwithclaude.com/",
   "category": "ai",
@@ -958,6 +976,32 @@
   "path": "links/ai/humanizer.md"
  },
  {
+  "title": "hyperframes",
+  "url": "https://github.com/heygen-com/hyperframes",
+  "category": "ai",
+  "tags": [
+   "typescript",
+   "ai",
+   "ai-agents",
+   "animation",
+   "claude-code",
+   "ffmpeg",
+   "framework",
+   "gsap",
+   "html",
+   "html-to-video",
+   "mcp",
+   "motion-graphics",
+   "puppeteer",
+   "rendering",
+   "video-editor"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★74K. Write HTML. Render video. Built for agents.",
+  "path": "links/ai/hyperframes.md"
+ },
+ {
   "title": "Last 30 Days",
   "url": "https://github.com/mvanhorn/last30days-skill",
   "category": "ai",
@@ -974,6 +1018,80 @@
   "path": "links/ai/last30days.md"
  },
  {
+  "title": "llm-course",
+  "url": "https://github.com/mlabonne/llm-course",
+  "category": "ai",
+  "tags": [
+   "course",
+   "large-language-models",
+   "llm",
+   "machine-learning",
+   "roadmap",
+   "claude"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★85K. Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+  "path": "links/ai/llm-course.md"
+ },
+ {
+  "title": "LLMs-from-scratch",
+  "url": "https://github.com/rasbt/LLMs-from-scratch",
+  "category": "ai",
+  "tags": [
+   "jupyter-notebook",
+   "ai",
+   "artificial-intelligence",
+   "attention-mechanism",
+   "deep-learning",
+   "finetuning",
+   "from-scratch",
+   "generative-ai",
+   "gpt",
+   "instruction-tuning",
+   "language-model",
+   "large-language-models",
+   "llm",
+   "machine-learning",
+   "natural-language-processing",
+   "pretraining",
+   "python",
+   "pytorch",
+   "tokenizer",
+   "transformers",
+   "claude"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★107K. Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+  "path": "links/ai/llms-from-scratch.md"
+ },
+ {
+  "title": "MoneyPrinterTurbo",
+  "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+  "category": "ai",
+  "tags": [
+   "python",
+   "ai-video-generator",
+   "content-creation",
+   "ffmpeg",
+   "instagram-reels",
+   "llm",
+   "short-video",
+   "subtitles",
+   "text-to-speech",
+   "tiktok",
+   "video-automation",
+   "video-workflow",
+   "workflow-automation",
+   "youtube-shorts"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★136K. 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+  "path": "links/ai/moneyprinterturbo.md"
+ },
+ {
   "title": "OpenClaude Portable",
   "url": "https://github.com/techjarves/OpenClaude-Portable",
   "category": "ai",
@@ -987,6 +1105,36 @@
   "added_by": "Заяц",
   "note": "Локальный ИИ на флешке: LLM, генерация картинок, STT и TTS — без установки и интернета, Win/macOS/Linux.",
   "path": "links/ai/openclaude-portable.md"
+ },
+ {
+  "title": "OpenMontage",
+  "url": "https://github.com/calesthio/OpenMontage",
+  "category": "ai",
+  "tags": [
+   "python",
+   "agent",
+   "agentic-ai",
+   "ai",
+   "claude",
+   "copilot",
+   "cursor",
+   "elevenlabs",
+   "ffmpeg",
+   "flux",
+   "image-generation",
+   "open-source",
+   "openai",
+   "remotion",
+   "stable-diffusion",
+   "text-to-speech",
+   "text-to-video",
+   "video-generation",
+   "video-production"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★72K. World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+  "path": "links/ai/openmontage.md"
  },
  {
   "title": "OpenRouter",
@@ -1015,6 +1163,30 @@
   "added_by": "Заяц",
   "note": "Плагины Spotify для Claude Code: рутина уходит на дешёвые модели, экономия до 90% токенов.",
   "path": "links/ai/portal-spotify.md"
+ },
+ {
+  "title": "Prompt-Engineering-Guide",
+  "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+  "category": "ai",
+  "tags": [
+   "mdx",
+   "agent",
+   "agents",
+   "ai-agents",
+   "chatgpt",
+   "deep-learning",
+   "generative-ai",
+   "language-model",
+   "llms",
+   "openai",
+   "prompt-engineering",
+   "rag",
+   "claude"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★80K. 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
+  "path": "links/ai/prompt-engineering-guide.md"
  },
  {
   "title": "Replicate",
@@ -1853,6 +2025,31 @@
   "added_by": "Заяц",
   "note": "Self-hosted автоматизация: сценарии с API, ботами, БД.",
   "path": "links/no-code/n8n.md"
+ },
+ {
+  "title": "30-Days-Of-Python",
+  "url": "https://github.com/Asabeneh/30-Days-Of-Python",
+  "category": "learning",
+  "tags": [
+   "python",
+   "30-days-of-python",
+   "data",
+   "data-science",
+   "database",
+   "flask",
+   "fullstack",
+   "heroku",
+   "matplotlib",
+   "ml",
+   "mongodb",
+   "numpy",
+   "pandas",
+   "python3"
+  ],
+  "added": "2026-10-28",
+  "added_by": "Hermes",
+  "note": "★77K. The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own pace. These videos may help too:…",
+  "path": "links/learning/30-days-of-python.md"
  },
  {
   "title": "Anthropic Academy",
