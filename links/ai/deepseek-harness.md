@@ -1,9 +1,17 @@
 ---
-title: "DeepSeek Harness"
-url: https://www.deepseek.com/en/harness/
+title: "deepseek-harness"
+url: https://github.com/deepseek-ai/deepseek-harness
 category: ai
-tags: [agent, desktop, opensource, code]
-added: 2026-10-13
-added_by: Заяц
-note: "Опенсорсный десктоп-агент: файлы, код и терминал локально, плагины, поиск в сети и генерация текста."
+tags: [typescript, ai-agents, cordis, dsh, dsh-plugin, deepseek]
+added: 2026-10-29
+added_by: Hermes
+note: "★265K. DeepSeek Harness: Everything is a Plugin."
 ---
+
+# deepseek-harness
+
+<https://github.com/deepseek-ai/deepseek-harness>
+
+★265K. DeepSeek Harness: Everything is a Plugin.
+
+Источник: TikTok @cursorhub.
