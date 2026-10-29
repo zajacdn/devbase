@@ -2506,6 +2506,24 @@
   "path": "links/learning/anthropic-academy.md"
  },
  {
+  "title": "architecture-samples",
+  "url": "https://github.com/android/architecture-samples",
+  "category": "learning",
+  "tags": [
+   "kotlin",
+   "android",
+   "android-architecture",
+   "sample",
+   "samples",
+   "ios",
+   "flutter"
+  ],
+  "added": "2026-10-29",
+  "added_by": "Hermes",
+  "note": "★46K. A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.",
+  "path": "links/learning/architecture-samples.md"
+ },
+ {
   "title": "Awesome (sindresorhus)",
   "url": "https://github.com/sindresorhus/awesome",
   "category": "learning",
@@ -2576,6 +2594,23 @@
   "path": "links/learning/awesome-python.md"
  },
  {
+  "title": "awesome-android-ui",
+  "url": "https://github.com/wasabeef/awesome-android-ui",
+  "category": "learning",
+  "tags": [
+   "awesome",
+   "awesome-list",
+   "android",
+   "ui",
+   "ios",
+   "flutter"
+  ],
+  "added": "2026-10-29",
+  "added_by": "Hermes",
+  "note": "★58K. A curated list of awesome Android UI/UX libraries",
+  "path": "links/learning/awesome-android-ui.md"
+ },
+ {
   "title": "awesome-courses",
   "url": "https://github.com/prakhar1989/awesome-courses",
   "category": "learning",
@@ -2593,6 +2628,35 @@
   "added_by": "Hermes",
   "note": "★72K. List of awesome university courses for learning Computer Science!",
   "path": "links/learning/awesome-courses.md"
+ },
+ {
+  "title": "awesome-flutter",
+  "url": "https://github.com/Solido/awesome-flutter",
+  "category": "learning",
+  "tags": [
+   "awesome",
+   "awesome-list",
+   "dart",
+   "android",
+   "collections",
+   "cross-platform",
+   "dartlang",
+   "flutter",
+   "flutter-apps",
+   "flutter-examples",
+   "flutter-plugin",
+   "flutter-plugins",
+   "ios",
+   "material-design",
+   "mobile",
+   "mobile-app",
+   "mobile-development",
+   "reactive-programming"
+  ],
+  "added": "2026-10-29",
+  "added_by": "Hermes",
+  "note": "★62K. An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.",
+  "path": "links/learning/awesome-flutter.md"
  },
  {
   "title": "awesome-for-beginners",
@@ -2971,6 +3035,31 @@
   "path": "links/learning/javascript-questions.md"
  },
  {
+  "title": "juice-shop",
+  "url": "https://github.com/juice-shop/juice-shop",
+  "category": "learning",
+  "tags": [
+   "typescript",
+   "24pullrequests",
+   "application-security",
+   "appsec",
+   "ctf",
+   "hacking",
+   "javascript",
+   "owasp",
+   "owasp-top-10",
+   "owasp-top-ten",
+   "pentesting",
+   "security",
+   "vulnapp",
+   "vulnerable"
+  ],
+  "added": "2026-10-29",
+  "added_by": "Hermes",
+  "note": "★14K. OWASP Juice Shop: Probably the most modern and sophisticated insecure web application",
+  "path": "links/learning/juice-shop.md"
+ },
+ {
   "title": "lightcraft",
   "url": "https://github.com/storytold/lightcraft",
   "category": "learning",
@@ -3015,6 +3104,36 @@
   "added_by": "Hermes",
   "note": "★95K. Self-hosted AI workspace.",
   "path": "links/learning/odysseus.md"
+ },
+ {
+  "title": "open-source-ios-apps",
+  "url": "https://github.com/dkhamsing/open-source-ios-apps",
+  "category": "learning",
+  "tags": [
+   "app",
+   "apple",
+   "apple-tv",
+   "apple-vision-pro",
+   "cocoapods",
+   "duo",
+   "example",
+   "flutter",
+   "game",
+   "ios",
+   "ipad",
+   "iphone",
+   "objective-c",
+   "react-native",
+   "swift",
+   "swiftui",
+   "tvos",
+   "watchos",
+   "android"
+  ],
+  "added": "2026-10-29",
+  "added_by": "Hermes",
+  "note": "★53K. Collaborative List of Open-Source iOS Apps",
+  "path": "links/learning/open-source-ios-apps.md"
  },
  {
   "title": "OpenAI: практический гайд",
