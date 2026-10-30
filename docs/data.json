@@ -2675,6 +2675,25 @@
   "path": "links/learning/awesome-for-beginners.md"
  },
  {
+  "title": "awesome-java",
+  "url": "https://github.com/akullpp/awesome-java",
+  "category": "learning",
+  "tags": [
+   "awesome",
+   "awesome-list",
+   "java",
+   "frameworks",
+   "libraries",
+   "software",
+   "programming",
+   "language"
+  ],
+  "added": "2026-10-30",
+  "added_by": "Hermes",
+  "note": "★49K. A curated list of awesome frameworks, libraries and software for the Java programming language.",
+  "path": "links/learning/awesome-java.md"
+ },
+ {
   "title": "awesome-public-datasets",
   "url": "https://github.com/awesomedata/awesome-public-datasets",
   "category": "learning",
@@ -2691,6 +2710,20 @@
   "added_by": "Hermes",
   "note": "★80K. A topic-centric list of HQ open datasets.",
   "path": "links/learning/awesome-public-datasets.md"
+ },
+ {
+  "title": "awesome-rust",
+  "url": "https://github.com/rust-unofficial/awesome-rust",
+  "category": "learning",
+  "tags": [
+   "awesome",
+   "awesome-list",
+   "rust"
+  ],
+  "added": "2026-10-30",
+  "added_by": "Hermes",
+  "note": "★60K. A curated list of Rust code and resources.",
+  "path": "links/learning/awesome-rust.md"
  },
  {
   "title": "awesome-scalability",
@@ -2971,6 +3004,22 @@
   "path": "links/learning/coursera-generative-ai.md"
  },
  {
+  "title": "golang-developer-roadmap",
+  "url": "https://github.com/darius-khll/golang-developer-roadmap",
+  "category": "learning",
+  "tags": [
+   "go",
+   "golang",
+   "roadmap",
+   "becoming",
+   "developer"
+  ],
+  "added": "2026-10-30",
+  "added_by": "Hermes",
+  "note": "★18K. Roadmap to becoming a Go developer in 2020",
+  "path": "links/learning/golang-developer-roadmap.md"
+ },
+ {
   "title": "Google LLL (English)",
   "url": "https://labs.google/lll/en",
   "category": "learning",
@@ -2998,6 +3047,23 @@
   "added_by": "Заяц",
   "note": "Интерактивный учебник: собрать свой ChatGPT с нуля — данные, обучение, настройка, ИИ-агенты.",
   "path": "links/learning/how-to-train-your-gpt.md"
+ },
+ {
+  "title": "java-design-patterns",
+  "url": "https://github.com/iluwatar/java-design-patterns",
+  "category": "learning",
+  "tags": [
+   "java",
+   "design-patterns",
+   "principles",
+   "snippets",
+   "snippets-collection",
+   "snippets-library"
+  ],
+  "added": "2026-10-30",
+  "added_by": "Hermes",
+  "note": "★95K. Design patterns implemented in Java",
+  "path": "links/learning/java-design-patterns.md"
  },
  {
   "title": "javascript-algorithms",
@@ -3058,6 +3124,25 @@
   "added_by": "Hermes",
   "note": "★14K. OWASP Juice Shop: Probably the most modern and sophisticated insecure web application",
   "path": "links/learning/juice-shop.md"
+ },
+ {
+  "title": "learn-go-with-tests",
+  "url": "https://github.com/quii/learn-go-with-tests",
+  "category": "learning",
+  "tags": [
+   "go",
+   "golang",
+   "tdd",
+   "test-driven-development",
+   "testing",
+   "learn",
+   "test-driven",
+   "development"
+  ],
+  "added": "2026-10-30",
+  "added_by": "Hermes",
+  "note": "★24K. Learn Go with test-driven development",
+  "path": "links/learning/learn-go-with-tests.md"
  },
  {
   "title": "lightcraft",
@@ -3181,6 +3266,25 @@
   "added_by": "Заяц",
   "note": "Пошаговые карты изучения профессий и технологий.",
   "path": "links/learning/roadmapsh.md"
+ },
+ {
+  "title": "rustlings",
+  "url": "https://github.com/rust-lang/rustlings",
+  "category": "learning",
+  "tags": [
+   "rust",
+   "beginner-friendly",
+   "exercises",
+   "rustlings",
+   "small",
+   "used",
+   "reading",
+   "writing"
+  ],
+  "added": "2026-10-30",
+  "added_by": "Hermes",
+  "note": "★65K. Small exercises to get you used to reading and writing Rust code!",
+  "path": "links/learning/rustlings.md"
  },
  {
   "title": "System Design Notes",
