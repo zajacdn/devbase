@@ -2721,6 +2721,30 @@
   "path": "links/learning/awesome-for-beginners.md"
  },
  {
+  "title": "awesome-interview-questions",
+  "url": "https://github.com/DopplerHQ/awesome-interview-questions",
+  "category": "learning",
+  "tags": [
+   "awesome",
+   "awesome-list",
+   "android-interview-questions",
+   "angularjs-interview-questions",
+   "awesomeness",
+   "interview-practice",
+   "interview-questions",
+   "interviewing",
+   "javascript",
+   "javascript-interview-questions",
+   "python-interview-questions",
+   "rails-interview",
+   "ruby"
+  ],
+  "added": "2026-11-01",
+  "added_by": "Hermes",
+  "note": "★85K. A curated awesome list of lists of interview questions. Feel free to contribute!",
+  "path": "links/learning/awesome-interview-questions.md"
+ },
+ {
   "title": "awesome-java",
   "url": "https://github.com/akullpp/awesome-java",
   "category": "learning",
@@ -2886,6 +2910,25 @@
   "path": "links/learning/comprehensive-rust.md"
  },
  {
+  "title": "computer-science",
+  "url": "https://github.com/ossu/computer-science",
+  "category": "learning",
+  "tags": [
+   "html",
+   "computer-science",
+   "courses",
+   "curriculum",
+   "path",
+   "free",
+   "self-taught",
+   "education"
+  ],
+  "added": "2026-11-01",
+  "added_by": "Hermes",
+  "note": "★211K. 🎓 Path to a free self-taught education in Computer Science!",
+  "path": "links/learning/computer-science.md"
+ },
+ {
   "title": "cs-video-courses",
   "url": "https://github.com/Developer-Y/cs-video-courses",
   "category": "learning",
@@ -2914,6 +2957,36 @@
   "added_by": "Hermes",
   "note": "★84K. List of Computer Science courses with video lectures.",
   "path": "links/learning/cs-video-courses.md"
+ },
+ {
+  "title": "developer-roadmap",
+  "url": "https://github.com/nilbuild/developer-roadmap",
+  "category": "learning",
+  "tags": [
+   "typescript",
+   "angular-roadmap",
+   "backend-roadmap",
+   "blockchain-roadmap",
+   "computer-science",
+   "dba-roadmap",
+   "developer-roadmap",
+   "devops-roadmap",
+   "frontend-roadmap",
+   "go-roadmap",
+   "java-roadmap",
+   "javascript-roadmap",
+   "nodejs-roadmap",
+   "python-roadmap",
+   "qa-roadmap",
+   "react-roadmap",
+   "roadmap",
+   "software-architect-roadmap",
+   "vue-roadmap"
+  ],
+  "added": "2026-11-01",
+  "added_by": "Hermes",
+  "note": "★371K. Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+  "path": "links/learning/developer-roadmap.md"
  },
  {
   "title": "devops-exercises",
@@ -3280,6 +3353,25 @@
   "added_by": "Заяц",
   "note": "Официальный гайд OpenAI: промпты и контекст, делегирование рутины, экономия токенов, глубина рассуждений.",
   "path": "links/learning/openai-practical-guide.md"
+ },
+ {
+  "title": "project-based-learning",
+  "url": "https://github.com/practical-tutorials/project-based-learning",
+  "category": "learning",
+  "tags": [
+   "python",
+   "beginner-project",
+   "cpp",
+   "golang",
+   "javascript",
+   "project",
+   "tutorial",
+   "webdevelopment"
+  ],
+  "added": "2026-11-01",
+  "added_by": "Hermes",
+  "note": "★289K. Curated list of project-based tutorials",
+  "path": "links/learning/project-based-learning.md"
  },
  {
   "title": "Projects",
