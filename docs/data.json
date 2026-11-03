@@ -2707,6 +2707,31 @@
   "path": "links/learning/awesome-courses.md"
  },
  {
+  "title": "awesome-cto",
+  "url": "https://github.com/kuchin/awesome-cto",
+  "category": "learning",
+  "tags": [
+   "awesome",
+   "awesome-list",
+   "architecture",
+   "cto",
+   "decision-making",
+   "engineering-management",
+   "hiring",
+   "interviewing",
+   "leadership",
+   "management",
+   "principles",
+   "roadmap",
+   "software-engineering",
+   "startups"
+  ],
+  "added": "2026-11-03",
+  "added_by": "Hermes",
+  "note": "★36K. A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups",
+  "path": "links/learning/awesome-cto.md"
+ },
+ {
   "title": "awesome-flutter",
   "url": "https://github.com/Solido/awesome-flutter",
   "category": "learning",
@@ -3224,6 +3249,25 @@
   "path": "links/learning/google-lll.md"
  },
  {
+  "title": "hacker-laws",
+  "url": "https://github.com/dwmkerr/hacker-laws",
+  "category": "learning",
+  "tags": [
+   "html",
+   "coding",
+   "computerscience",
+   "laws",
+   "principles",
+   "theories",
+   "patterns",
+   "developers"
+  ],
+  "added": "2026-11-03",
+  "added_by": "Hermes",
+  "note": "★27K. 🧠 Laws, Theories, Principles and Patterns for developers and technologists.",
+  "path": "links/learning/hacker-laws.md"
+ },
+ {
   "title": "How to Train Your GPT",
   "url": "https://github.com/raiyanyahya/how-to-train-your-gpt",
   "category": "learning",
@@ -3473,6 +3517,25 @@
   "path": "links/learning/openai-practical-guide.md"
  },
  {
+  "title": "openzeppelin-contracts",
+  "url": "https://github.com/OpenZeppelin/openzeppelin-contracts",
+  "category": "learning",
+  "tags": [
+   "solidity",
+   "ethereum",
+   "evm",
+   "security",
+   "smart-contracts",
+   "openzeppelin",
+   "contracts",
+   "library"
+  ],
+  "added": "2026-11-03",
+  "added_by": "Hermes",
+  "note": "★27K. OpenZeppelin Contracts is a library for secure smart contract development.",
+  "path": "links/learning/openzeppelin-contracts.md"
+ },
+ {
   "title": "os-tutorial",
   "url": "https://github.com/cfenollosa/os-tutorial",
   "category": "learning",
@@ -3485,6 +3548,31 @@
   "added_by": "Hermes",
   "note": "★31K. How to create an OS from scratch",
   "path": "links/learning/os-tutorial.md"
+ },
+ {
+  "title": "professional-programming",
+  "url": "https://github.com/charlax/professional-programming",
+  "category": "learning",
+  "tags": [
+   "python",
+   "architecture",
+   "computer-science",
+   "concepts",
+   "documentation",
+   "engineer",
+   "learning",
+   "lessons-learned",
+   "professional",
+   "programmer",
+   "programming-language",
+   "read-articles",
+   "scalability",
+   "software-engineering"
+  ],
+  "added": "2026-11-03",
+  "added_by": "Hermes",
+  "note": "★52K. A collection of learning resources for curious software engineers",
+  "path": "links/learning/professional-programming.md"
  },
  {
   "title": "project-based-learning",
