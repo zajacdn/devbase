@@ -2732,6 +2732,29 @@
   "path": "links/learning/awesome-cto.md"
  },
  {
+  "title": "awesome-datascience",
+  "url": "https://github.com/academic/awesome-datascience",
+  "category": "learning",
+  "tags": [
+   "awesome",
+   "awesome-list",
+   "analytics",
+   "data-mining",
+   "data-science",
+   "data-scientists",
+   "data-visualization",
+   "deep-learning",
+   "machine-learning",
+   "science",
+   "datascience",
+   "python"
+  ],
+  "added": "2026-11-04",
+  "added_by": "Hermes",
+  "note": "★30K. An awesome Data Science repository to learn and apply for real world problems.",
+  "path": "links/learning/awesome-datascience.md"
+ },
+ {
   "title": "awesome-flutter",
   "url": "https://github.com/Solido/awesome-flutter",
   "category": "learning",
@@ -3145,6 +3168,25 @@
   "path": "links/learning/engineering-blogs.md"
  },
  {
+  "title": "every-programmer-should-know",
+  "url": "https://github.com/mtdvio/every-programmer-should-know",
+  "category": "learning",
+  "tags": [
+   "cc-by",
+   "computer-science",
+   "educational",
+   "novice",
+   "mostly",
+   "technical",
+   "things",
+   "every"
+  ],
+  "added": "2026-11-04",
+  "added_by": "Hermes",
+  "note": "★101K. A collection of (mostly) technical things every software developer should know about",
+  "path": "links/learning/every-programmer-should-know.md"
+ },
+ {
   "title": "filmcraft",
   "url": "https://github.com/storytold/filmcraft",
   "category": "learning",
@@ -3456,6 +3498,35 @@
   "added_by": "Заяц",
   "note": "Тренажёр подготовки к IT-собесу: задачи, редактор кода, подсказки и тренировки с человеком, без аккаунта.",
   "path": "links/learning/lyte-code.md"
+ },
+ {
+  "title": "mlcourse.ai",
+  "url": "https://github.com/Yorko/mlcourse.ai",
+  "category": "learning",
+  "tags": [
+   "python",
+   "algorithms",
+   "data-analysis",
+   "data-science",
+   "docker",
+   "ipynb",
+   "kaggle-inclass",
+   "machine-learning",
+   "math",
+   "matplotlib",
+   "numpy",
+   "pandas",
+   "plotly",
+   "scikit-learn",
+   "scipy",
+   "seaborn",
+   "vowpal-wabbit",
+   "datascience"
+  ],
+  "added": "2026-11-04",
+  "added_by": "Hermes",
+  "note": "★11K. Open Machine Learning Course",
+  "path": "links/learning/mlcourse-ai.md"
  },
  {
   "title": "odysseus",
