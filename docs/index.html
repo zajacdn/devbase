@@ -4790,13 +4790,14 @@ function pmFiltered(){
   });
 }
 
-function pmItemHTML(it){
+function pmItemHTML(it, idx){
   const tags = (it.cats||[]).map(c => (pmCol.cats||{})[c] || c);
   const isAssets = pmCol.kind === 'assets';
+  const eager = (idx || 0) < 8;
   return '<article class="pm-item">' +
     '<div class="pm-shot' + (it.vertical ? ' v' : '') + '" data-vid="' + esc(it.id) + '"' +
       (it.ar ? ' style="aspect-ratio:' + esc(it.ar) + '"' : '') + '>' +
-      '<img src="' + esc(it.poster) + '" alt="" loading="lazy" decoding="async">' +
+      '<img src="' + esc(it.poster) + '" alt="" loading="' + (eager ? 'eager' : 'lazy') + '" decoding="async">' +
       (it.video ? '<button class="pm-play" aria-label="Смотреть превью"><i>▶</i></button>' : '') +
     '</div>' +
     '<div class="pm-main">' +
