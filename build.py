@@ -9,6 +9,7 @@ import os, re, json, datetime
 ROOT = os.path.dirname(os.path.abspath(__file__))
 LINKS = os.path.join(ROOT, "links")
 PROMPTS = os.path.join(ROOT, "prompts")
+ASSETS = os.path.join(ROOT, "assets")
 DOCS = os.path.join(ROOT, "docs")
 TEMPLATE = os.path.join(ROOT, "template.html")
 
@@ -19,6 +20,7 @@ CATS = {
     "infra": "Базы и бэкенд", "proxies": "Прокси и аккаунты", "scraping": "Парсинг и автоматизация",
     "code": "Код и инструменты", "no-code": "No-code и боты", "chat": "Чаты и боты",
     "seo": "SEO и аналитика", "affiliate": "Affiliate и трафик", "learning": "Обучение",
+    "gamedev": "Геймдев и ассеты",
     "utils": "Утилиты", "misc": "Разное",
 }
 ORDER = list(CATS.keys())
@@ -63,16 +65,24 @@ def collect():
 
 
 def collect_collections():
-    """Коллекции промптов: prompts/*.json -> список словарей (без обрезки)."""
+    """Коллекции: prompts/*.json (промпты) + assets/*.json (галереи ассетов).
+
+    У галерей ассетов есть поле kind: "assets" — шаблон помечает их иначе.
+    """
     out = []
-    if os.path.isdir(PROMPTS):
-        for f in sorted(os.listdir(PROMPTS)):
+    for folder, default_kind in ((PROMPTS, "prompts"), (ASSETS, "assets")):
+        if not os.path.isdir(folder):
+            continue
+        for f in sorted(os.listdir(folder)):
             if not f.endswith(".json"):
                 continue
             try:
-                out.append(json.load(open(os.path.join(PROMPTS, f), encoding="utf-8")))
+                doc = json.load(open(os.path.join(folder, f), encoding="utf-8"))
             except Exception as e:
-                print(f"skip prompts/{f}: {e}")
+                print(f"skip {folder}/{f}: {e}")
+                continue
+            doc.setdefault("kind", default_kind)
+            out.append(doc)
     return out
 
 
@@ -101,7 +111,7 @@ def main():
     open(os.path.join(DOCS, ".nojekyll"), "w").write("")
     nprompts = sum(len(c.get("items", [])) for c in cols)
     print(f"built: {len(items)} записей, {len({i['category'] for i in items})} категорий, "
-          f"{nprompts} промптов в {len(cols)} коллекциях -> docs/")
+          f"{nprompts} записей в {len(cols)} коллекциях -> docs/")
 
 
 if __name__ == "__main__":

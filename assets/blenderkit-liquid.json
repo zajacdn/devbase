@@ -1,0 +1,4159 @@
+{
+ "slug": "blenderkit-liquid",
+ "title": "BlenderKit — жидкости",
+ "note": "229 процедурных материалов: вода, лава, мёд, кровь, гель, пена. Всё бесплатно, royalty-free. Превью и переход на ассет.",
+ "source_label": "BlenderKit · API",
+ "kind": "assets",
+ "cats": {
+  "water": "Вода",
+  "lava": "Лава",
+  "honey": "Мёд и масло",
+  "blood": "Кровь",
+  "gel": "Гель и слизь",
+  "foam": "Пена и пузыри",
+  "other": "Прочее"
+ },
+ "items": [
+  {
+   "id": "6107b6bd-258c-45dc-9d68-c63b18dab73c",
+   "title": "Dynamic Water",
+   "prompt": "Dynamic Water is a blue grey liquid surface caught mid motion. The water folds into overlapping waves, highlights break across the crests, and the body bends the shape behind it into soft warped bands. Built for ocean de",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/659486b90cfa4e57a55d28a2503ed2bf/files/thumbnail_4618cd8c-13a3-43a0-8068-f457026ae31e.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788896855",
+   "url": "https://www.blendkit.com/asset-gallery-detail/6107b6bd-258c-45dc-9d68-c63b18dab73c/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "2334 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "dynamic",
+    "wet"
+   ]
+  },
+  {
+   "id": "123b1626-8139-4918-a20a-e6247d1177c9",
+   "title": "Water realistic",
+   "prompt": "Realistic water, some parts have more ripples than others",
+   "handle": "Jeronimo Rodriguez",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/4ce700f94d864944b05af83b0e57088b/files/thumbnail_29cbe5b7-b7a3-4e2a-bf01-bd443012bc84.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766451506",
+   "url": "https://www.blendkit.com/asset-gallery-detail/123b1626-8139-4918-a20a-e6247d1177c9/",
+   "cats": [
+    "water"
+   ],
+   "views": "1192 в закладках",
+   "tags": [
+    "water",
+    "blue",
+    "animated",
+    "realistic"
+   ]
+  },
+  {
+   "id": "d144e644-3e5d-48c0-a336-0da27d14c9df",
+   "title": "Ocean water with waves and foam",
+   "prompt": "Realistic ocean water with waves and foam, PBR material uses subsurface scattering and a displacement channel",
+   "handle": "Steffen ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/b1457d44f7e54c04a1c8edad1af9c7df/files/thumbnail_9c863743-4762-4c2d-b554-ee3931879bed.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766531563",
+   "url": "https://www.blendkit.com/asset-gallery-detail/d144e644-3e5d-48c0-a336-0da27d14c9df/",
+   "cats": [
+    "water",
+    "foam"
+   ],
+   "views": "1102 в закладках",
+   "tags": [
+    "ocean",
+    "water",
+    "sea",
+    "waves"
+   ]
+  },
+  {
+   "id": "f1f8b0f4-c0ae-4a10-80e0-fef5085763f5",
+   "title": "Clear Dripping Clean Water",
+   "prompt": "Clear Dripping Clean Water is a colorless liquid caught mid drip, with rounded beads running down and gathering at the base. The surface is glassy and clean, highlights stay tight and white, and the water stays see throu",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/47c7fcf67251446482b75bd68fdd35e2/files/thumbnail_8bd7f134-be72-451b-be46-177aea69c8ad.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788897718",
+   "url": "https://www.blendkit.com/asset-gallery-detail/f1f8b0f4-c0ae-4a10-80e0-fef5085763f5/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "1085 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "dripping",
+    "clean"
+   ]
+  },
+  {
+   "id": "26c786fb-ebb4-49c9-957e-10dd95f5bba8",
+   "title": "Shimmering Pool Water",
+   "prompt": "Shimmering Pool Water reads as a liquid surface shaped by rippled and reflective. Common uses include pool and tank scenes and lab and kitchen setups. If 'water' is the look you need, this delivers it directly. It is aim",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/f72f4fec30cb419f803b73c564963ae5/files/thumbnail_7f7e22c9-bc89-492e-b504-16166e9c5b96_uKFkouZ.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788897000",
+   "url": "https://www.blendkit.com/asset-gallery-detail/26c786fb-ebb4-49c9-957e-10dd95f5bba8/",
+   "cats": [
+    "water"
+   ],
+   "views": "988 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "shimmering",
+    "pool"
+   ]
+  },
+  {
+   "id": "96a60783-3b92-4159-9a66-986a934ec2b4",
+   "title": "Viscous Blood",
+   "prompt": "Viscous Blood is a deep red fluid thick enough to hang in long drips. Light passes into the body and brightens the thin edges, the surface stays wet and glossy, and the color builds to near black where it pools. Built fo",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/3e7a3efe83324ac4963bfb0954e4640f/files/thumbnail_eff7ee60-be66-4e0c-bd4f-758a77705c60.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788896792",
+   "url": "https://www.blendkit.com/asset-gallery-detail/96a60783-3b92-4159-9a66-986a934ec2b4/",
+   "cats": [
+    "water",
+    "blood",
+    "gel"
+   ],
+   "views": "943 в закладках",
+   "tags": [
+    "liquid",
+    "viscous",
+    "blood",
+    "red"
+   ]
+  },
+  {
+   "id": "96778cc5-2df5-4408-b3c1-e9f2f8a3c1fd",
+   "title": "Ocean Drip Water",
+   "prompt": "Ocean Drip Water is a clear blue liquid caught pouring, with thick rounded drips hanging from the form and pooling below. The body is transparent, the highlights stay crisp and white, and the color sits in the volume rat",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/86fe2dbe18b347a684849bf6fb74078e/files/thumbnail_36881692-0fc0-422c-8b48-86a569929d5f.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788897341",
+   "url": "https://www.blendkit.com/asset-gallery-detail/96778cc5-2df5-4408-b3c1-e9f2f8a3c1fd/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "864 в закладках",
+   "tags": [
+    "water",
+    "ocean",
+    "drip",
+    "liquid"
+   ]
+  },
+  {
+   "id": "988376d0-b115-4634-956f-706cf4a39ba8",
+   "title": "Clear Flowing River Water",
+   "prompt": "Clear Flowing River Water is a pale green liquid pouring in smooth, gathered sheets. The flow folds over itself, highlights run along the crests, and the body stays transparent so the shape behind reads through. Built fo",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/0a7d5507f5034e80b3e561f518cb73c6/files/thumbnail_b4851aca-9362-4567-ad24-fdd75d2b8cd5.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788896860",
+   "url": "https://www.blendkit.com/asset-gallery-detail/988376d0-b115-4634-956f-706cf4a39ba8/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "837 в закладках",
+   "tags": [
+    "water",
+    "flowing",
+    "river",
+    "liquid"
+   ]
+  },
+  {
+   "id": "bb3bc470-d0c8-4834-ad11-597c6668c453",
+   "title": "Translucent Gel",
+   "prompt": "A glossy liquid surface, Translucent Gel pairs viscous with glossy across the whole sheet. The surface mixes translucent and gel cues into one coherent liquid surface. The viscous work is what gives this liquid its depth",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/0a667154948442ffaccb1e75bf9a68e9/files/thumbnail_f36efcd0-adb8-4283-9d9f-781d3f3ae159.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788896878",
+   "url": "https://www.blendkit.com/asset-gallery-detail/bb3bc470-d0c8-4834-ad11-597c6668c453/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "765 в закладках",
+   "tags": [
+    "liquid",
+    "translucent",
+    "gel",
+    "slime"
+   ]
+  },
+  {
+   "id": "da0a33c3-79c7-495a-b149-9a17780771ee",
+   "title": "Procedural Water Surface",
+   "prompt": "Surface of water body, works best with medium scale water bodies or oceans. Lacks volume.",
+   "handle": "Arfat Ikhte Rohman",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/a8fc60a2ca624603bb64d8e0f85815cb/files/thumbnail_17ee25b8-35d9-4b3c-a628-533f16b56661.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766445486",
+   "url": "https://www.blendkit.com/asset-gallery-detail/da0a33c3-79c7-495a-b149-9a17780771ee/",
+   "cats": [
+    "water"
+   ],
+   "views": "761 в закладках",
+   "tags": [
+    "water",
+    "procedural",
+    "realistic",
+    "surface"
+   ]
+  },
+  {
+   "id": "a3ae508c-416a-4395-b1c5-a1e72e3a040a",
+   "title": "Procedural water",
+   "prompt": "Procedural Water material for Blender. Designed for oceans, lakes, swimming pools, stylized shorelines, and architectural fountains featuring dynamic procedural wave caustics, smooth surface ripples, realistic depth-base",
+   "handle": "diaverx miky",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/27310e8ac55d4ae7a68d00c8ab78b84f/files/thumbnail_ed78299f-6f6f-4358-b483-410e4c729ef5.png.512x512_q85_crop-%2C.png.webp?webp_generated=1786825228",
+   "url": "https://www.blendkit.com/asset-gallery-detail/a3ae508c-416a-4395-b1c5-a1e72e3a040a/",
+   "cats": [
+    "water"
+   ],
+   "views": "741 в закладках",
+   "tags": [
+    "Liquid",
+    "Fluid",
+    "Reflective",
+    "Blue"
+   ]
+  },
+  {
+   "id": "1035fc87-5d54-427e-8d5b-019eae6cac23",
+   "title": "Simple Procedural Cloud",
+   "prompt": "Quickly beautify your environments using this simple procedural cloud shader. (Cycles) Remember to press F to rate!",
+   "handle": "CreativeMachine Olatundun",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/60ffedca9df24b73afef5a4bd106abb1/files/thumbnail_b943d51d-95e3-4cc3-b077-bdcac2f207b0.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766434969",
+   "url": "https://www.blendkit.com/asset-gallery-detail/1035fc87-5d54-427e-8d5b-019eae6cac23/",
+   "cats": [
+    "other"
+   ],
+   "views": "722 в закладках",
+   "tags": [
+    "procedural cloud",
+    "cloud",
+    "clouds",
+    "simple"
+   ]
+  },
+  {
+   "id": "f27c560f-678c-4be0-80d9-7b7ad0d54953",
+   "title": "Water",
+   "prompt": "procedural realistic water wit waves",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8c381da990b849a68b49a9b6aff667a7/files/thumbnail_c7820bbf-2f58-45ab-9945-c2d787b0e592.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766570236",
+   "url": "https://www.blendkit.com/asset-gallery-detail/f27c560f-678c-4be0-80d9-7b7ad0d54953/",
+   "cats": [
+    "water",
+    "honey"
+   ],
+   "views": "707 в закладках",
+   "tags": [
+    "procedural",
+    "realistic",
+    "water",
+    "wave"
+   ]
+  },
+  {
+   "id": "3b33100b-2b3b-472a-946c-191993d9206b",
+   "title": "Turbulent Water",
+   "prompt": "Turbulent Water is a deep blue liquid thrown into churning folds. The surface breaks into bright crests and dark troughs, highlights scatter across the moving body, and the color stays saturated throughout. Built for oce",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/666c220cfbd14fa29681a9dff94d7022/files/thumbnail_260a6fc1-1a53-4f99-b7da-220058ae856b.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788897423",
+   "url": "https://www.blendkit.com/asset-gallery-detail/3b33100b-2b3b-472a-946c-191993d9206b/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "623 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "turbulent",
+    "wet"
+   ]
+  },
+  {
+   "id": "fdb6ce56-8996-4fb1-adf7-d6f1ee22e031",
+   "title": "Clear Water",
+   "prompt": "Clear Water is a colorless liquid held in a clear vessel. The body stays completely transparent, the surface catches a clean highlight along the top, and the edges thicken into a faint bright rim. Built for glass fill de",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/106dcdff84124a94951823283b57fd3f/files/thumbnail_d0acc41c-7549-4f5f-a93b-7f512159d71b.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788896852",
+   "url": "https://www.blendkit.com/asset-gallery-detail/fdb6ce56-8996-4fb1-adf7-d6f1ee22e031/",
+   "cats": [
+    "water"
+   ],
+   "views": "608 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "clear",
+    "wet"
+   ]
+  },
+  {
+   "id": "9b8ec096-3b8e-4d9b-9451-b653b9f0d7e0",
+   "title": "Dripping Water",
+   "prompt": "Dripping Water is a pale blue liquid beading and running down in rounded drips. Each drip carries a bright highlight and a darker tail, the water stays transparent, and the surface beneath it reads wet rather than submer",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/58e19fd1e3dc43c4a637e10adde0863e/files/thumbnail_3960e354-a665-4362-9e95-d3887277f5da.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788897634",
+   "url": "https://www.blendkit.com/asset-gallery-detail/9b8ec096-3b8e-4d9b-9451-b653b9f0d7e0/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "578 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "dripping",
+    "wet"
+   ]
+  },
+  {
+   "id": "2d70e5be-1a22-4af1-a945-5cf661af37a8",
+   "title": "Procedual Water with Caustics",
+   "prompt": "Purocedual water material with fake caustics and color shift.\r\nYou can also use faster version (non-color shift).",
+   "handle": "Linka Palm",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/160ae68312a14e6b91b6997a05b13e64/files/thumbnail_41a015fe-f872-424a-a587-c1ea9ed2554e.png.512x512_q85_crop-%2C.jpg.webp?webp_generated=1766453523",
+   "url": "https://www.blendkit.com/asset-gallery-detail/2d70e5be-1a22-4af1-a945-5cf661af37a8/",
+   "cats": [
+    "water"
+   ],
+   "views": "564 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "caustics"
+   ]
+  },
+  {
+   "id": "cbe0894f-25c1-4f5d-b418-30594b93cfd1",
+   "title": "Clear Flowing Pool Water",
+   "prompt": "Clear Flowing Pool Water is a pale blue fluid with a rounded body and drips hanging from the lower edge. Light passes through the thin areas while the thicker middle stays deeper blue. Built for pool surfaces, water spla",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/b84deb7889df485e8bfdf3453381ffd5/files/thumbnail_c22bace7-2290-4885-9341-46c9619c7275.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788897856",
+   "url": "https://www.blendkit.com/asset-gallery-detail/cbe0894f-25c1-4f5d-b418-30594b93cfd1/",
+   "cats": [
+    "water"
+   ],
+   "views": "527 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "flowing",
+    "pool"
+   ]
+  },
+  {
+   "id": "f4ba5163-01cd-49a4-81b3-13ee8279fe60",
+   "title": "Water liquid",
+   "prompt": "Water liquid with two simple shader  ready for Eevee and cycles",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/c3a47d28ac5d46e0bcf9992a19975122/files/thumbnail_ac27c105-766f-48ae-8225-cf1cbfa12588.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766614103",
+   "url": "https://www.blendkit.com/asset-gallery-detail/f4ba5163-01cd-49a4-81b3-13ee8279fe60/",
+   "cats": [
+    "water"
+   ],
+   "views": "511 в закладках",
+   "tags": [
+    "water",
+    "liquid",
+    "shaders",
+    "eevee"
+   ]
+  },
+  {
+   "id": "75d324e1-6f4d-4175-9783-149c00a358f5",
+   "title": "Deep Ocean Water",
+   "prompt": "Deep Ocean Water is a dark blue water surface held inside a clear vessel. The color deepens toward the base, the surface ripples into soft highlights, and the body reads cold and dense rather than shallow. Built for ocea",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/ff38533ac9a747e1b76611d9aebcb0d1/files/thumbnail_a45645af-25e1-4494-9226-ccd8f0746f1e.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788896837",
+   "url": "https://www.blendkit.com/asset-gallery-detail/75d324e1-6f4d-4175-9783-149c00a358f5/",
+   "cats": [
+    "water"
+   ],
+   "views": "473 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "deep",
+    "ocean"
+   ]
+  },
+  {
+   "id": "ccb2542a-7a77-458f-9577-2196d3ac19d5",
+   "title": "Milky foam",
+   "prompt": "milky foam liquid with bubbles, PBR Material with Displacement channel",
+   "handle": "Steffen ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/107f3bc504bd4688b71057b674c862dd/files/thumbnail_b0eca7ca-1969-4b0e-af13-59bf73376178.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766546792",
+   "url": "https://www.blendkit.com/asset-gallery-detail/ccb2542a-7a77-458f-9577-2196d3ac19d5/",
+   "cats": [
+    "honey",
+    "foam"
+   ],
+   "views": "466 в закладках",
+   "tags": [
+    "milk",
+    "foam",
+    "milky",
+    "liquid"
+   ]
+  },
+  {
+   "id": "8a2ff1b4-ca8e-43ce-9dfb-07956894a92d",
+   "title": "Water Shader",
+   "prompt": "A Cycles Shader setup for realistic water and water caustics",
+   "handle": "Slinc_HD Janzen",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/3715b0d44e8d44b1bef2910c85c6af2e/files/thumbnail_27483a3e-dae9-4b97-ab0f-25db321bb98f.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766488609",
+   "url": "https://www.blendkit.com/asset-gallery-detail/8a2ff1b4-ca8e-43ce-9dfb-07956894a92d/",
+   "cats": [
+    "other"
+   ],
+   "views": "448 в закладках",
+   "tags": [
+    "Glass",
+    "Watter",
+    "Caustics"
+   ]
+  },
+  {
+   "id": "ec90ecbf-572e-4895-9039-1850be58c179",
+   "title": "Animated waterfall",
+   "prompt": "Animated waterfall material with 250 frames and easy editing",
+   "handle": "Felipe de Melo",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/16d9208af20246f68cbc5ff892851498/files/thumbnail_89107cbe-47d0-4f85-a2b5-ab9a4f778dd6.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766501830",
+   "url": "https://www.blendkit.com/asset-gallery-detail/ec90ecbf-572e-4895-9039-1850be58c179/",
+   "cats": [
+    "water"
+   ],
+   "views": "445 в закладках",
+   "tags": [
+    "cascata",
+    "water",
+    "agua",
+    "animated"
+   ]
+  },
+  {
+   "id": "39d7318e-ba5e-4057-8d55-a37a2315d26b",
+   "title": "Realistic Water with Depth Darkness",
+   "prompt": "Control Darknes with Densitty",
+   "handle": "Nobody ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/d4d52b75464d4578bf03a96e755ca654/files/thumbnail_5d799528-484a-496e-8034-86fa83114327.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766435632",
+   "url": "https://www.blendkit.com/asset-gallery-detail/39d7318e-ba5e-4057-8d55-a37a2315d26b/",
+   "cats": [
+    "water"
+   ],
+   "views": "442 в закладках",
+   "tags": [
+    "depth",
+    "water",
+    "darkness",
+    "ocean"
+   ]
+  },
+  {
+   "id": "82aec07a-75d2-4f0f-8204-bd8359471896",
+   "title": "Gel",
+   "prompt": "A fully customizable procedural gel shader that mimics the soft, translucent, and slightly viscous appearance of gel-like materials. This shader allows for adjustable transparency, subsurface scattering, color tinting, a",
+   "handle": "NK Productions",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/04870f89597a4183814b38fdd8fdcf4e/files/thumbnail_ba4b8a81-3c6d-4ddc-85b8-b39a35dbc3a0.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766604429",
+   "url": "https://www.blendkit.com/asset-gallery-detail/82aec07a-75d2-4f0f-8204-bd8359471896/",
+   "cats": [
+    "gel"
+   ],
+   "views": "430 в закладках",
+   "tags": [
+    "gel",
+    "translucent",
+    "soft",
+    "glossy"
+   ]
+  },
+  {
+   "id": "865f95b1-550c-4028-a017-8b337f31ad44",
+   "title": "Procedural Honey",
+   "prompt": "Procedural Honey Material You can Change HOney Settings To Get Required Results .",
+   "handle": "GLADIATOR ALE GATOR",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/66da1106bef943c7a021caf165f941ed/files/thumbnail_b27b575c-53fc-4e67-86f3-933177dcb44d.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766447696",
+   "url": "https://www.blendkit.com/asset-gallery-detail/865f95b1-550c-4028-a017-8b337f31ad44/",
+   "cats": [
+    "honey"
+   ],
+   "views": "420 в закладках",
+   "tags": [
+    "procedural",
+    "honey",
+    "liquid",
+    "fluid"
+   ]
+  },
+  {
+   "id": "d44167b3-dc2b-4729-bad2-705a1a528b06",
+   "title": "Dark Cola Soda Liquid",
+   "prompt": "Dark Cola Soda Liquid is a near black brown fluid with a glossy, syrupy body. Highlights sit sharp on the crown and stretch as the surface drips, and the color thins to warm amber where the layer gets shallow. Built for ",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/c9aec465c87d4a178b23ee1f4c6dd816/files/thumbnail_0bce08c1-aaed-45b8-aa15-4695f6f51344.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788897295",
+   "url": "https://www.blendkit.com/asset-gallery-detail/d44167b3-dc2b-4729-bad2-705a1a528b06/",
+   "cats": [
+    "water"
+   ],
+   "views": "416 в закладках",
+   "tags": [
+    "liquid",
+    "dark",
+    "cola",
+    "soda"
+   ]
+  },
+  {
+   "id": "f532a1c0-b9eb-442e-99ac-73195d270e10",
+   "title": "Realistic Blood",
+   "prompt": "Процедурный материал Blender",
+   "handle": "Steffen ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/2ddb60fef1334417ac13c089156f4538/files/thumbnail_3570ac66-4627-4779-b630-888bf0eeee93.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766432584",
+   "url": "https://www.blendkit.com/asset-gallery-detail/f532a1c0-b9eb-442e-99ac-73195d270e10/",
+   "cats": [
+    "blood"
+   ],
+   "views": "396 в закладках",
+   "tags": [
+    "Blood",
+    "realistic Blood",
+    "liquid",
+    "red"
+   ]
+  },
+  {
+   "id": "fe3e1605-fb3b-4434-af56-150992972fa8",
+   "title": "Iridescent Oil",
+   "prompt": "A mesmerizing iridescent oil material that showcases a dynamic spectrum of colors, shifting with light and angle. This fluid material mimics the appearance of oil slicks, perfect for creating realistic and visually strik",
+   "handle": "NK Productions",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/9c5ed39dc3ae4c27b7c3fa271983112a/files/thumbnail_8a764d81-e9db-4b5d-b737-08e2955d9814.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766553084",
+   "url": "https://www.blendkit.com/asset-gallery-detail/fe3e1605-fb3b-4434-af56-150992972fa8/",
+   "cats": [
+    "honey"
+   ],
+   "views": "377 в закладках",
+   "tags": [
+    "iridescent",
+    "oil",
+    "fluid",
+    "dynamic"
+   ]
+  },
+  {
+   "id": "10da9b7f-bb15-4795-9427-0c62d59efc14",
+   "title": "Procedural Ocean Animated",
+   "prompt": "Procedural Ocean with several parameters. Is animated.",
+   "handle": "Matheus Godoi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/a2967a9063cd41de91d442ec2f92cfcc/files/thumbnail_69b5d8cd-a414-4b0f-9cf1-681f837f08f1.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766600209",
+   "url": "https://www.blendkit.com/asset-gallery-detail/10da9b7f-bb15-4795-9427-0c62d59efc14/",
+   "cats": [
+    "water"
+   ],
+   "views": "368 в закладках",
+   "tags": [
+    "procedural",
+    "water",
+    "ocean",
+    "sea"
+   ]
+  },
+  {
+   "id": "793d027a-64c1-48ff-92c3-21c61c93dd2f",
+   "title": "Procedural Caustics & Foam Water",
+   "prompt": "Fully realistic procedural water shader with  volumetrics, displacement, reflective and refractive caustics, and adjustable foam.",
+   "handle": "Joshua Jennings",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/127024b62d2e4512981d86bb0dc8e9fa/files/thumbnail_cff11d5e-44ce-46b7-a920-f1b73f14bca5.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766458439",
+   "url": "https://www.blendkit.com/asset-gallery-detail/793d027a-64c1-48ff-92c3-21c61c93dd2f/",
+   "cats": [
+    "water",
+    "foam"
+   ],
+   "views": "358 в закладках",
+   "tags": [
+    "water",
+    "sea",
+    "ocean",
+    "river"
+   ]
+  },
+  {
+   "id": "968fee02-2c67-4df2-a9ae-f6f384aebe5b",
+   "title": "Clear Flexible Transparent Gel",
+   "prompt": "Clear Flexible Transparent Gel is a bright green goo shaped into a rounded mass with drips hanging beneath it. Light passes through the body and pools greener where it thickens. Built for slime props, sci fi fluids, toy ",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/876198e6965c42048221658c3b1bf3ed/files/thumbnail_b8d553ba-cb40-46c3-8915-28dacc649ca7.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788897260",
+   "url": "https://www.blendkit.com/asset-gallery-detail/968fee02-2c67-4df2-a9ae-f6f384aebe5b/",
+   "cats": [
+    "honey",
+    "gel"
+   ],
+   "views": "358 в закладках",
+   "tags": [
+    "liquid",
+    "flexible",
+    "transparent",
+    "gel"
+   ]
+  },
+  {
+   "id": "8302c1c7-5a75-4b18-9514-8f3d788a38a6",
+   "title": "Honey",
+   "prompt": "procedural realistic honey",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/b95d813779de4e6da317cfb47f4775b4/files/thumbnail_286e7c57-e847-4c73-8ed8-9b7e04ecbf70.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766570240",
+   "url": "https://www.blendkit.com/asset-gallery-detail/8302c1c7-5a75-4b18-9514-8f3d788a38a6/",
+   "cats": [
+    "honey"
+   ],
+   "views": "351 в закладках",
+   "tags": [
+    "procedural",
+    "realistic",
+    "honey"
+   ]
+  },
+  {
+   "id": "19a839da-cfa1-428d-a739-354e8cfd5790",
+   "title": "Rippling Water",
+   "prompt": "Rippling Water is a clear liquid surface broken by soft, overlapping ripples that travel outward in irregular rings. The crests catch broad white highlights while the troughs stay transparent, and the motion reads as slo",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/84221c8820a143808b97aca4841a5412/files/thumbnail_20f29824-3749-4cbc-abed-a2bc49685afa.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788897843",
+   "url": "https://www.blendkit.com/asset-gallery-detail/19a839da-cfa1-428d-a739-354e8cfd5790/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "351 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "rippling",
+    "wet"
+   ]
+  },
+  {
+   "id": "1bc8f351-3827-492e-b798-ffafd78f0150",
+   "title": "Procedural eevee water",
+   "prompt": "Procedural realistic eevee water material",
+   "handle": "Haron Tosh",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/1ca101a106384dc8b7d3601b75b722f1/files/thumbnail_6ee27c43-00c0-4afa-ae0b-db154ba920db.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766463255",
+   "url": "https://www.blendkit.com/asset-gallery-detail/1bc8f351-3827-492e-b798-ffafd78f0150/",
+   "cats": [
+    "water"
+   ],
+   "views": "348 в закладках",
+   "tags": [
+    "ice",
+    "water"
+   ]
+  },
+  {
+   "id": "872bb6e6-ef88-45fb-afb5-38ea66d8d9b1",
+   "title": "Water / Ocean Volume With Ripples",
+   "prompt": "A water / Ocean shader with multiple properties for surface, volume and ripples.\r\n\r\nAdjust ...\r\n\r\n* Surface color, bump phase, scale, details, strength, etc.\r\n* Volume color, absoption, factor, IOR, etc.\r\n* Rippes color,",
+   "handle": "Dennis Hafemann",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/34bfdb6208db4e34b019fb52451e5afd/files/thumbnail_6232f245-d9ba-4833-a123-dd9064ee3dbb.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766630641",
+   "url": "https://www.blendkit.com/asset-gallery-detail/872bb6e6-ef88-45fb-afb5-38ea66d8d9b1/",
+   "cats": [
+    "water"
+   ],
+   "views": "345 в закладках",
+   "tags": [
+    "material",
+    "water",
+    "ocean",
+    "volume"
+   ]
+  },
+  {
+   "id": "80840e8b-9b35-4b66-a445-aae6a0395415",
+   "title": "Radioactive Potion Slime",
+   "prompt": "Radioactive Potion Slime is a vivid green gel bubbling into clustered blobs. Light passes through the body and brightens the thin edges, the surface stays wet and glossy, and the color holds a strong toxic glow. Built fo",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/d1dfd045b6174880b7a9bf32db0118cf/files/thumbnail_5993bd0b-3b12-494e-b23f-7c16e1d9bb01.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788897327",
+   "url": "https://www.blendkit.com/asset-gallery-detail/80840e8b-9b35-4b66-a445-aae6a0395415/",
+   "cats": [
+    "water",
+    "honey",
+    "gel"
+   ],
+   "views": "342 в закладках",
+   "tags": [
+    "liquid",
+    "radioactive",
+    "potion",
+    "slime"
+   ]
+  },
+  {
+   "id": "123a391d-8d54-4ce4-bd62-e9b4be1301f6",
+   "title": "Procedural Rain",
+   "prompt": "Animated Procedural Rain with a node group, use the \"mix with\" input to mix it with any shader",
+   "handle": "Yasin Gohary",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/c67b51a712ba4747b0c778ea2a83f158/files/thumbnail_c80aa198-96d8-406e-9c6e-7fd4a105366d.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766448097",
+   "url": "https://www.blendkit.com/asset-gallery-detail/123a391d-8d54-4ce4-bd62-e9b4be1301f6/",
+   "cats": [
+    "water"
+   ],
+   "views": "333 в закладках",
+   "tags": [
+    "Rain",
+    "Procedural",
+    "Water"
+   ]
+  },
+  {
+   "id": "2effa6dd-a7b8-41f5-b209-ab6b21b56390",
+   "title": "Procedural Cloud",
+   "prompt": "Using a spherical mesh as shown in the thumbnail may not be suitable to create a realistic-looking cloud. Instead, I would advise you to use a quadrilateral mesh, like a cube or a rectangular prism as the shader dumbs me",
+   "handle": "CreativeMachine Olatundun",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/e90b5a55a0dc4d85b5fd6f6c2a334c87/files/thumbnail_03c76c52-c4ba-4475-afbc-a54f3b1a58de.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766427269",
+   "url": "https://www.blendkit.com/asset-gallery-detail/2effa6dd-a7b8-41f5-b209-ab6b21b56390/",
+   "cats": [
+    "other"
+   ],
+   "views": "320 в закладках",
+   "tags": [
+    "clouds",
+    "cloud",
+    "cirrus",
+    "stratus"
+   ]
+  },
+  {
+   "id": "5f3b8b49-cae6-456c-b520-4d103150e4eb",
+   "title": "Clear Flowing Drip Water",
+   "prompt": "Clear Flowing Drip Water is a colourless fluid beaded into rounded blobs with drips running down from its lower edge. Refraction bends whatever sits behind it, and small highlights sit on each bead. Built for condensatio",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/e7e4557e8d2446fca11770306904ee6b/files/thumbnail_49307d1a-0dbc-4083-a982-7c6ff2adfa69.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788897623",
+   "url": "https://www.blendkit.com/asset-gallery-detail/5f3b8b49-cae6-456c-b520-4d103150e4eb/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "318 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "flowing",
+    "drip"
+   ]
+  },
+  {
+   "id": "ff0ba3b8-7c2d-4b0c-af76-1ad877c03f41",
+   "title": "Realistic water",
+   "prompt": "realistic water ready for Eevee and cycles completely procedural with 3 shaders",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8ae6193274934f36bdc2941acd5633a6/files/thumbnail_1df4d90d-a630-4d7c-a2c1-652fbb6cb6b1.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766614098",
+   "url": "https://www.blendkit.com/asset-gallery-detail/ff0ba3b8-7c2d-4b0c-af76-1ad877c03f41/",
+   "cats": [
+    "water"
+   ],
+   "views": "314 в закладках",
+   "tags": [
+    "water",
+    "liguid",
+    "procedural",
+    "realistic"
+   ]
+  },
+  {
+   "id": "d52e182a-39cc-430e-a4df-d39537e2e641",
+   "title": "Sea Water",
+   "prompt": "Procedural and animated green sea water shader.",
+   "handle": "James Middleton",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/c07118c953a848e1b484b93488811f72/files/thumbnail_4c5df813-2b8c-4692-84de-aed563ede195.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766579048",
+   "url": "https://www.blendkit.com/asset-gallery-detail/d52e182a-39cc-430e-a4df-d39537e2e641/",
+   "cats": [
+    "water"
+   ],
+   "views": "312 в закладках",
+   "tags": [
+    "sea",
+    "water",
+    "procedural",
+    "animated"
+   ]
+  },
+  {
+   "id": "6822a747-7123-4ded-b62d-879ed1381a5a",
+   "title": "water river waterfall",
+   "prompt": "Animated water, river and waterfall",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/e95091679425468780a3f752310a21a2/files/thumbnail_ec39789b-e122-4f07-b781-e6734de2b1bb.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766570225",
+   "url": "https://www.blendkit.com/asset-gallery-detail/6822a747-7123-4ded-b62d-879ed1381a5a/",
+   "cats": [
+    "water"
+   ],
+   "views": "309 в закладках",
+   "tags": [
+    "Animated",
+    "water",
+    "river",
+    "waterfall"
+   ]
+  },
+  {
+   "id": "99012e2d-1e1d-40bd-86c2-2667d81ecb9a",
+   "title": "Clear Orange Juice",
+   "prompt": "Clear Orange Juice is a liquid material with a wet finish, built around wet and glossy. Fits well in splash effects or beverage and food shots. The surface mixes orange and juice cues into one coherent liquid surface. In",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/eb348ec26c8e4a5fa626a479a7ac5326/files/thumbnail_819a0aa4-f056-4cc2-a2fe-561b1d8eccc9.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788897112",
+   "url": "https://www.blendkit.com/asset-gallery-detail/99012e2d-1e1d-40bd-86c2-2667d81ecb9a/",
+   "cats": [
+    "other"
+   ],
+   "views": "305 в закладках",
+   "tags": [
+    "liquid",
+    "citrus",
+    "orange",
+    "juice"
+   ]
+  },
+  {
+   "id": "4c10eac7-96a5-4e44-a10a-b4476b4a361d",
+   "title": "Clean Water",
+   "prompt": "A realistic clean water material designed to simulate pure, clear liquid with natural light refraction and smooth surface flow. This material features subtle wave distortion, realistic transparency, and soft reflections,",
+   "handle": "Jon 13",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/515659554d9e48fc96cba264888f2394/files/thumbnail_92f2f3ba-7b19-49f9-a7ed-3a1c1610f56d.png.512x512_q85_crop-%2C.png.webp?webp_generated=1770725764",
+   "url": "https://www.blendkit.com/asset-gallery-detail/4c10eac7-96a5-4e44-a10a-b4476b4a361d/",
+   "cats": [
+    "water"
+   ],
+   "views": "304 в закладках",
+   "tags": [
+    "clean",
+    "water",
+    "dirty"
+   ]
+  },
+  {
+   "id": "a8a840cb-488e-46ab-a8dd-504ccaa37474",
+   "title": "Whitecap Ocean Water",
+   "prompt": "Whitecap Ocean Water is a deep blue water body churned into white foam along its crests. The blue stays rich and cold beneath the white breaking crests. Built for ocean scenes, breaking wave effects, storm renders and li",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/bad803f0ae114f4d8521e18fe857f878/files/thumbnail_d151c00a-7e5d-4627-8902-fe172bcbd211.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788897948",
+   "url": "https://www.blendkit.com/asset-gallery-detail/a8a840cb-488e-46ab-a8dd-504ccaa37474/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "297 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "whitecap",
+    "ocean"
+   ]
+  },
+  {
+   "id": "244fde45-fc7b-4372-a619-10b8baff261c",
+   "title": "Ocean",
+   "prompt": "A 2K PBR Texture of blue, ocean or sea water. Perfect for planet scenesl. This sea or ocean water material is tiling. and has displacement",
+   "handle": "James Middleton",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/afffc8047a624c198c6f6ef3ba5ac9ef/files/thumbnail_3648c221-570b-4c20-bff4-5c39b8e625be.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766480848",
+   "url": "https://www.blendkit.com/asset-gallery-detail/244fde45-fc7b-4372-a619-10b8baff261c/",
+   "cats": [
+    "water"
+   ],
+   "views": "295 в закладках",
+   "tags": [
+    "sea",
+    "water",
+    "ocean",
+    "texture pbr"
+   ]
+  },
+  {
+   "id": "058cdc48-4de4-4f33-afa9-352d47fd39c2",
+   "title": "Clear Pool Water",
+   "prompt": "Clear Pool Water reads as a wet liquid surface, built on wet, rippled and fluid. Common uses include splash effects and pool and tank scenes. Search for 'water' and this is built to match. In use the liquid and water car",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/e081103c4e974442b2a8a08d37460601/files/thumbnail_9387c74a-cb31-4313-8c95-eab9da42008d.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788896868",
+   "url": "https://www.blendkit.com/asset-gallery-detail/058cdc48-4de4-4f33-afa9-352d47fd39c2/",
+   "cats": [
+    "water"
+   ],
+   "views": "287 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "clear",
+    "pool"
+   ]
+  },
+  {
+   "id": "48b99f34-e205-4910-9174-c45534e2e7bb",
+   "title": "Rain Drop Ripples Animated",
+   "prompt": "Realistic Rain drop ripples, animated. Fully Procedural, works in Eevee and Cycles.",
+   "handle": "L Carter",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/04afefb72d07490b99ac25e2dc19b0da/files/thumbnail_93014243-ed9b-47bb-a650-4efc56a6cb0e.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766566078",
+   "url": "https://www.blendkit.com/asset-gallery-detail/48b99f34-e205-4910-9174-c45534e2e7bb/",
+   "cats": [
+    "water"
+   ],
+   "views": "280 в закладках",
+   "tags": [
+    "water",
+    "rain",
+    "drop",
+    "droplet"
+   ]
+  },
+  {
+   "id": "42c24aab-fc36-44b3-b441-96ddeba07376",
+   "title": "Distorted Water Glass",
+   "prompt": "Distorted Water Glass is a clear liquid churned into broken, overlapping sheets. The surface warps the shape behind it, highlights split along the folds, and the body stays transparent so the distortion carries the read.",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/4944f73282bf4ad18b6ef55386eeade6/files/thumbnail_daf40865-4dd4-49f0-b399-18ecad983719.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788896858",
+   "url": "https://www.blendkit.com/asset-gallery-detail/42c24aab-fc36-44b3-b441-96ddeba07376/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "280 в закладках",
+   "tags": [
+    "liquid",
+    "glass",
+    "distorted",
+    "water"
+   ]
+  },
+  {
+   "id": "217d7c37-554b-493a-9662-d9bd7cc1c12c",
+   "title": "Soap Foam",
+   "prompt": "Get ready to add some bubbly fun to your scenes with this slippery Soap Foam procedural material! This material may significantly slow down your rendering, giving you more time to spend with friends and family. You can t",
+   "handle": "DJ SOLANA",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/e453f397cd1f44c78ba1bb0ef75362fb/files/thumbnail_8711dcf8-fb58-49c5-8192-92fae8518c6e.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766665742",
+   "url": "https://www.blendkit.com/asset-gallery-detail/217d7c37-554b-493a-9662-d9bd7cc1c12c/",
+   "cats": [
+    "gel",
+    "foam"
+   ],
+   "views": "273 в закладках",
+   "tags": [
+    "Soap",
+    "Foam",
+    "Bubble",
+    "Shampoo"
+   ]
+  },
+  {
+   "id": "fdee02a7-d2b9-47a5-b9dc-a1436dd16705",
+   "title": "Ocean",
+   "prompt": "A 2K PBR Texture of blue, ocean or sea water. Perfect for planet scenesl. This sea or ocean water material is tiling. and has displacement",
+   "handle": "James Middleton",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/a7472d0d88cd4ce4b54390ebd9dc6a16/files/thumbnail_af0440ed-6597-4088-9329-2049a1751d40.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766490254",
+   "url": "https://www.blendkit.com/asset-gallery-detail/fdee02a7-d2b9-47a5-b9dc-a1436dd16705/",
+   "cats": [
+    "water"
+   ],
+   "views": "273 в закладках",
+   "tags": [
+    "ocean",
+    "sea",
+    "surf",
+    "water"
+   ]
+  },
+  {
+   "id": "a657ec89-941d-4b33-9f91-96f381f4a0e3",
+   "title": "Pond water - procedural",
+   "prompt": "Realistic green pond water",
+   "handle": "Michal Stetina",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/ea2c842444004df884e2d5419501ef5c/files/thumbnail_09731b78-6852-46f8-b8fa-d85808e96a22.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766427560",
+   "url": "https://www.blendkit.com/asset-gallery-detail/a657ec89-941d-4b33-9f91-96f381f4a0e3/",
+   "cats": [
+    "water"
+   ],
+   "views": "270 в закладках",
+   "tags": [
+    "pond",
+    "water",
+    "fluid",
+    "realistic"
+   ]
+  },
+  {
+   "id": "754cff5e-97a8-4135-b703-a3b58b3c1e06",
+   "title": "Gold liquid",
+   "prompt": "procedural gold liquid",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/6e08391bc6404d6b8e29a2fe19adde34/files/thumbnail_11b56675-606c-4672-b5f2-f94f27bde295.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766582273",
+   "url": "https://www.blendkit.com/asset-gallery-detail/754cff5e-97a8-4135-b703-a3b58b3c1e06/",
+   "cats": [
+    "water"
+   ],
+   "views": "269 в закладках",
+   "tags": [
+    "procedural",
+    "gold",
+    "liquid",
+    "material"
+   ]
+  },
+  {
+   "id": "6bbf24c2-f657-4927-9354-3c848f769ddf",
+   "title": "Ocean Water",
+   "prompt": "This Shader can be applied to any 3D model made in Blender. Moreover, this Shader is also easy to change for ease of use. This Shader was created to facilitate the work of 3D artists working in the Blender program. Furth",
+   "handle": "5555dnl_3d ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/15291b599f484c2fa37e93e0857927ee/files/thumbnail_1a2d8301-5eb6-40cd-a3a6-1cf042a858da.png.512x512_q85_crop-%2C.png.webp?webp_generated=1776931902",
+   "url": "https://www.blendkit.com/asset-gallery-detail/6bbf24c2-f657-4927-9354-3c848f769ddf/",
+   "cats": [
+    "water"
+   ],
+   "views": "265 в закладках",
+   "tags": [
+    "ocean",
+    "sea",
+    "water",
+    "waves"
+   ]
+  },
+  {
+   "id": "8e6edd7b-4e12-419c-9934-f82ddc40ec2d",
+   "title": "Dirty water",
+   "prompt": "dirty water\r\n\r\nready for cycles and Eevee very easy to use with simple node Groupe",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/1b00f272715942d38f3b81cb3a832efc/files/thumbnail_bf0d38ec-a375-458f-b07a-d4ad3aff4a56.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766609465",
+   "url": "https://www.blendkit.com/asset-gallery-detail/8e6edd7b-4e12-419c-9934-f82ddc40ec2d/",
+   "cats": [
+    "water",
+    "honey"
+   ],
+   "views": "264 в закладках",
+   "tags": [
+    "water",
+    "procedural",
+    "realistic",
+    "oil"
+   ]
+  },
+  {
+   "id": "78c994e2-9ea9-40e8-900f-69166ef2ab50",
+   "title": "Sea Water",
+   "prompt": "Procedural and animated green sea water shader.",
+   "handle": "James Middleton",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/de0905a9deaa43f5a2da82271bfc2bf3/files/thumbnail_f629d4b7-46c9-462f-acb8-5d325cf4ed4c.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766579046",
+   "url": "https://www.blendkit.com/asset-gallery-detail/78c994e2-9ea9-40e8-900f-69166ef2ab50/",
+   "cats": [
+    "water"
+   ],
+   "views": "260 в закладках",
+   "tags": [
+    "sea",
+    "water",
+    "procedural",
+    "animated"
+   ]
+  },
+  {
+   "id": "273daf6c-0b11-4854-b11b-8143d96bb922",
+   "title": "Gel shader",
+   "prompt": "Gel shader for concept art.",
+   "handle": "ddd ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/366bf6fbf68849c687005145776db508/files/thumbnail_47252239-5370-4fb0-8788-20fa4ede6b07.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766458964",
+   "url": "https://www.blendkit.com/asset-gallery-detail/273daf6c-0b11-4854-b11b-8143d96bb922/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "260 в закладках",
+   "tags": [
+    "gel",
+    "water"
+   ]
+  },
+  {
+   "id": "1df1c847-3792-4df1-91c6-b8d8bf265544",
+   "title": "Water Caustics",
+   "prompt": "A highly customizable procedural caustic water shader, designed to replicate the light distortion seen on the bottom of a swimming pool or shallow clear water. The material creates animated, refractive light patterns wit",
+   "handle": "NK Productions",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/22b53933b5354dfa9cf5f76351f910a6/files/thumbnail_899af796-01c3-4f37-b7e0-0be7bae4ec02.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766672954",
+   "url": "https://www.blendkit.com/asset-gallery-detail/1df1c847-3792-4df1-91c6-b8d8bf265544/",
+   "cats": [
+    "water"
+   ],
+   "views": "256 в закладках",
+   "tags": [
+    "Caustics",
+    "Water",
+    "Pool",
+    "Liquid"
+   ]
+  },
+  {
+   "id": "3938ba34-3cb5-4df0-aec6-b42f79cfa060",
+   "title": "Water",
+   "prompt": "Light blue ocean water",
+   "handle": "Miklós Malinovszky",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/53f119ca21b3425f82d118fedbe10d85/files/thumbnail_eb46f615-86c1-473b-aee2-72c9e9d53e79.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766700010",
+   "url": "https://www.blendkit.com/asset-gallery-detail/3938ba34-3cb5-4df0-aec6-b42f79cfa060/",
+   "cats": [
+    "water"
+   ],
+   "views": "255 в закладках",
+   "tags": [
+    "water",
+    "liquid",
+    "ocean",
+    "sea"
+   ]
+  },
+  {
+   "id": "7d1b72f0-b1c0-4471-9e5b-f79bf1338bcd",
+   "title": "Lake River Water",
+   "prompt": "Procedural and animated green lake or river water shader.",
+   "handle": "James Middleton",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/c0ec93a9fc9a44e49ce597b77a674b67/files/thumbnail_90657ef7-c148-40b0-9e81-bb532358f296.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766579043",
+   "url": "https://www.blendkit.com/asset-gallery-detail/7d1b72f0-b1c0-4471-9e5b-f79bf1338bcd/",
+   "cats": [
+    "water"
+   ],
+   "views": "253 в закладках",
+   "tags": [
+    "lake",
+    "river",
+    "water",
+    "procedural"
+   ]
+  },
+  {
+   "id": "bc43a18d-c792-4e19-a6c7-c799cf199708",
+   "title": "Procedural Bubble",
+   "prompt": "Procedural Bubble material for Blender. Designed for soap bubbles, foam clusters, underwater aquatic environments, sci-fi forcefields, and fantasy magic effects featuring dynamic thin-film iridescence, crisp refractions,",
+   "handle": "diaverx miky",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/bf63d0403e9c48c29bb7584e05a23ef2/files/thumbnail_060c7aee-d28e-4200-8df8-421616b339e9.png.512x512_q85_crop-%2C.png.webp?webp_generated=1786834821",
+   "url": "https://www.blendkit.com/asset-gallery-detail/bc43a18d-c792-4e19-a6c7-c799cf199708/",
+   "cats": [
+    "water",
+    "gel",
+    "foam"
+   ],
+   "views": "248 в закладках",
+   "tags": [
+    "Procedural",
+    "Bubble",
+    "soap",
+    "Bath"
+   ]
+  },
+  {
+   "id": "5cb76d6a-7062-4628-85d6-9fe311f51172",
+   "title": "Procedural Rippling Fluid",
+   "prompt": "Procedural Rippling Fluid material for Blender. Designed for water surfaces, liquid pools, spilled fluids, rain puddles, and dynamic aqueous environments featuring subtle wave and ripple patterns.\r\n\r\nMade entirely with B",
+   "handle": "diaverx miky",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/db13bf260f2b414b95ca449e4efadee3/files/thumbnail_965e3008-7020-428f-a6f7-30ee53517f11.png.512x512_q85_crop-%2C.png.webp?webp_generated=1786792480",
+   "url": "https://www.blendkit.com/asset-gallery-detail/5cb76d6a-7062-4628-85d6-9fe311f51172/",
+   "cats": [
+    "water"
+   ],
+   "views": "242 в закладках",
+   "tags": [
+    "Fluid",
+    "Water",
+    "Motion",
+    "Ripple"
+   ]
+  },
+  {
+   "id": "08c3df25-9b78-460c-8e65-d135a03fec5a",
+   "title": "Pool Water Animated",
+   "prompt": "Процедурный материал Blender",
+   "handle": "Blendkit Community",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/5c5beecda8f94c089d8f942d0c8ecc2e/files/thumbnail_df10d4c9-956b-47bd-a60c-d995e0ba85d2.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766419338",
+   "url": "https://www.blendkit.com/asset-gallery-detail/08c3df25-9b78-460c-8e65-d135a03fec5a/",
+   "cats": [
+    "water"
+   ],
+   "views": "241 в закладках",
+   "tags": [
+    "water",
+    "pool",
+    "lake"
+   ]
+  },
+  {
+   "id": "7c854fe0-b7f5-492b-8308-f76bc134ff5f",
+   "title": "Honey",
+   "prompt": "Easy honey material",
+   "handle": "Nobody ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8fd3cb054c8048af90bbce0665d8a083/files/thumbnail_0ab429b8-8b42-4266-a75f-06015f98183a.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766444828",
+   "url": "https://www.blendkit.com/asset-gallery-detail/7c854fe0-b7f5-492b-8308-f76bc134ff5f/",
+   "cats": [
+    "honey"
+   ],
+   "views": "239 в закладках",
+   "tags": [
+    "honey",
+    "liquid",
+    "honecomb",
+    "food"
+   ]
+  },
+  {
+   "id": "f0cb4f9c-5795-467e-8a3f-60613b8f14c0",
+   "title": "Soap Bubble",
+   "prompt": "A mesmerizing procedural material that mimics the iridescent and translucent qualities of soap bubbles. This material captures the delicate, rainbow-like sheen and soft, transparent appearance characteristic of bubbles, ",
+   "handle": "NK Productions",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/92f34db716e24d39948a4b3066fac86d/files/thumbnail_4ad6f1be-c8b5-4040-b85c-10d856325cb3.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766554894",
+   "url": "https://www.blendkit.com/asset-gallery-detail/f0cb4f9c-5795-467e-8a3f-60613b8f14c0/",
+   "cats": [
+    "gel",
+    "foam"
+   ],
+   "views": "238 в закладках",
+   "tags": [
+    "soap",
+    "bubble",
+    "procedural",
+    "iridescent"
+   ]
+  },
+  {
+   "id": "da18de51-398a-4c98-bdb0-4f0b5605e080",
+   "title": "Clear Shimmering Ocean Water",
+   "prompt": "Clear Shimmering Ocean Water is a blue water surface broken into foamy white crests. The water reads cold and clear, the foam gathers in scattered patches, and light scatters across the disturbed surface instead of refle",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/3691f93cfe564d1fa755b100fc29046c/files/thumbnail_c4de2227-1e5b-482b-8ca1-100a71fee32c.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788897346",
+   "url": "https://www.blendkit.com/asset-gallery-detail/da18de51-398a-4c98-bdb0-4f0b5605e080/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "235 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "shimmering",
+    "ocean"
+   ]
+  },
+  {
+   "id": "85fc0781-fb7b-41b9-ae17-e25aac1aea3a",
+   "title": "Molten lava",
+   "prompt": "procedural molten lava or magma",
+   "handle": "Steffen ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/ccb0faa3852349a2a847b2b68ab280c5/files/thumbnail_413787b2-e78d-42f4-a3c2-53b66810229b.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766493980",
+   "url": "https://www.blendkit.com/asset-gallery-detail/85fc0781-fb7b-41b9-ae17-e25aac1aea3a/",
+   "cats": [
+    "lava"
+   ],
+   "views": "233 в закладках",
+   "tags": [
+    "lava",
+    "magma",
+    "vulcano",
+    "liquid"
+   ]
+  },
+  {
+   "id": "6206be8b-1f66-4e5d-8369-cc89b0208157",
+   "title": "Water",
+   "prompt": "Procedural hot and cold Water for pipe",
+   "handle": "nathan magnan",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/bdcdf66c27934807b73dfe5d04c79537/files/thumbnail_6b76795c-84d7-49e7-a9ad-f25ef5dda29a.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766555680",
+   "url": "https://www.blendkit.com/asset-gallery-detail/6206be8b-1f66-4e5d-8369-cc89b0208157/",
+   "cats": [
+    "water"
+   ],
+   "views": "232 в закладках",
+   "tags": [
+    "Water",
+    "pipe",
+    "hot",
+    "cold"
+   ]
+  },
+  {
+   "id": "1cfd13cc-9b76-44fb-9f0b-3e3df69cc99b",
+   "title": "Realistic procedural water",
+   "prompt": "realistic procedural water ready for cycles and Eevee please enjoy it",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/b0e15b3b43ad4e7abb91bdee1fafa868/files/thumbnail_3a29aacb-ef19-4bb2-ad77-44d9289b18d9.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766609564",
+   "url": "https://www.blendkit.com/asset-gallery-detail/1cfd13cc-9b76-44fb-9f0b-3e3df69cc99b/",
+   "cats": [
+    "water"
+   ],
+   "views": "230 в закладках",
+   "tags": [
+    "realistic",
+    "procedural",
+    "water",
+    "wave"
+   ]
+  },
+  {
+   "id": "2ab7dbad-5254-4983-8f58-f4f3c1de5aca",
+   "title": "Edible liquid oil",
+   "prompt": "edible liquid oil ready for eevee and cycles",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/4f9e140963ed478ba445159bbc4081e1/files/thumbnail_f9cd7082-868f-494c-abbc-97eac658f04c.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766609557",
+   "url": "https://www.blendkit.com/asset-gallery-detail/2ab7dbad-5254-4983-8f58-f4f3c1de5aca/",
+   "cats": [
+    "honey"
+   ],
+   "views": "230 в закладках",
+   "tags": [
+    "edible",
+    "liquid",
+    "oil",
+    "food"
+   ]
+  },
+  {
+   "id": "dda0f04d-d217-4d30-8f6c-e41737b42a66",
+   "title": "Oil",
+   "prompt": "Fluid texture imitating oil and its colorful reflections",
+   "handle": "Tecla Mtz",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/88b63f88a205427698070f0ea8884773/files/thumbnail_12ca1d1f-2fa1-4e09-8cc7-f8002d91699e.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766527478",
+   "url": "https://www.blendkit.com/asset-gallery-detail/dda0f04d-d217-4d30-8f6c-e41737b42a66/",
+   "cats": [
+    "honey"
+   ],
+   "views": "223 в закладках",
+   "tags": [
+    "Oil",
+    "Colors",
+    "Liquid",
+    "Fluid"
+   ]
+  },
+  {
+   "id": "cc4091fb-9297-4c49-877d-82a8f4fb0703",
+   "title": "Bubble Texture",
+   "prompt": "This bubble texture is designed to add a realistic bubble effect to the surface of objects. It is ideal for creating liquid or beverage effects in animation scenes or visualizations\r\n\r\n\r\n\r\nTexture: bubble, air balloon, s",
+   "handle": "Michael Sadikov",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/79defe1597274b2c84c17b28fa6944e2/files/thumbnail_7819c77a-cc93-49d1-b441-2db1443b34a0.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766488946",
+   "url": "https://www.blendkit.com/asset-gallery-detail/cc4091fb-9297-4c49-877d-82a8f4fb0703/",
+   "cats": [
+    "foam"
+   ],
+   "views": "221 в закладках",
+   "tags": [
+    "bubble",
+    "air_balloon",
+    "sphere",
+    "bubble_texture"
+   ]
+  },
+  {
+   "id": "fcf0f382-63f4-4c9f-ab5e-a6e03434b33d",
+   "title": "soap bubble",
+   "prompt": "physically based colours, procedural fluid whirl. animate by pluging particle life into Color offset.",
+   "handle": "Vilém Duha",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/d1c5360674d24c5fb796cf0a9e1f82a4/files/thumbnail_1bfc3c41-5731-4c12-bf46-18ef65f8938a.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766418105",
+   "url": "https://www.blendkit.com/asset-gallery-detail/fcf0f382-63f4-4c9f-ab5e-a6e03434b33d/",
+   "cats": [
+    "gel",
+    "foam"
+   ],
+   "views": "218 в закладках",
+   "tags": [
+    "bubble",
+    "soap",
+    "thin surface"
+   ]
+  },
+  {
+   "id": "1a837a00-441d-4a9f-8aab-019ae6f671a8",
+   "title": "Toxic Splatter",
+   "prompt": "A transparent material that can be used in eevee or cycles as an overlay to objects",
+   "handle": "Chris Wells",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/d0a673f23b7346c58461b3a8efe970c4/files/thumbnail_af69332a-06da-489a-a8f6-6b364a5828e7.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766462564",
+   "url": "https://www.blendkit.com/asset-gallery-detail/1a837a00-441d-4a9f-8aab-019ae6f671a8/",
+   "cats": [
+    "gel"
+   ],
+   "views": "217 в закладках",
+   "tags": [
+    "toxic",
+    "splatter",
+    "green",
+    "goo"
+   ]
+  },
+  {
+   "id": "b526dad9-a49d-4775-8568-63c94fbc2064",
+   "title": "Water",
+   "prompt": "customizable wavy water",
+   "handle": "Ana Wokul",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/6d1a8abaa58e4943ae42576d1bbdcc9c/files/thumbnail_412807de-6a41-4f6f-b6ec-679b2fec8205.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766570443",
+   "url": "https://www.blendkit.com/asset-gallery-detail/b526dad9-a49d-4775-8568-63c94fbc2064/",
+   "cats": [
+    "water"
+   ],
+   "views": "204 в закладках",
+   "tags": [
+    "water",
+    "liquid",
+    "sea",
+    "ocean"
+   ]
+  },
+  {
+   "id": "050dab98-17a9-4e4e-8bb6-0e61e580046b",
+   "title": "Water for blender",
+   "prompt": "procedural water for blender cycle and eevee",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/a0d11303e77a4ad3ae79129748bb23c4/files/thumbnail_043b6333-647e-4293-add1-3ef291c97f84.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766627669",
+   "url": "https://www.blendkit.com/asset-gallery-detail/050dab98-17a9-4e4e-8bb6-0e61e580046b/",
+   "cats": [
+    "water"
+   ],
+   "views": "196 в закладках",
+   "tags": [
+    "water",
+    "blender",
+    "cycle",
+    "eevee"
+   ]
+  },
+  {
+   "id": "58ca97a9-3331-4af4-a533-f8eb829a3ee6",
+   "title": "Soap Bubble",
+   "prompt": "Get ready to sprinkle some airy magic into your scenes with this realistic Soap Bubble procedural material! Designed to simulate bubbles floating gracefully in the air, it is perfect for crafting random, unique shapes an",
+   "handle": "DJ SOLANA",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/881306043744427190aa4dae89baa9b1/files/thumbnail_bcddec76-7942-4c08-b979-4e011f33c596.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766665795",
+   "url": "https://www.blendkit.com/asset-gallery-detail/58ca97a9-3331-4af4-a533-f8eb829a3ee6/",
+   "cats": [
+    "gel",
+    "foam"
+   ],
+   "views": "195 в закладках",
+   "tags": [
+    "Soap",
+    "Bubble",
+    "Bath",
+    "Floating"
+   ]
+  },
+  {
+   "id": "7479a238-59f7-4b46-a78b-a98c3d78e7ae",
+   "title": "Water Anime Style (toon)",
+   "prompt": "Animated whater with the style from animes, pure prodecural",
+   "handle": "Manueh3D 3D",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8d749007ddd1496286c30c6c15d3edbf/files/thumbnail_aa561094-6372-4c07-b5f3-538d835a17ea.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766615123",
+   "url": "https://www.blendkit.com/asset-gallery-detail/7479a238-59f7-4b46-a78b-a98c3d78e7ae/",
+   "cats": [
+    "water"
+   ],
+   "views": "191 в закладках",
+   "tags": [
+    "procedural",
+    "water",
+    "anime",
+    "cycles"
+   ]
+  },
+  {
+   "id": "c3d355d6-732b-4974-8898-f001ca6ba5c3",
+   "title": "Coca Cola",
+   "prompt": "CocaCola Liquid procedural.",
+   "handle": "Nobody ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/c0ed35484f504cefa373d290eca70df5/files/thumbnail_07ba5c18-3075-4d1a-874c-4a5c443f3f1e.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766444834",
+   "url": "https://www.blendkit.com/asset-gallery-detail/c3d355d6-732b-4974-8898-f001ca6ba5c3/",
+   "cats": [
+    "other"
+   ],
+   "views": "185 в закладках",
+   "tags": [
+    "coca",
+    "cola",
+    "liquid",
+    "soda"
+   ]
+  },
+  {
+   "id": "946e2f60-c985-4963-8ee0-4f986264aa36",
+   "title": "Foam",
+   "prompt": "Material foam hiper realistic, with displacement and volume",
+   "handle": "LEGENDWRLD Bailón",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/e46fa6bb215c4cb8947c30dc518141bb/files/thumbnail_c2841e15-8a23-4133-909e-af084d620a8e.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766475101",
+   "url": "https://www.blendkit.com/asset-gallery-detail/946e2f60-c985-4963-8ee0-4f986264aa36/",
+   "cats": [
+    "foam"
+   ],
+   "views": "184 в закладках",
+   "tags": [
+    "material",
+    "foam",
+    "realistic"
+   ]
+  },
+  {
+   "id": "f661118a-d694-4e53-8db7-6da47d2266e9",
+   "title": "Water",
+   "prompt": "water  realistic that works with any scene",
+   "handle": "Jeronimo Rodriguez",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/67b3da15abc7470187041a916d5ac97b/files/thumbnail_769aa223-8d2e-4021-8a89-cf66d4f5d807.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766455956",
+   "url": "https://www.blendkit.com/asset-gallery-detail/f661118a-d694-4e53-8db7-6da47d2266e9/",
+   "cats": [
+    "water"
+   ],
+   "views": "181 в закладках",
+   "tags": [
+    "real",
+    "blue",
+    "sea",
+    "ocean"
+   ]
+  },
+  {
+   "id": "15c5d624-29ff-4d82-b263-c138e19a7adf",
+   "title": "Water Material",
+   "prompt": "Water Material Large Scale. Animated",
+   "handle": "EB Adventure Photoscans",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/957c79a4662e49ec834f676cd8f469d1/files/thumbnail_463fec44-e879-4d29-91fd-d4bc7611c834.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766544425",
+   "url": "https://www.blendkit.com/asset-gallery-detail/15c5d624-29ff-4d82-b263-c138e19a7adf/",
+   "cats": [
+    "water"
+   ],
+   "views": "172 в закладках",
+   "tags": [
+    "water",
+    "lake",
+    "ocean",
+    "reflective"
+   ]
+  },
+  {
+   "id": "8cf0b5a2-fc12-42b3-a2c8-979aa43c8055",
+   "title": "Procedural Animated Bubble",
+   "prompt": "node grouped Fancy Bubble. Animated with driver and seed value displacement. style control",
+   "handle": "Fahmy ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/1ec85ffa548048ad9c793bfdb5ba1374/files/thumbnail_63da5d49-4a24-4006-a0eb-9642f3c66212.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766455294",
+   "url": "https://www.blendkit.com/asset-gallery-detail/8cf0b5a2-fc12-42b3-a2c8-979aa43c8055/",
+   "cats": [
+    "water",
+    "gel",
+    "foam"
+   ],
+   "views": "167 в закладках",
+   "tags": [
+    "soap",
+    "bubble",
+    "water",
+    "bathroom"
+   ]
+  },
+  {
+   "id": "c2169bfd-a0cd-4dad-a20c-62a475e47e43",
+   "title": "Water stylized",
+   "prompt": "water stylized texture animated",
+   "handle": "Dương Văn Gắt",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/51b594bb4490494997f1e605c45c02e0/files/thumbnail_187538e2-cf34-4b1c-b751-1d39d20da9ea.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766491909",
+   "url": "https://www.blendkit.com/asset-gallery-detail/c2169bfd-a0cd-4dad-a20c-62a475e47e43/",
+   "cats": [
+    "water"
+   ],
+   "views": "167 в закладках",
+   "tags": [
+    "water",
+    "nuoc",
+    "stilized",
+    "cartoon"
+   ]
+  },
+  {
+   "id": "c48ee055-3715-4cd2-8b8d-1fe3115b3889",
+   "title": "Clear water",
+   "prompt": "A highly realistic Clear Water Material created in Blender, designed to simulate the natural transparency and smooth fluid appearance of pure water. This shader captures subtle light refraction, soft reflections, and gen",
+   "handle": "Jon 13",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/e635af69d678475da0fe693ca0820f0c/files/thumbnail_60192268-d26b-4a76-9e0b-3cb68081037d.png.512x512_q85_crop-%2C.png.webp?webp_generated=1773631275",
+   "url": "https://www.blendkit.com/asset-gallery-detail/c48ee055-3715-4cd2-8b8d-1fe3115b3889/",
+   "cats": [
+    "water"
+   ],
+   "views": "165 в закладках",
+   "tags": [
+    "drink",
+    "water",
+    "clear"
+   ]
+  },
+  {
+   "id": "cb00b27a-e342-433d-8ebd-6b8e86c15298",
+   "title": "Procedual Foam",
+   "prompt": "A procedual note setup for easy and fast Foam",
+   "handle": "Slinc_HD Janzen",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/d48dc1a05e9b4d3ebefe096eadb559be/files/thumbnail_49ff7e2c-5a85-463c-afee-2f0248c78cb6.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766471155",
+   "url": "https://www.blendkit.com/asset-gallery-detail/cb00b27a-e342-433d-8ebd-6b8e86c15298/",
+   "cats": [
+    "gel",
+    "foam"
+   ],
+   "views": "165 в закладках",
+   "tags": [
+    "Foam",
+    "lquid",
+    "beer",
+    "soap"
+   ]
+  },
+  {
+   "id": "5d74ecd7-2266-473e-98cc-9288c7546343",
+   "title": "Pool refraction",
+   "prompt": "A material with water refraction were the light passes without difficulty",
+   "handle": "Felipe de Melo",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/d482ccde2a1d42cbbd6d52d3a637e0ec/files/thumbnail_060065c4-2333-41cb-8574-81ec0bae93b1.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766482434",
+   "url": "https://www.blendkit.com/asset-gallery-detail/5d74ecd7-2266-473e-98cc-9288c7546343/",
+   "cats": [
+    "water"
+   ],
+   "views": "165 в закладках",
+   "tags": [
+    "agua",
+    "water",
+    "piscina",
+    "pool"
+   ]
+  },
+  {
+   "id": "bacc0305-83d5-456a-bc99-0f257a541c89",
+   "title": "Fast Caustics Water Shader (Cycles Only)",
+   "prompt": "Procedural water shader made for Cycles with fake caustics generated entirely through shader nodes, without real caustics calculation during rendering.\r\n\r\nIncludes animated displacement for water surface motion.",
+   "handle": "Iuri Galindo",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/d932ee6b01134558855600b53738c8b7/files/thumbnail_adc03597-c976-477f-9df2-aef575f8945e.png.512x512_q85_crop-%2C.png.webp?webp_generated=1779088314",
+   "url": "https://www.blendkit.com/asset-gallery-detail/bacc0305-83d5-456a-bc99-0f257a541c89/",
+   "cats": [
+    "water"
+   ],
+   "views": "163 в закладках",
+   "tags": [
+    "water",
+    "caustics",
+    "procedural",
+    "cycles"
+   ]
+  },
+  {
+   "id": "17cec99d-91dd-4f87-a559-79257a320caf",
+   "title": "Tropical Water Shader",
+   "prompt": "shader made for tropical enviroment",
+   "handle": "Nobody ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/bba8e6c1b5834d3ca485042ded060405/files/thumbnail_a30d0df7-299c-4f0a-9b49-0a435965c7ba.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766444921",
+   "url": "https://www.blendkit.com/asset-gallery-detail/17cec99d-91dd-4f87-a559-79257a320caf/",
+   "cats": [
+    "water"
+   ],
+   "views": "159 в закладках",
+   "tags": [
+    "tropical",
+    "shader",
+    "water",
+    "ocean"
+   ]
+  },
+  {
+   "id": "f0b31168-751f-419f-9b9e-d698cf96ec71",
+   "title": "Procedual Cloud (Incl. Node Group)",
+   "prompt": "Make use of this reduced Cloud Volume node group. Easy to use node group letting you adjust your specific cloud.\r\n\r\n* Color\r\n* Density\r\n* Time shift\r\n* Scale\r\n* Distortion\r\n* Anisitropy\r\n* World Offset for wind animation",
+   "handle": "Dennis Hafemann",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/744a4c3133cb415eb30665bc25a36760/files/thumbnail_6f23f7d4-160e-44aa-82dc-9913ec5886db.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766667004",
+   "url": "https://www.blendkit.com/asset-gallery-detail/f0b31168-751f-419f-9b9e-d698cf96ec71/",
+   "cats": [
+    "other"
+   ],
+   "views": "157 в закладках",
+   "tags": [
+    "procedual",
+    "cloud",
+    "generation",
+    "wind"
+   ]
+  },
+  {
+   "id": "138255a2-5565-4c9d-b6f4-5feffa9da04b",
+   "title": "Espresso Coffee",
+   "prompt": "Procedural Espresso Coffee with Crema",
+   "handle": "sotilrac Asmat",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/28005c3b95934f2c87caa66b85f987cb/files/thumbnail_0333591d-25df-403e-9edc-dda27ee8f353.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766537077",
+   "url": "https://www.blendkit.com/asset-gallery-detail/138255a2-5565-4c9d-b6f4-5feffa9da04b/",
+   "cats": [
+    "other"
+   ],
+   "views": "151 в закладках",
+   "tags": [
+    "Coffe",
+    "crema",
+    "beverage",
+    "liquid"
+   ]
+  },
+  {
+   "id": "750ef030-fb34-43ea-b76d-a08b0ca88bc7",
+   "title": "Ocean",
+   "prompt": "A 2K PBR and Procedural Texture of blue, ocean or sea water. Perfect for planet and ocean scenesl. This sea or ocean water material is tiling. and has displacement",
+   "handle": "James Middleton",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/fef85f24c7bf4359800e214adc027d9c/files/thumbnail_f83aef50-7064-4b1d-a5e5-ee3a3d447de4.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766565261",
+   "url": "https://www.blendkit.com/asset-gallery-detail/750ef030-fb34-43ea-b76d-a08b0ca88bc7/",
+   "cats": [
+    "water"
+   ],
+   "views": "150 в закладках",
+   "tags": [
+    "sea",
+    "water",
+    "ocean",
+    "texture"
+   ]
+  },
+  {
+   "id": "1622a089-eee2-468a-8626-ed5494c10bb8",
+   "title": "Water",
+   "prompt": "This is the simplest water material you will see.",
+   "handle": "Dante Olaf Martínez Soto",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/88bf7a7352d749118e64fde9648a40a5/files/thumbnail_87db9dd8-2f33-40dc-8f08-9debdea42516.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766546354",
+   "url": "https://www.blendkit.com/asset-gallery-detail/1622a089-eee2-468a-8626-ed5494c10bb8/",
+   "cats": [
+    "water"
+   ],
+   "views": "148 в закладках",
+   "tags": [
+    "water",
+    "fluid",
+    "river"
+   ]
+  },
+  {
+   "id": "f1cee35a-5176-4f74-90f6-0a453f045b65",
+   "title": "Clear Glossy Dripping Water",
+   "prompt": "Clear Glossy Dripping Water is a blue tinted liquid hanging in long rounded drips. The body stays transparent, the highlight runs sharp down each drip, and the water gathers into a heavy pooled base. Built for splash sho",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/1ca5f6e3fd7e440089dd575e5a542761/files/thumbnail_41c74c0e-b597-4dac-b42e-dbaa9000e520.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788897629",
+   "url": "https://www.blendkit.com/asset-gallery-detail/f1cee35a-5176-4f74-90f6-0a453f045b65/",
+   "cats": [
+    "water",
+    "honey",
+    "gel"
+   ],
+   "views": "147 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "glossy",
+    "dripping"
+   ]
+  },
+  {
+   "id": "f49a65d7-bc14-447e-82ac-2436c170203c",
+   "title": "Procedural Water With Foam Animated",
+   "prompt": "Animate using the mapping and wave texture node. A simple stylized procedural water texture with foam that you can conrol with noise and color ramps",
+   "handle": "Chris Wells",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/5d45bdbddad74ce588fc500511ffb024/files/thumbnail_8dce9c73-2e55-470b-a65e-b9b91eddf068.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766475503",
+   "url": "https://www.blendkit.com/asset-gallery-detail/f49a65d7-bc14-447e-82ac-2436c170203c/",
+   "cats": [
+    "water",
+    "foam"
+   ],
+   "views": "143 в закладках",
+   "tags": [
+    "water",
+    "foam",
+    "sea foam",
+    "waves"
+   ]
+  },
+  {
+   "id": "61f82a9b-ffa8-4f51-917b-145586247c4a",
+   "title": "FRC Soap Bubble Material",
+   "prompt": "Material to emulate a bubble",
+   "handle": "Fatal Rose",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/387d50fbc5a74193b60cf392e5d8e4ad/files/thumbnail_6239aa17-821e-4c1b-b33c-57194a67c57e.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766510099",
+   "url": "https://www.blendkit.com/asset-gallery-detail/61f82a9b-ffa8-4f51-917b-145586247c4a/",
+   "cats": [
+    "foam"
+   ],
+   "views": "143 в закладках",
+   "tags": [
+    "FRC",
+    "Material",
+    "Bubble"
+   ]
+  },
+  {
+   "id": "a0fb8d58-af5e-4737-a708-de227ac34d44",
+   "title": "Procedural Lava",
+   "prompt": "A procedural lava material with displacement",
+   "handle": "chroma 3D",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/e56e3bce86a94f89817b0fd6c296124d/files/thumbnail_d9b1ba40-a7b9-43a9-9e7b-22db71edd959.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766512337",
+   "url": "https://www.blendkit.com/asset-gallery-detail/a0fb8d58-af5e-4737-a708-de227ac34d44/",
+   "cats": [
+    "lava"
+   ],
+   "views": "141 в закладках",
+   "tags": [
+    "lava",
+    "procedural",
+    "displacement"
+   ]
+  },
+  {
+   "id": "ce0eafd5-d7bd-43e6-ad9f-8835f911e73c",
+   "title": "Steam",
+   "prompt": "Steam on surface with hot color",
+   "handle": "nathan magnan",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/526a9de5414a48799f259c3a7d781dc2/files/thumbnail_4be0b2d6-5c58-4843-ba24-fb2e8d446f4a.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766555684",
+   "url": "https://www.blendkit.com/asset-gallery-detail/ce0eafd5-d7bd-43e6-ad9f-8835f911e73c/",
+   "cats": [
+    "other"
+   ],
+   "views": "138 в закладках",
+   "tags": [
+    "steam",
+    "fog",
+    "procedural"
+   ]
+  },
+  {
+   "id": "e1232ac0-161c-4248-b140-62bc74ad2890",
+   "title": "Zombie slime",
+   "prompt": "Transmissive material particles inside it for zombie slime or alien goo",
+   "handle": "Oleksii Humeniuk",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/a20323f224a74296921c6540b93507d8/files/thumbnail_b2d15249-8df9-438d-b034-93f7a1c8a8ca.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766662270",
+   "url": "https://www.blendkit.com/asset-gallery-detail/e1232ac0-161c-4248-b140-62bc74ad2890/",
+   "cats": [
+    "gel"
+   ],
+   "views": "132 в закладках",
+   "tags": [
+    "slime",
+    "goo",
+    "zombie",
+    "alien"
+   ]
+  },
+  {
+   "id": "a22df772-e388-435b-8221-83c6aa9babd7",
+   "title": "Foam",
+   "prompt": "Procedural foam material featuring interspersed bubble detail and controllable iridescence.\r\nThis shader generates fine foam combined with visible larger bubbles, creating a realistic multi-scale structure.\r\n\r\nThe size a",
+   "handle": "Mika mino",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/609fa27b81c846309f09fe857b65b893/files/thumbnail_a1f706f5-6691-4515-a12f-fd592c9081b3.png.512x512_q85_crop-%2C.png.webp?webp_generated=1784728692",
+   "url": "https://www.blendkit.com/asset-gallery-detail/a22df772-e388-435b-8221-83c6aa9babd7/",
+   "cats": [
+    "gel",
+    "foam"
+   ],
+   "views": "130 в закладках",
+   "tags": [
+    "foam",
+    "bubble",
+    "lather",
+    "iridescence"
+   ]
+  },
+  {
+   "id": "e31c6dbf-cde7-4d29-98fd-5815d17685a0",
+   "title": "Procedural Bubble",
+   "prompt": "A procedural bubble material.",
+   "handle": "chroma 3D",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/5781899f71c7406cad60ee04d55c2e43/files/thumbnail_f84445c6-5c82-4ddb-976c-81378fa74b68.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766601981",
+   "url": "https://www.blendkit.com/asset-gallery-detail/e31c6dbf-cde7-4d29-98fd-5815d17685a0/",
+   "cats": [
+    "gel",
+    "foam"
+   ],
+   "views": "130 в закладках",
+   "tags": [
+    "bubble",
+    "procedural",
+    "soap",
+    "transparent"
+   ]
+  },
+  {
+   "id": "c9cee221-a9c7-43c2-b569-b8e59c6a4e55",
+   "title": "Ocean",
+   "prompt": "A 2K PBR Texture of blue, ocean or sea water. Perfect for planet scenesl. This sea or ocean water material is tiling. and has displacement",
+   "handle": "James Middleton",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/0e327843371f4fe68e21a2e14e7e2446/files/thumbnail_60f99828-0699-40b7-9d53-5c4ffd86f5da.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766486897",
+   "url": "https://www.blendkit.com/asset-gallery-detail/c9cee221-a9c7-43c2-b569-b8e59c6a4e55/",
+   "cats": [
+    "water"
+   ],
+   "views": "130 в закладках",
+   "tags": [
+    "ocean",
+    "surf",
+    "water",
+    "sea"
+   ]
+  },
+  {
+   "id": "4ef8b91f-2fec-4fc4-9dbc-e2281214f727",
+   "title": "Procedural Animated Lava Flow",
+   "prompt": "Use Keyframing for the animation, heavy on CPU in EEVEE,so i recomend to using it only in cycles",
+   "handle": "Nobody ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8a186a030c5241e6b28ad1fae76a0e5a/files/thumbnail_3a3772b5-6128-4350-a987-f3f9e21f0828.png.512x512_q85_crop-%2C.jpg.webp?webp_generated=1766435280",
+   "url": "https://www.blendkit.com/asset-gallery-detail/4ef8b91f-2fec-4fc4-9dbc-e2281214f727/",
+   "cats": [
+    "lava"
+   ],
+   "views": "129 в закладках",
+   "tags": [
+    "lava",
+    "procedural",
+    "animated",
+    "magma flow"
+   ]
+  },
+  {
+   "id": "ce1b6686-e765-402f-9329-82fa0eec507d",
+   "title": "Water for river",
+   "prompt": "realistick procedural water for river",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/dfa0e31bde6d4d83bb7a380ac2756eba/files/thumbnail_233678fa-c7af-4c2c-80c6-ade56622eb91.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766627707",
+   "url": "https://www.blendkit.com/asset-gallery-detail/ce1b6686-e765-402f-9329-82fa0eec507d/",
+   "cats": [
+    "water"
+   ],
+   "views": "128 в закладках",
+   "tags": [
+    "realistick",
+    "procedural",
+    "water",
+    "for"
+   ]
+  },
+  {
+   "id": "23ead76a-0a15-4bb2-b9b1-94539286a766",
+   "title": "Murky Water Shader",
+   "prompt": "Shader made for dirty rivers or ponds",
+   "handle": "Nobody ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/64d7998c96de4816a82921e333a56e6a/files/thumbnail_4207933e-0a9d-43ba-84e7-4a2589cd072b.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766444936",
+   "url": "https://www.blendkit.com/asset-gallery-detail/23ead76a-0a15-4bb2-b9b1-94539286a766/",
+   "cats": [
+    "water"
+   ],
+   "views": "128 в закладках",
+   "tags": [
+    "pond",
+    "river",
+    "dirty",
+    "merky"
+   ]
+  },
+  {
+   "id": "68cf4819-acad-4b05-a2ee-110b49bf5b96",
+   "title": "Pond water animated",
+   "prompt": "This is dark enough in scene.",
+   "handle": "Blendkit Community",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/7c7688104b324c82a9da7af181554b33/files/thumbnail_8c76ba8c-3bc8-4f80-8462-d386b8d41d5e.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766419360",
+   "url": "https://www.blendkit.com/asset-gallery-detail/68cf4819-acad-4b05-a2ee-110b49bf5b96/",
+   "cats": [
+    "water"
+   ],
+   "views": "126 в закладках",
+   "tags": [
+    "water",
+    "pool",
+    "lake"
+   ]
+  },
+  {
+   "id": "de224695-c08d-4191-8fb3-e2e5fbbab234",
+   "title": "Green toxic",
+   "prompt": "Image of toxic liquid",
+   "handle": "Creative TAI",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/82e7a95b6d25489c888e517b47968d34/files/thumbnail_b22e9986-fa73-44cf-bdc3-eaa6f686704e.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766714153",
+   "url": "https://www.blendkit.com/asset-gallery-detail/de224695-c08d-4191-8fb3-e2e5fbbab234/",
+   "cats": [
+    "other"
+   ],
+   "views": "121 в закладках",
+   "tags": [
+    "toxic",
+    "liquid",
+    "1"
+   ]
+  },
+  {
+   "id": "c5886f12-d0b7-48aa-819d-a40d29e7e180",
+   "title": "Soap Bubble (With Colorful Reflections)",
+   "prompt": "Soup bubble with colorful reflections.",
+   "handle": "Jetxon H",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/55f5b6d54aa54d8fb0c68b19364731b8/files/thumbnail_5f8b0d2b-0c8a-4ac1-9ecd-f6ccbd78cbf3.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766679122",
+   "url": "https://www.blendkit.com/asset-gallery-detail/c5886f12-d0b7-48aa-819d-a40d29e7e180/",
+   "cats": [
+    "gel",
+    "foam"
+   ],
+   "views": "116 в закладках",
+   "tags": [
+    "soap",
+    "bubble",
+    "soappy",
+    "bubbles"
+   ]
+  },
+  {
+   "id": "faddbc26-e041-43cf-b769-3b722b728fd8",
+   "title": "coffee",
+   "prompt": "just coffee without foam or bubbles",
+   "handle": "Blendkit Community",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/b960f008e5ba4e59b768866e8be19a09/files/thumbnail_e7e41329-fd25-44cb-9d03-92edd685d2eb.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766418393",
+   "url": "https://www.blendkit.com/asset-gallery-detail/faddbc26-e041-43cf-b769-3b722b728fd8/",
+   "cats": [
+    "other"
+   ],
+   "views": "115 в закладках",
+   "tags": [
+    "coffee",
+    "procedural",
+    "brown"
+   ]
+  },
+  {
+   "id": "0406a1a2-5542-429c-b6b5-31d5db2c2049",
+   "title": "Semi-realistic water",
+   "prompt": "a Semi Realistic water material",
+   "handle": "Jonas Apessos",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/5a86290403904d549b630dc698aa82c5/files/thumbnail_6486ef64-abc4-4723-9f96-4a38fa2ad83d.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766465697",
+   "url": "https://www.blendkit.com/asset-gallery-detail/0406a1a2-5542-429c-b6b5-31d5db2c2049/",
+   "cats": [
+    "water"
+   ],
+   "views": "109 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "Glass"
+   ]
+  },
+  {
+   "id": "2ef8dc37-c7c0-4c66-afba-868921035560",
+   "title": "Liguid oil",
+   "prompt": "liguid oil non transparent liguid for eevee and cycles",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/70e99645108c479c85ef619affa9b81f/files/thumbnail_c58cdaab-dfa7-47c8-8d86-eaa213c86f93.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766609569",
+   "url": "https://www.blendkit.com/asset-gallery-detail/2ef8dc37-c7c0-4c66-afba-868921035560/",
+   "cats": [
+    "water",
+    "honey"
+   ],
+   "views": "108 в закладках",
+   "tags": [
+    "liguid",
+    "oil",
+    "water",
+    "cycles"
+   ]
+  },
+  {
+   "id": "f58cff1d-edb8-4f1a-8d19-67b4911d5de9",
+   "title": "Coffee",
+   "prompt": "Coffee with foam material, PBR material for realistic representation of a cup of coffee",
+   "handle": "Steffen ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/52b0976237f7493d8d01e774cdb5a74e/files/thumbnail_ccbefb39-7336-4c3c-b88b-47c81b51ff23.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766538474",
+   "url": "https://www.blendkit.com/asset-gallery-detail/f58cff1d-edb8-4f1a-8d19-67b4911d5de9/",
+   "cats": [
+    "other"
+   ],
+   "views": "108 в закладках",
+   "tags": [
+    "coffee",
+    "crema",
+    "cream",
+    "realistic"
+   ]
+  },
+  {
+   "id": "4d92836a-c6ba-4bda-b4d6-fb56f9d25204",
+   "title": "Water droplet",
+   "prompt": "The texture is a seamless grayscale image with a dark gray background. Scattered across the surface are numerous light gray to white spots of varying sizes, which represent raised or displaced areas. These spots resemble",
+   "handle": "Anand Vk",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8f72b0fa124f4dac99a3fc350feb50f5/files/thumbnail_78fad023-d030-4297-9c0e-a088eb9458d4.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766686924",
+   "url": "https://www.blendkit.com/asset-gallery-detail/4d92836a-c6ba-4bda-b4d6-fb56f9d25204/",
+   "cats": [
+    "water"
+   ],
+   "views": "106 в закладках",
+   "tags": [
+    "water",
+    "liquid",
+    "drops"
+   ]
+  },
+  {
+   "id": "281dafca-9c97-4c87-8d1f-bd8683a505cf",
+   "title": "Liquid Gold",
+   "prompt": "Liquid clean gold, fluid",
+   "handle": "Tecla Mtz",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/56270646428c40d9a8e1d3fb6d15d657/files/thumbnail_32aa6062-bdeb-4b19-8fbf-3b08a62d06e6.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766640990",
+   "url": "https://www.blendkit.com/asset-gallery-detail/281dafca-9c97-4c87-8d1f-bd8683a505cf/",
+   "cats": [
+    "other"
+   ],
+   "views": "104 в закладках",
+   "tags": [
+    "Fluid",
+    "liquid",
+    "gold",
+    "metal"
+   ]
+  },
+  {
+   "id": "ff4d4b8c-b60f-4819-9ceb-99f5897ecb19",
+   "title": "Fog texture",
+   "prompt": "My fog texture is not perfect, so please earn yourself",
+   "handle": "Олександр Бойко",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/64d8a439738040b4bb9ae4edecffac34/files/thumbnail_85905114-5c2d-4825-ad3d-d93e46b81a73.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766479402",
+   "url": "https://www.blendkit.com/asset-gallery-detail/ff4d4b8c-b60f-4819-9ceb-99f5897ecb19/",
+   "cats": [
+    "other"
+   ],
+   "views": "103 в закладках",
+   "tags": [
+    "Texture",
+    "Blender",
+    "Fog",
+    "Nodes"
+   ]
+  },
+  {
+   "id": "99729363-6f57-47ab-8d54-dc094cd589bf",
+   "title": "Lava",
+   "prompt": "Animated procedural lava material",
+   "handle": "Snaky Boop face",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/c57c381c37854f82a6860c95fbcf0e77/files/thumbnail_2d55ad2c-139b-4413-8b43-18dc10953e46.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766531041",
+   "url": "https://www.blendkit.com/asset-gallery-detail/99729363-6f57-47ab-8d54-dc094cd589bf/",
+   "cats": [
+    "lava"
+   ],
+   "views": "103 в закладках",
+   "tags": [
+    "Animated",
+    "lava",
+    "rocks",
+    "hot"
+   ]
+  },
+  {
+   "id": "6a7619cb-b64d-49de-9898-ccdcf4b7dae3",
+   "title": "Ocean",
+   "prompt": "A 2K PBR Texture of blue, ocean or sea water. Perfect for planet scenesl. This sea or ocean water material is tiling. and has displacement",
+   "handle": "James Middleton",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/b88d313b0dbc46f1a672c1ef6736ca26/files/thumbnail_dfecb0c9-1ff3-46cd-bcd1-f569e85af73a.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766486881",
+   "url": "https://www.blendkit.com/asset-gallery-detail/6a7619cb-b64d-49de-9898-ccdcf4b7dae3/",
+   "cats": [
+    "water"
+   ],
+   "views": "101 в закладках",
+   "tags": [
+    "ocean",
+    "sea",
+    "surf",
+    "water"
+   ]
+  },
+  {
+   "id": "b3b79ce4-5001-469f-8cf3-26b012bd9bfa",
+   "title": "Water drop on metal",
+   "prompt": "The texture is a seamless grayscale image with a dark mettalic blue background. Scattered across the surface are numerous light gray to white spots of varying sizes, which represent raised or displaced areas. These spots",
+   "handle": "Anand Vk",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/401692e7a9f744c78bc6f820b853265c/files/thumbnail_005a7d48-0506-4d55-bb2e-64f9edad7cd0.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766686935",
+   "url": "https://www.blendkit.com/asset-gallery-detail/b3b79ce4-5001-469f-8cf3-26b012bd9bfa/",
+   "cats": [
+    "water"
+   ],
+   "views": "98 в закладках",
+   "tags": [
+    "metal",
+    "water",
+    "drops"
+   ]
+  },
+  {
+   "id": "e7a69483-4902-4bdc-af08-ccab3175fbf3",
+   "title": "cappuccino surface",
+   "prompt": "Процедурный материал Blender",
+   "handle": "Blendkit Community",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/7af0e316615a4107ac04224d26f1d0bc/files/thumbnail_6fb05c0b-547f-463d-8b53-72f059a6d837.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766418395",
+   "url": "https://www.blendkit.com/asset-gallery-detail/e7a69483-4902-4bdc-af08-ccab3175fbf3/",
+   "cats": [
+    "other"
+   ],
+   "views": "98 в закладках",
+   "tags": [
+    "coffee",
+    "drink",
+    "hot drink"
+   ]
+  },
+  {
+   "id": "6a4e78cd-2591-43de-9b6b-8088a30913c6",
+   "title": "Stylized Water",
+   "prompt": "A procedural shader nodegroup for generating Stylized Water Caustics",
+   "handle": "danes_dysfunction ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/318c14a1e04e49cc8c21e091a6c68858/files/thumbnail_7b0fec19-afa8-491c-adc5-53eb1f47e4e1.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766673468",
+   "url": "https://www.blendkit.com/asset-gallery-detail/6a4e78cd-2591-43de-9b6b-8088a30913c6/",
+   "cats": [
+    "water"
+   ],
+   "views": "92 в закладках",
+   "tags": [
+    "Stylized",
+    "Water",
+    "Caustics",
+    "Anime"
+   ]
+  },
+  {
+   "id": "ad95532a-2fc7-44ed-bd5d-650f9cd058fc",
+   "title": "Lava flow",
+   "prompt": "lava_flow",
+   "handle": "BumpkinCZ ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/01a9a52b570f4830b22746b60ec4439f/files/thumbnail_b17f2c41-23d2-467c-b245-bff56fb63ab1.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766429946",
+   "url": "https://www.blendkit.com/asset-gallery-detail/ad95532a-2fc7-44ed-bd5d-650f9cd058fc/",
+   "cats": [
+    "lava"
+   ],
+   "views": "92 в закладках",
+   "tags": [
+    "lava",
+    "flow",
+    "volcano",
+    "rock"
+   ]
+  },
+  {
+   "id": "149096bb-6062-48aa-8b10-bcf205088da4",
+   "title": "Slime",
+   "prompt": "Anime style slime, ice, glass, water material. This works better with round or curvy objects",
+   "handle": "Unrealboy Takashi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/5cc0f808c565473cb2a345bfe8426db8/files/thumbnail_782e56e0-b4ce-49bb-9116-f63e42f12895.png.512x512_q85_crop-%2C.png.webp?webp_generated=1784738178",
+   "url": "https://www.blendkit.com/asset-gallery-detail/149096bb-6062-48aa-8b10-bcf205088da4/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "90 в закладках",
+   "tags": [
+    "Slime",
+    "Water",
+    "Glass",
+    "Ice"
+   ]
+  },
+  {
+   "id": "90728f17-bebb-44e2-8886-fbea3b8700c3",
+   "title": "Mercury liguid metal",
+   "prompt": "Unique liquid metal shader simulating mercury with ultra-smooth reflections and subtle surface ripples. Great for sci-fi effects, futuristic props, and artistic renders.",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/0b25e92c09f14959bf30c1c0e6d194ab/files/thumbnail_b569ebe8-6317-4854-b367-e8e6fb7e8794.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766679714",
+   "url": "https://www.blendkit.com/asset-gallery-detail/90728f17-bebb-44e2-8886-fbea3b8700c3/",
+   "cats": [
+    "other"
+   ],
+   "views": "90 в закладках",
+   "tags": [
+    "Mercury",
+    "liguid",
+    "metal",
+    "material"
+   ]
+  },
+  {
+   "id": "2898643f-02c9-4682-acc0-901e84162bf2",
+   "title": "Watter liguid",
+   "prompt": "Clean water material with accurate refraction and adjustable surface ripples. Perfect for pools, lakes, fountains, or fluid simulations.",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/0b55a49698e747bbae43063e2f21614f/files/thumbnail_dc729cc0-3f9f-4907-89da-ac01484e43cc.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766679725",
+   "url": "https://www.blendkit.com/asset-gallery-detail/2898643f-02c9-4682-acc0-901e84162bf2/",
+   "cats": [
+    "other"
+   ],
+   "views": "89 в закладках",
+   "tags": [
+    "watter",
+    "liguid",
+    "liguid",
+    "material"
+   ]
+  },
+  {
+   "id": "d7353856-3e95-472f-bc54-76c8dec9a14d",
+   "title": "Animated realistic procedural lava",
+   "prompt": "animated realistic procedural lava liquid",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/c2b61f0bad754392b93b404ac134beda/files/thumbnail_43dbdd2e-3552-426a-ba55-77b6598ffb79.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766570256",
+   "url": "https://www.blendkit.com/asset-gallery-detail/d7353856-3e95-472f-bc54-76c8dec9a14d/",
+   "cats": [
+    "lava"
+   ],
+   "views": "89 в закладках",
+   "tags": [
+    "animated",
+    "realistic",
+    "procedural",
+    "lava"
+   ]
+  },
+  {
+   "id": "ec90dc8c-e256-4e01-9b51-b3b9730ea16f",
+   "title": "Translucent Resin",
+   "prompt": "A very accurate, realistic resin material with beautiful light depth. Perfect for tech products, jewelry, or clean industrial designs.",
+   "handle": "Abin Suresh",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/28b2b2a4b3fa4350ae79d218dda4239c/files/thumbnail_237635b5-ce4e-436e-8eec-c03c25731a64.png.512x512_q85_crop-%2C.png.webp?webp_generated=1770286574",
+   "url": "https://www.blendkit.com/asset-gallery-detail/ec90dc8c-e256-4e01-9b51-b3b9730ea16f/",
+   "cats": [
+    "other"
+   ],
+   "views": "85 в закладках",
+   "tags": [
+    "resin",
+    "translucent",
+    "epoxy",
+    "clear"
+   ]
+  },
+  {
+   "id": "adc8127c-a51b-4fa2-8897-6d1b057c38e2",
+   "title": "Water",
+   "prompt": "A water PBR (Physically Based Rendering) texture is a complex material that is not defined by a single image, but rather by a combination of different texture maps. These maps work together to create the realistic appear",
+   "handle": "Anand Vk",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/961537490ade4f50a4b9871af0b2a658/files/thumbnail_b2f8639c-0709-4880-a629-e166a487ee10.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766682636",
+   "url": "https://www.blendkit.com/asset-gallery-detail/adc8127c-a51b-4fa2-8897-6d1b057c38e2/",
+   "cats": [
+    "water"
+   ],
+   "views": "85 в закладках",
+   "tags": [
+    "WATER",
+    "LIQUID",
+    "SEA"
+   ]
+  },
+  {
+   "id": "facf5eab-2a9f-4995-846d-77509b169830",
+   "title": "Water for ocean",
+   "prompt": "water for ocean \r\nwith simple node and animate slider for making ocean animation very easy",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/4001fda6527f4a44aa9edfff4fc259fd/files/thumbnail_a5ee85f5-2f34-4eb6-8224-3db79137c7d9.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766609477",
+   "url": "https://www.blendkit.com/asset-gallery-detail/facf5eab-2a9f-4995-846d-77509b169830/",
+   "cats": [
+    "water"
+   ],
+   "views": "85 в закладках",
+   "tags": [
+    "water",
+    "liquid",
+    "ocean",
+    "river"
+   ]
+  },
+  {
+   "id": "2dc33447-90c5-4480-b820-aec1cbb2f41c",
+   "title": "Water",
+   "prompt": "Procedural water material created entirely in Blender without image textures, featuring a transparent surface with realistic light refraction and subtle wave variation. Fully tileable and resolution-independent, it is su",
+   "handle": "Mohammed Hossain",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/e367d48f98604cb9ad89cdc33ee9f5cd/files/thumbnail_ef244451-4bb6-4bbd-9f0a-e774ea4b2b93.png.512x512_q85_crop-%2C.png.webp?webp_generated=1775472669",
+   "url": "https://www.blendkit.com/asset-gallery-detail/2dc33447-90c5-4480-b820-aec1cbb2f41c/",
+   "cats": [
+    "water"
+   ],
+   "views": "83 в закладках",
+   "tags": [
+    "procedural",
+    "water",
+    "liquid",
+    "transparent"
+   ]
+  },
+  {
+   "id": "0d2b7207-cced-43df-b0e3-e5e5266cf983",
+   "title": "Purple gel",
+   "prompt": "Can be used with highly viscous liquids",
+   "handle": "Creative TAI",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/49a4462c9f794bc09e5a5f1b7153d554/files/thumbnail_8cab1df6-4dd2-4969-a548-65bff7162c1b.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766717357",
+   "url": "https://www.blendkit.com/asset-gallery-detail/0d2b7207-cced-43df-b0e3-e5e5266cf983/",
+   "cats": [
+    "gel"
+   ],
+   "views": "79 в закладках",
+   "tags": [
+    "gel",
+    "procedural",
+    "1"
+   ]
+  },
+  {
+   "id": "ae1fda9d-cde3-4591-a2b1-b5b1b3a75bd0",
+   "title": "Water Liquid",
+   "prompt": "Water materials that are usually installed in the sea or swimming pools are more transparent, they can also be used for liquid water materials or water simulations, including water animations up to 1000 frames",
+   "handle": "Jon 13",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8d6cbbccb79f499e961021d6a21de0d0/files/thumbnail_78acac00-917f-4557-8250-2115d33845a9.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766675894",
+   "url": "https://www.blendkit.com/asset-gallery-detail/ae1fda9d-cde3-4591-a2b1-b5b1b3a75bd0/",
+   "cats": [
+    "water"
+   ],
+   "views": "79 в закладках",
+   "tags": [
+    "water",
+    "ocean",
+    "liquid"
+   ]
+  },
+  {
+   "id": "ee4e14b7-dc4e-4144-bfb1-b7057fdcf401",
+   "title": "Water",
+   "prompt": "This Shader can be applied to any 3D model made in Blender. Moreover, this Shader is also easy to change for ease of use. This Shader was created to facilitate the work of 3D artists working in the Blender program. Furth",
+   "handle": "5555dnl_3d ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/f00c9f3476f947d7bc82b8a9f8b3cb33/files/thumbnail_19744204-2bba-4104-b0c5-f5d4c9de9448.png.512x512_q85_crop-%2C.png.webp?webp_generated=1776759217",
+   "url": "https://www.blendkit.com/asset-gallery-detail/ee4e14b7-dc4e-4144-bfb1-b7057fdcf401/",
+   "cats": [
+    "water"
+   ],
+   "views": "79 в закладках",
+   "tags": [
+    "water",
+    "ocean",
+    "lake",
+    "river"
+   ]
+  },
+  {
+   "id": "916b1e09-6352-4373-82e6-e436a0a39f3c",
+   "title": "Water Blue",
+   "prompt": "Water material that is usually installed in the sea or swimming pool where the bottom of the water is not visible, includes water animation up to 1000 frames",
+   "handle": "Jon 13",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/9f1753f428944bd0844e0c63f7df570d/files/thumbnail_3d4e4f8f-6831-4f2a-95e0-71ffbf211193.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766675888",
+   "url": "https://www.blendkit.com/asset-gallery-detail/916b1e09-6352-4373-82e6-e436a0a39f3c/",
+   "cats": [
+    "water"
+   ],
+   "views": "78 в закладках",
+   "tags": [
+    "water",
+    "ocean",
+    "liquid"
+   ]
+  },
+  {
+   "id": "e054174b-64d3-4d70-b18c-89e1cc6f1ea0",
+   "title": "Coffee crema",
+   "prompt": "Coffee crema with foam material, PBR material for realistic representation of a cup of coffee",
+   "handle": "Steffen ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8728e4fe03874b848b3c48ffa19f4e7d/files/thumbnail_42a88d48-7622-4ae8-b30b-72011102cce7.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766538465",
+   "url": "https://www.blendkit.com/asset-gallery-detail/e054174b-64d3-4d70-b18c-89e1cc6f1ea0/",
+   "cats": [
+    "other"
+   ],
+   "views": "78 в закладках",
+   "tags": [
+    "coffee",
+    "crema",
+    "cream",
+    "realistic"
+   ]
+  },
+  {
+   "id": "af0daacb-6565-42fa-8bb3-dbcb55afb0c7",
+   "title": "Ocean",
+   "prompt": "Procedural ocean material",
+   "handle": "Matthias Westhoff",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/b2874cfc4b8a490b9b8279b0e8c0be48/files/thumbnail_0458482f-c45f-498b-a717-6fd5c359c0e1.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766422453",
+   "url": "https://www.blendkit.com/asset-gallery-detail/af0daacb-6565-42fa-8bb3-dbcb55afb0c7/",
+   "cats": [
+    "water"
+   ],
+   "views": "76 в закладках",
+   "tags": [
+    "Ocean",
+    "sea",
+    "waves"
+   ]
+  },
+  {
+   "id": "9a501a77-0987-4cc8-b176-2131f04cc29d",
+   "title": "Grass under Water",
+   "prompt": "Beneath a lush expanse of grass lies a serene depiction of water, subtly weaving its way through the verdant landscape. The color palette takes on a warm, earthy hue, with shades of brown that evoke a sense of natural tr",
+   "handle": "Michał Talaśka",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/f2b0cb69a9934e1bbe1bd30429a7bc25/files/thumbnail_e35dedce-3360-4241-8eec-44c05354419c.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766503674",
+   "url": "https://www.blendkit.com/asset-gallery-detail/9a501a77-0987-4cc8-b176-2131f04cc29d/",
+   "cats": [
+    "water"
+   ],
+   "views": "76 в закладках",
+   "tags": [
+    "Water",
+    "Grass",
+    "Brown",
+    "Landscape"
+   ]
+  },
+  {
+   "id": "994d40d5-d3c5-4653-9ef2-583c3cb47f41",
+   "title": "Lava",
+   "prompt": "This is an abstract texture with an organic, liquid-like appearance. It is characterized by swirling, chaotic lines and shapes in glowing shades of orange, yellow, and red, set against a dark or black background. The des",
+   "handle": "Anand Vk",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/530debd6dede4764baae239f30143769/files/thumbnail_bc0c9c0e-6343-4e6a-bdc5-21ab191ffbb2.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766688861",
+   "url": "https://www.blendkit.com/asset-gallery-detail/994d40d5-d3c5-4653-9ef2-583c3cb47f41/",
+   "cats": [
+    "lava"
+   ],
+   "views": "72 в закладках",
+   "tags": [
+    "lava",
+    "liquid",
+    "landscape",
+    "fire"
+   ]
+  },
+  {
+   "id": "a3bad965-fe08-41d6-8907-50c063dbf4b4",
+   "title": "Chewy jelly",
+   "prompt": "A chewy jelly with the right level of transparency and suitable for liquids.",
+   "handle": "Jon 13",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/474dd6f570f74d2da449bfe378bafd15/files/thumbnail_c820dff3-a3e6-4608-b8ce-c64edd3f9a65.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766686984",
+   "url": "https://www.blendkit.com/asset-gallery-detail/a3bad965-fe08-41d6-8907-50c063dbf4b4/",
+   "cats": [
+    "gel"
+   ],
+   "views": "71 в закладках",
+   "tags": [
+    "jelly",
+    "chewy",
+    "glass"
+   ]
+  },
+  {
+   "id": "35277974-ca23-437b-99e7-4200ac273cf2",
+   "title": "Dispersion jelly",
+   "prompt": "A stylized yet physically inspired jelly material featuring strong light dispersion, smooth transparency, and glossy surface behavior. The material simulates a soft, gelatin-like substance with subtle thickness variation",
+   "handle": "Elin FL",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/a091dff4f23b4157a6a8f04fc9d85c9b/files/thumbnail_0d1f7a8a-a97a-4255-91f7-8e6d9ccc09d8.png.512x512_q85_crop-%2C.png.webp?webp_generated=1770214279",
+   "url": "https://www.blendkit.com/asset-gallery-detail/35277974-ca23-437b-99e7-4200ac273cf2/",
+   "cats": [
+    "gel"
+   ],
+   "views": "70 в закладках",
+   "tags": [
+    "jelly",
+    "chewy",
+    "glass"
+   ]
+  },
+  {
+   "id": "29f43dcd-50c2-4c28-ad99-a412c6e71598",
+   "title": "Water",
+   "prompt": "Water procedural clear, animated loop, suitable for pools, rivers and sea",
+   "handle": "James Middleton",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/a6c5a08209634c79bcc4ed0eef5fca54/files/thumbnail_87705be2-9c17-4d43-bfcc-7a559ec6edfc.png.512x512_q85_crop-%2C.png.webp?webp_generated=1769516166",
+   "url": "https://www.blendkit.com/asset-gallery-detail/29f43dcd-50c2-4c28-ad99-a412c6e71598/",
+   "cats": [
+    "water"
+   ],
+   "views": "70 в закладках",
+   "tags": [
+    "water",
+    "clear",
+    "pools",
+    "rivers"
+   ]
+  },
+  {
+   "id": "82400151-fc18-45bf-9f42-e6fa91816998",
+   "title": "Radioactive Material",
+   "prompt": "Liquid Radioactive Material With color emission",
+   "handle": "Tecla Mtz",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/6d95cb6e7bbc44a6840958753ab5678d/files/thumbnail_4b5d35d7-39bc-4dc8-bdf8-f70562709001.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766643811",
+   "url": "https://www.blendkit.com/asset-gallery-detail/82400151-fc18-45bf-9f42-e6fa91816998/",
+   "cats": [
+    "other"
+   ],
+   "views": "69 в закладках",
+   "tags": [
+    "Radioactive",
+    "Material",
+    "Green",
+    "Emission"
+   ]
+  },
+  {
+   "id": "9edb8ac3-6bdd-4166-a6aa-365d065f8f5f",
+   "title": "Sodium",
+   "prompt": "Procedural  liquid  Sodium",
+   "handle": "nathan magnan",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/d5c8cc0f8c224b7898dac71d79e89ef4/files/thumbnail_8409cad8-4bcf-4e32-a54c-48362857be38.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766555678",
+   "url": "https://www.blendkit.com/asset-gallery-detail/9edb8ac3-6bdd-4166-a6aa-365d065f8f5f/",
+   "cats": [
+    "other"
+   ],
+   "views": "68 в закладках",
+   "tags": [
+    "Sodium",
+    "liquid",
+    "metal"
+   ]
+  },
+  {
+   "id": "c4a34b88-b4c3-421d-be1a-5c83afda9455",
+   "title": "Water",
+   "prompt": "This Shader can be applied to any 3D model made in Blender. Moreover, this Shader is also easy to change for ease of use. This Shader was created to facilitate the work of 3D artists working in the Blender program. Furth",
+   "handle": "5555dnl_3d ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/258a0b6f699841208012b56ae5d912e6/files/thumbnail_164ccd98-1888-42b4-ad3d-54ed4b74679b.png.512x512_q85_crop-%2C.png.webp?webp_generated=1776418314",
+   "url": "https://www.blendkit.com/asset-gallery-detail/c4a34b88-b4c3-421d-be1a-5c83afda9455/",
+   "cats": [
+    "water"
+   ],
+   "views": "67 в закладках",
+   "tags": [
+    "water",
+    "shader",
+    "ocean",
+    "lake"
+   ]
+  },
+  {
+   "id": "2bd700eb-4f7f-4520-89f7-e87b3cc88774",
+   "title": "Murky river",
+   "prompt": "It was created with the image of the invisible skin of the river bottom in mind.",
+   "handle": "Creative TAI",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/0b2d99bcfeb14708a0ab4c18887e6bbc/files/thumbnail_c88319e1-9699-49a1-ab86-0b1036a6fb80.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766719310",
+   "url": "https://www.blendkit.com/asset-gallery-detail/2bd700eb-4f7f-4520-89f7-e87b3cc88774/",
+   "cats": [
+    "water"
+   ],
+   "views": "65 в закладках",
+   "tags": [
+    "river",
+    "dirty",
+    "1",
+    "murky"
+   ]
+  },
+  {
+   "id": "ff21bc79-859f-474d-a48e-646ef2a6e6e3",
+   "title": "Ice",
+   "prompt": "A cracked ice particle texture in 2K PBR. Cracked frozen water or salt  texture complete with tiling and displacement. Also looks like smashed glass. Ice mix 1",
+   "handle": "James Middleton",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/91dbd7fb23c84d7686f04df13f2bfa59/files/thumbnail_10323103-c36e-4d7f-84ed-91055b92471f.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766566320",
+   "url": "https://www.blendkit.com/asset-gallery-detail/ff21bc79-859f-474d-a48e-646ef2a6e6e3/",
+   "cats": [
+    "water"
+   ],
+   "views": "65 в закладках",
+   "tags": [
+    "cracked",
+    "ice",
+    "salt",
+    "particles"
+   ]
+  },
+  {
+   "id": "4056886f-7ef4-4ffe-ab27-16d922a61773",
+   "title": "Oil - Ferro Fluid - Motor Oil",
+   "prompt": "It's Oil, or something close.",
+   "handle": "aPOP Blops",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/b719ae19d8614e0aa4048f735a854537/files/thumbnail_a30239dc-7a66-443e-a7d0-abffe7df7411.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766634686",
+   "url": "https://www.blendkit.com/asset-gallery-detail/4056886f-7ef4-4ffe-ab27-16d922a61773/",
+   "cats": [
+    "honey"
+   ],
+   "views": "65 в закладках",
+   "tags": [
+    "oil",
+    "motor_oil",
+    "engine_oil",
+    "liquid"
+   ]
+  },
+  {
+   "id": "466b5c3c-a2a5-4b72-a6b5-20493120401f",
+   "title": "Water Jelly",
+   "prompt": "A high-quality procedural Water Jelly material featuring a semi-translucent, organic surface with rich color variation and subtle internal scattering. This shader blends glossy reflections with soft subsurface effects to",
+   "handle": "Elin FL",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/bc7cb5087002429cac3b7b0a84bd0607/files/thumbnail_3a90dce4-e8c1-4bb4-a93a-b36faf5eaac8.png.512x512_q85_crop-%2C.png.webp?webp_generated=1773916867",
+   "url": "https://www.blendkit.com/asset-gallery-detail/466b5c3c-a2a5-4b72-a6b5-20493120401f/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "64 в закладках",
+   "tags": [
+    "drink",
+    "water",
+    "jelly"
+   ]
+  },
+  {
+   "id": "b56e4858-0981-43d5-abb5-6961b3d55f29",
+   "title": "Stylized Sea Water",
+   "prompt": "A bright stylized sea water material with dynamic wave patterns, subtle foam-like highlights, and a crisp glossy surface. Designed to evoke the look of shallow tropical seas, it features vibrant coloration and soft depth",
+   "handle": "Vaishakh Vinod",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/1aed42d24f024ef9bdbfe41d9000d314/files/thumbnail_6b06621c-f2a4-492e-afe5-62b9b5095639.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766711928",
+   "url": "https://www.blendkit.com/asset-gallery-detail/b56e4858-0981-43d5-abb5-6961b3d55f29/",
+   "cats": [
+    "water"
+   ],
+   "views": "64 в закладках",
+   "tags": [
+    "sea",
+    "water",
+    "stylized",
+    "ocean"
+   ]
+  },
+  {
+   "id": "80226c57-2105-4266-9fb8-be5728a8571b",
+   "title": "Bubble",
+   "prompt": "A high-quality shader for models made in Blender, designed for quick and convenient use in a wide variety of projects. Thanks to its flexible settings, it is easy to adapt it to the desired style and visual requirements.",
+   "handle": "555nkt ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/45bab8b3849f4c7d81f8d1568e631661/files/thumbnail_edc14dcc-b7da-47bc-9d50-598d60443128.png.512x512_q85_crop-%2C.png.webp?webp_generated=1781256179",
+   "url": "https://www.blendkit.com/asset-gallery-detail/80226c57-2105-4266-9fb8-be5728a8571b/",
+   "cats": [
+    "gel",
+    "foam"
+   ],
+   "views": "63 в закладках",
+   "tags": [
+    "bubble",
+    "transparent",
+    "soap",
+    "liquid"
+   ]
+  },
+  {
+   "id": "d455eceb-197b-4077-aad0-73e3daee1df5",
+   "title": "PewDiePie texture",
+   "prompt": "Процедурный материал Blender",
+   "handle": "Adam Weisman",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/bfed39e1017743c6986fe6fd539125d4/files/thumbnail_b2e102d8-a42e-43a6-a74b-2e18fef157fa.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766427621",
+   "url": "https://www.blendkit.com/asset-gallery-detail/d455eceb-197b-4077-aad0-73e3daee1df5/",
+   "cats": [
+    "water"
+   ],
+   "views": "62 в закладках",
+   "tags": [
+    "wave",
+    "red",
+    "pewdiepie",
+    "youtube"
+   ]
+  },
+  {
+   "id": "592bdfb2-1533-472f-b454-d82feb9128d8",
+   "title": "Coffee Latte Art Bunny Pattern",
+   "prompt": "Coffee Latte Art Bunny Rabbit Pattern,",
+   "handle": "Mojo ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8fd352ce21144a1eb054b0f48003a211/files/thumbnail_c8816656-f00e-4069-9664-17e6a63711ba.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766471836",
+   "url": "https://www.blendkit.com/asset-gallery-detail/592bdfb2-1533-472f-b454-d82feb9128d8/",
+   "cats": [
+    "foam"
+   ],
+   "views": "62 в закладках",
+   "tags": [
+    "bunny",
+    "latte",
+    "art",
+    "coffee"
+   ]
+  },
+  {
+   "id": "bc7a6f16-8d72-4c13-862c-ad3cba268aa0",
+   "title": "Procedural Caustics Water for Cycles",
+   "prompt": "Purocedual water material with caustics and color shift.\r\nYou can also use faster version (non-color shift).",
+   "handle": "Linka Palm",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8e64f4413ca9455e94936135a2a24395/files/thumbnail_c8c9b5ab-91e0-45f4-bc52-2a77f3b8bfb9.png.512x512_q85_crop-%2C.png.webp?webp_generated=1782108237",
+   "url": "https://www.blendkit.com/asset-gallery-detail/bc7a6f16-8d72-4c13-862c-ad3cba268aa0/",
+   "cats": [
+    "water"
+   ],
+   "views": "61 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "caustics",
+    "pool"
+   ]
+  },
+  {
+   "id": "0025ceaa-86e5-4651-a5ad-68374c1f11b2",
+   "title": "Radioactive Edge Glow",
+   "prompt": "Radioactive Edge Glow",
+   "handle": "Seamus Robertson",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/2f7302696b8d493b9c9d20e6a8e50b21/files/thumbnail_e7bf5f1d-3e09-403c-938a-a9eca57f1cce.png.512x512_q85_crop-%2C.png.webp?webp_generated=1781792526",
+   "url": "https://www.blendkit.com/asset-gallery-detail/0025ceaa-86e5-4651-a5ad-68374c1f11b2/",
+   "cats": [
+    "other"
+   ],
+   "views": "60 в закладках",
+   "tags": [
+    "light",
+    "frensel",
+    "radioactive",
+    "glow"
+   ]
+  },
+  {
+   "id": "6ab179f2-22dc-4027-b3cc-0a7c22010724",
+   "title": "Soap",
+   "prompt": "Procedural Soap Texture. Use with Adaptive Subdivision. Change Viewport Subdivions under the Render tab to 1.0.",
+   "handle": "Cyberking 42",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/34fed0ce86a94baea9bb0c7a1b151ce4/files/thumbnail_86a21541-6bc5-46a5-b674-65d73d4da672.png.512x512_q85_crop-%2C.png.webp?webp_generated=1771925769",
+   "url": "https://www.blendkit.com/asset-gallery-detail/6ab179f2-22dc-4027-b3cc-0a7c22010724/",
+   "cats": [
+    "gel",
+    "foam"
+   ],
+   "views": "60 в закладках",
+   "tags": [
+    "soap",
+    "foam",
+    "transparent",
+    "reflective"
+   ]
+  },
+  {
+   "id": "a47bdb2e-8792-4f9d-9b4d-c593ab9cf42d",
+   "title": "Water Sea",
+   "prompt": "Water Sea procedural slightly rough, animated loop, suitable for pools, rivers and sea",
+   "handle": "James Middleton",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/9e8518f7ed5d4266ab49dcf005554f1d/files/thumbnail_3ce342fb-7e73-4d41-bbca-a19ceeb8d31c.png.512x512_q85_crop-%2C.png.webp?webp_generated=1784793660",
+   "url": "https://www.blendkit.com/asset-gallery-detail/a47bdb2e-8792-4f9d-9b4d-c593ab9cf42d/",
+   "cats": [
+    "water"
+   ],
+   "views": "60 в закладках",
+   "tags": [
+    "water",
+    "sea",
+    "rough",
+    "pools"
+   ]
+  },
+  {
+   "id": "e0b0a7b8-90b3-4018-a7be-acf892c90804",
+   "title": "Pool water",
+   "prompt": "A Pool Water PBR (Physically Based Rendering) texture is a material designed to realistically simulate a calm, clean body of water, such as that found in a swimming pool. The material is typically composed of several tex",
+   "handle": "Anand Vk",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/02024977a116449fa4eec0580e586bbd/files/thumbnail_4dd01dfe-51f4-48b0-8b53-90081dfb0f74.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766682639",
+   "url": "https://www.blendkit.com/asset-gallery-detail/e0b0a7b8-90b3-4018-a7be-acf892c90804/",
+   "cats": [
+    "water"
+   ],
+   "views": "60 в закладках",
+   "tags": [
+    "WATER",
+    "POOL",
+    "LIQUID"
+   ]
+  },
+  {
+   "id": "11af5c23-d89e-4582-bf0f-3f1abcca83bd",
+   "title": "Procedural Liquid Soap",
+   "prompt": "Procedural Liquid Soap with several parameters",
+   "handle": "Matheus Godoi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/5231cae2d0c54697a4d75ed6a5509012/files/thumbnail_71f6b4a6-76a6-4472-a01e-79dc34cf2f05.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766592823",
+   "url": "https://www.blendkit.com/asset-gallery-detail/11af5c23-d89e-4582-bf0f-3f1abcca83bd/",
+   "cats": [
+    "gel"
+   ],
+   "views": "58 в закладках",
+   "tags": [
+    "procedural",
+    "liquid",
+    "soap",
+    "decoration"
+   ]
+  },
+  {
+   "id": "cb0bc242-1dd4-4100-aa77-5b67605e6036",
+   "title": "Stylized Water",
+   "prompt": "A vibrant stylized water material featuring soft wave patterns, bright caustic-like highlights, and a glossy surface finish. The material captures a cartoon-friendly aquatic look, ideal for games, animations, and fantasy",
+   "handle": "Vaishakh Vinod",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/33ef43eacb4846ca9624e107e8349295/files/thumbnail_671cb398-b51e-4ed9-95f4-f37ff96f651f.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766711926",
+   "url": "https://www.blendkit.com/asset-gallery-detail/cb0bc242-1dd4-4100-aa77-5b67605e6036/",
+   "cats": [
+    "water"
+   ],
+   "views": "57 в закладках",
+   "tags": [
+    "water",
+    "stylized",
+    "aqua",
+    "glossy"
+   ]
+  },
+  {
+   "id": "468e1469-cd33-42b0-8407-6b2b09f3ef57",
+   "title": "Molten salt",
+   "prompt": "Procedural hot and cold Molten salt",
+   "handle": "nathan magnan",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8e71a54d727946d9bdba424388790830/files/thumbnail_a9bc5fe1-73ef-4a01-bf03-d9c90be693d6.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766555676",
+   "url": "https://www.blendkit.com/asset-gallery-detail/468e1469-cd33-42b0-8407-6b2b09f3ef57/",
+   "cats": [
+    "other"
+   ],
+   "views": "55 в закладках",
+   "tags": [
+    "Moltensalt",
+    "liquid",
+    "fluid"
+   ]
+  },
+  {
+   "id": "b4eb553d-71fe-4132-a89f-0e6f2da5fc11",
+   "title": "Storm Swell Ocean Water (Procedural)",
+   "prompt": "Deep, dark ocean surface with layered swells, wind-driven chop, and varied roughness for stormy sea scenes.",
+   "handle": "Austin Michaud",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/02639ced93cf4930ad86851f961a6723/files/thumbnail_149fd29e-32a7-4171-bb99-9be3fbd73288.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766718279",
+   "url": "https://www.blendkit.com/asset-gallery-detail/b4eb553d-71fe-4132-a89f-0e6f2da5fc11/",
+   "cats": [
+    "water"
+   ],
+   "views": "54 в закладках",
+   "tags": [
+    "water",
+    "ocean",
+    "storm",
+    "rough"
+   ]
+  },
+  {
+   "id": "4cd24d96-8a06-4a49-8b1c-5a8a8adafab8",
+   "title": "Swamp Water",
+   "prompt": "Swamp Water is a procedural material designed to replicate the dark, murky, and organic look of swamp liquid. This material is PBR-compatible, requires no external textures, and works with both Eevee and Cycles.",
+   "handle": "Elin FL",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/74d2b690d5904fdba25474a94e978474/files/thumbnail_dd19b70f-9a27-4bc6-9344-f5bb41cbdd3d.png.512x512_q85_crop-%2C.png.webp?webp_generated=1768385178",
+   "url": "https://www.blendkit.com/asset-gallery-detail/4cd24d96-8a06-4a49-8b1c-5a8a8adafab8/",
+   "cats": [
+    "water"
+   ],
+   "views": "53 в закладках",
+   "tags": [
+    "swamp",
+    "water",
+    "dirty"
+   ]
+  },
+  {
+   "id": "e5655cc3-edc7-4cfe-9188-f019dca4e4db",
+   "title": "Crude Oil",
+   "prompt": "Crude Oil with a slight thin-film interference",
+   "handle": "eatnoodls ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/1422627683c54227a353d920a682254e/files/thumbnail_26e5773e-05f7-4f5b-adea-52c01dbfd5b1.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766451109",
+   "url": "https://www.blendkit.com/asset-gallery-detail/e5655cc3-edc7-4cfe-9188-f019dca4e4db/",
+   "cats": [
+    "honey"
+   ],
+   "views": "53 в закладках",
+   "tags": [
+    "Oil",
+    "Crude",
+    "Petrol",
+    "Diesel"
+   ]
+  },
+  {
+   "id": "b5f0eaca-75d9-4f6d-86ae-ae1570463bda",
+   "title": "Liquid Motion Iron",
+   "prompt": "Fluid motion material for fluid simulation needs, has been animated from frame one to two hundred and fifty frames.",
+   "handle": "Elin FL",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/84cfd05159fe4477b24854f16786d2b6/files/thumbnail_55d42b1a-1f08-4689-a3d4-f7e73ab22f9f.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766699565",
+   "url": "https://www.blendkit.com/asset-gallery-detail/b5f0eaca-75d9-4f6d-86ae-ae1570463bda/",
+   "cats": [
+    "other"
+   ],
+   "views": "50 в закладках",
+   "tags": [
+    "Liquid",
+    "Motion",
+    "Fluid"
+   ]
+  },
+  {
+   "id": "1178c819-dbd8-4662-b16f-75c2a0cb34d2",
+   "title": "Papers on water",
+   "prompt": "ultra realitic pbr material with 4k texture",
+   "handle": "SUMIRAM ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/480440c4a4c149fdb54c767a7d6574de/files/thumbnail_903f1fe6-3417-4300-aa44-d67746114acd.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766509477",
+   "url": "https://www.blendkit.com/asset-gallery-detail/1178c819-dbd8-4662-b16f-75c2a0cb34d2/",
+   "cats": [
+    "water"
+   ],
+   "views": "49 в закладках",
+   "tags": [
+    "wet",
+    "water",
+    "papers",
+    "tissue"
+   ]
+  },
+  {
+   "id": "b4888386-fda2-4981-871c-baec1ce68a21",
+   "title": "Liquid Motion",
+   "prompt": "Fluid motion material for fluid simulation needs, has been animated from frame one to five hundred.",
+   "handle": "Elin FL",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/7b5eddf10e0c4362b034defb91d819c9/files/thumbnail_0f0f936c-5540-4694-a5da-cff8f46769fb.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766699573",
+   "url": "https://www.blendkit.com/asset-gallery-detail/b4888386-fda2-4981-871c-baec1ce68a21/",
+   "cats": [
+    "other"
+   ],
+   "views": "48 в закладках",
+   "tags": [
+    "Liquid",
+    "Motion",
+    "Fluid"
+   ]
+  },
+  {
+   "id": "1aad1d70-4bcb-4a8f-9112-56f666ecadfd",
+   "title": "Procedural Honey",
+   "prompt": "Procedural Honey Material",
+   "handle": "Seamus Robertson",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8fe52ee2b759479580caf10533e466d6/files/thumbnail_7eca1d6a-125f-4c31-9fdc-ab9354fe63c0.png.512x512_q85_crop-%2C.png.webp?webp_generated=1781702057",
+   "url": "https://www.blendkit.com/asset-gallery-detail/1aad1d70-4bcb-4a8f-9112-56f666ecadfd/",
+   "cats": [
+    "honey"
+   ],
+   "views": "46 в закладках",
+   "tags": [
+    "honey",
+    "liquid",
+    "food",
+    "viscous"
+   ]
+  },
+  {
+   "id": "92dfad19-4ae6-4964-8c8a-32d3573a2628",
+   "title": "Lava planet",
+   "prompt": "Процедурный материал Blender",
+   "handle": "Steffen ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/c41eeb6242c645bc8dd5781c1bf2d079/files/thumbnail_5127b114-8a72-4da4-9f04-cb90f0413390.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766432587",
+   "url": "https://www.blendkit.com/asset-gallery-detail/92dfad19-4ae6-4964-8c8a-32d3573a2628/",
+   "cats": [
+    "lava"
+   ],
+   "views": "45 в закладках",
+   "tags": [
+    "lava",
+    "molten",
+    "molten lava",
+    "lava planet"
+   ]
+  },
+  {
+   "id": "ff8cf362-6138-44fe-8cdc-2011a93e01a2",
+   "title": "Water",
+   "prompt": "A transparent water material with realistic reflections and refractions. Suitable for pools, oceans, lakes, rivers, and fluid simulations.",
+   "handle": "xam o",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/b186cb44f2614b95ad194966997598a2/files/thumbnail_aa136df2-5cd0-4a52-819e-a3ba3fab406e.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766690427",
+   "url": "https://www.blendkit.com/asset-gallery-detail/ff8cf362-6138-44fe-8cdc-2011a93e01a2/",
+   "cats": [
+    "water"
+   ],
+   "views": "44 в закладках",
+   "tags": [
+    "water",
+    "liquid",
+    "transparent",
+    "clear"
+   ]
+  },
+  {
+   "id": "acacf2f4-69df-4ba7-9d56-5b6639dd8a17",
+   "title": "Radioactive Uranium",
+   "prompt": "Procedural radioactive uranium material created entirely in Blender without image textures, featuring a glowing surface with vivid green emission and subtle texture variation. Fully tileable and resolution-independent, i",
+   "handle": "Mohammed Hossain",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/a7dc370cf48147b795dbba040bbb972d/files/thumbnail_7b01b99c-383a-4aea-a52a-653b8b5a99ab.png.512x512_q85_crop-%2C.png.webp?webp_generated=1775472671",
+   "url": "https://www.blendkit.com/asset-gallery-detail/acacf2f4-69df-4ba7-9d56-5b6639dd8a17/",
+   "cats": [
+    "other"
+   ],
+   "views": "43 в закладках",
+   "tags": [
+    "procedural",
+    "uranium",
+    "radioactive",
+    "glowing"
+   ]
+  },
+  {
+   "id": "3caf4ff2-4e50-43ab-b400-96095ca10155",
+   "title": "Realistic procedural lava",
+   "prompt": "realistic procedural lava",
+   "handle": "Soran Mohammadi",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/e4ab92a40a1a4cb4aeb0c9ef95bae2f2/files/thumbnail_bdabcdee-df64-4754-b118-27efde4769b5.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766570251",
+   "url": "https://www.blendkit.com/asset-gallery-detail/3caf4ff2-4e50-43ab-b400-96095ca10155/",
+   "cats": [
+    "lava"
+   ],
+   "views": "41 в закладках",
+   "tags": [
+    "realistic",
+    "procedural",
+    "lava",
+    "liquid"
+   ]
+  },
+  {
+   "id": "cfa8f064-e0cb-4085-bb6a-ba087a9d1fec",
+   "title": "Slime",
+   "prompt": "Procedural Slime Texture. Use with Adaptive Subdivision. Change Viewport Subdivions under the Render tab to 1.0.",
+   "handle": "Cyberking 42",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8d4670c071714a5aa41d9774b8cafb32/files/thumbnail_b33a91cb-a8e5-4aaf-841e-b71e48400d38.png.512x512_q85_crop-%2C.png.webp?webp_generated=1770632472",
+   "url": "https://www.blendkit.com/asset-gallery-detail/cfa8f064-e0cb-4085-bb6a-ba087a9d1fec/",
+   "cats": [
+    "gel"
+   ],
+   "views": "40 в закладках",
+   "tags": [
+    "slime",
+    "gel",
+    "translucent",
+    "toxic"
+   ]
+  },
+  {
+   "id": "d98b87f8-b2e2-44cd-a1a3-8267c718727d",
+   "title": "Procedural Molten Metal",
+   "prompt": "A procedural molten steel material",
+   "handle": "chroma 3D",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/0640cd18e41a43939f32564bd63282d3/files/thumbnail_29350f7a-64a4-4f00-a8c9-a6473e8605b7.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766541020",
+   "url": "https://www.blendkit.com/asset-gallery-detail/d98b87f8-b2e2-44cd-a1a3-8267c718727d/",
+   "cats": [
+    "lava"
+   ],
+   "views": "40 в закладках",
+   "tags": [
+    "molten",
+    "steel",
+    "iron",
+    "ladl"
+   ]
+  },
+  {
+   "id": "0e85bdcf-0463-4a5c-8234-a3e33319c3dd",
+   "title": "Realistic Dynamic Ocean Water",
+   "prompt": "A physically based, animated ocean water shader built with Blender's Ocean modifier (Phillips-spectrum wave simulation) paired with a procedural Principled BSDF shader. Features realistic transmission and refraction (IOR",
+   "handle": "Sadeq Khadem",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/39a8265b310949f28a33d1cf660932a9/files/thumbnail_46f41b1c-e9f4-4ff5-b19b-ac8a473c42d4.png.512x512_q85_crop-%2C.png.webp?webp_generated=1787203906",
+   "url": "https://www.blendkit.com/asset-gallery-detail/0e85bdcf-0463-4a5c-8234-a3e33319c3dd/",
+   "cats": [
+    "water",
+    "foam"
+   ],
+   "views": "39 в закладках",
+   "tags": [
+    "water",
+    "ocean",
+    "sea",
+    "liquid"
+   ]
+  },
+  {
+   "id": "f22cdbd8-d9ba-46a7-80d8-3774dce46e72",
+   "title": "Lava Dark",
+   "prompt": "Lava Dark, animated loop, suitable for pools, volcano rivers and magma with displacement",
+   "handle": "James Middleton",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/146a035f54cc4d5cba396c7c1efc381d/files/thumbnail_768671f0-0e7f-4f55-a7dd-d77b156881d1.png.512x512_q85_crop-%2C.png.webp?webp_generated=1770022865",
+   "url": "https://www.blendkit.com/asset-gallery-detail/f22cdbd8-d9ba-46a7-80d8-3774dce46e72/",
+   "cats": [
+    "lava"
+   ],
+   "views": "39 в закладках",
+   "tags": [
+    "lava",
+    "animated",
+    "loop",
+    "pools"
+   ]
+  },
+  {
+   "id": "b4979107-b330-4fd3-b8cf-cfb41e0c10a5",
+   "title": "Water With Ripples",
+   "prompt": "A water with ripples material, easily adjustable in scale, detail, offsets, colors, spots, ripples, etc. via a material shader node for surface and volume.",
+   "handle": "Dennis Hafemann",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/82a851065b4b454ba21b103f228acde8/files/thumbnail_572cdb53-a956-4a2e-b444-e90114762c54.png.512x512_q85_crop-%2C.png.webp?webp_generated=1768793154",
+   "url": "https://www.blendkit.com/asset-gallery-detail/b4979107-b330-4fd3-b8cf-cfb41e0c10a5/",
+   "cats": [
+    "water"
+   ],
+   "views": "35 в закладках",
+   "tags": [
+    "water",
+    "spots",
+    "ripples",
+    "volume"
+   ]
+  },
+  {
+   "id": "2c6cd901-0769-4974-97ea-18c928cb0082",
+   "title": "Purple toxic",
+   "prompt": "Image of toxic liquid",
+   "handle": "Creative TAI",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/542eaafc3f4848ec9cdb52ea8f17c05c/files/thumbnail_19fd8745-4c32-4ee7-922a-bee1ed69f444.png.512x512_q85_crop-%2C.png.webp?webp_generated=1769088672",
+   "url": "https://www.blendkit.com/asset-gallery-detail/2c6cd901-0769-4974-97ea-18c928cb0082/",
+   "cats": [
+    "other"
+   ],
+   "views": "35 в закладках",
+   "tags": [
+    "toxic",
+    "liquid",
+    "1"
+   ]
+  },
+  {
+   "id": "55005f2a-f4fe-4327-98ab-374ab4632efe",
+   "title": "Stylized Animated Water",
+   "prompt": "A procedural stylized animated toon water material designed to complement medieval and fantasy environments. The shader creates a smooth flowing water effect using a seamless looping animation, making it ideal for rivers",
+   "handle": "Reza NeoMasyaf",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/504377c2930e4f27b3bd8a7ea740f2e9/files/thumbnail_94026d5f-1e74-46dd-b365-f981cae1e939.png.512x512_q85_crop-%2C.png.webp?webp_generated=1784266319",
+   "url": "https://www.blendkit.com/asset-gallery-detail/55005f2a-f4fe-4327-98ab-374ab4632efe/",
+   "cats": [
+    "water"
+   ],
+   "views": "34 в закладках",
+   "tags": [
+    "medieval",
+    "fantasy",
+    "toon",
+    "water"
+   ]
+  },
+  {
+   "id": "edd59e1b-8175-4ca5-9184-2e2b101607ac",
+   "title": "Stylized and Animated Sea",
+   "prompt": "This material is composed of several layers of overlapping, animated textures to create a calm sea effect. It features a beach section with waves on top as well as a sea section, all of which are fully animated. The mate",
+   "handle": "Volunick Volunick",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/446186584d124f9aad1d25be5c5aacbc/files/thumbnail_ed5455fb-7a45-4c2c-b500-6ce9b892c07a.png.512x512_q85_crop-%2C.png.webp?webp_generated=1776245481",
+   "url": "https://www.blendkit.com/asset-gallery-detail/edd59e1b-8175-4ca5-9184-2e2b101607ac/",
+   "cats": [
+    "water"
+   ],
+   "views": "32 в закладках",
+   "tags": [
+    "sea",
+    "ocean",
+    "water",
+    "beach"
+   ]
+  },
+  {
+   "id": "813ca77c-b7d0-4e32-9573-1418bf7c8a47",
+   "title": "Eevee Procedural Ocean Water",
+   "prompt": "The AR3DMat Ocean Water is a streamlined procedural shader designed for high-fidelity marine environments in Blender 5.1.1, utilizing a dual-layered Noise Texture system to simulate both expansive wave swells and intrica",
+   "handle": "AR3Designs Digital Design Services",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/a40e0215ae8741ed84687dd43f8c7478/files/thumbnail_f467767d-a49f-4f5e-806f-6633f7cd22fe.png.512x512_q85_crop-%2C.png.webp?webp_generated=1784730461",
+   "url": "https://www.blendkit.com/asset-gallery-detail/813ca77c-b7d0-4e32-9573-1418bf7c8a47/",
+   "cats": [
+    "water"
+   ],
+   "views": "31 в закладках",
+   "tags": [
+    "ar3dmat",
+    "ar3d",
+    "ar3designs",
+    "eevee"
+   ]
+  },
+  {
+   "id": "d453bb77-0adb-47da-9d78-b2de226fbf70",
+   "title": "Advanced Toon",
+   "prompt": "WORKS ONLY ON EEVEE in Blender version 5.1 and above. The default preset is water shading for presentation. expanded version of \"Procedural cel shader\" that I made, it's on my profile.\r\n*Paint-fill your models with blue ",
+   "handle": "LucidKumo ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/c3e851087fb2453883f7fb7243fa5258/files/thumbnail_29ab8f74-ba5d-4269-a0a2-d2240ed8498c.png.512x512_q85_crop-%2C.png.webp?webp_generated=1784181090",
+   "url": "https://www.blendkit.com/asset-gallery-detail/d453bb77-0adb-47da-9d78-b2de226fbf70/",
+   "cats": [
+    "water"
+   ],
+   "views": "29 в закладках",
+   "tags": [
+    "toon",
+    "cel",
+    "anime",
+    "cartoon"
+   ]
+  },
+  {
+   "id": "9c2aaa9c-ba08-4df4-af7a-a1f9477ef562",
+   "title": "Distorted Water",
+   "prompt": "Distorted Water is a clear liquid churned into broken, overlapping sheets. The surface bends what sits behind it into warped shapes, highlights split along the folds, and the body stays transparent so the distortion does",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/504b355ef77b420b81740dd82a354c92/files/thumbnail_7b5aed98-7436-4783-8470-05f048b9cc2d.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788898040",
+   "url": "https://www.blendkit.com/asset-gallery-detail/9c2aaa9c-ba08-4df4-af7a-a1f9477ef562/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "28 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "distorted",
+    "wet"
+   ]
+  },
+  {
+   "id": "57727857-a721-4082-8ff9-6a2d765748bf",
+   "title": "Pink Foam",
+   "prompt": "This Shader can be applied to any 3D model made in Blender. Moreover, this Shader is also easy to change for ease of use. This Shader was created to facilitate the work of 3D artists working in the Blender program. Furth",
+   "handle": "5555dnl_3d ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/831211dbdeaa4455b38201619f61a037/files/thumbnail_481051c2-93f3-42f8-a7d8-8b1a9dce05ab.png.512x512_q85_crop-%2C.png.webp?webp_generated=1781700144",
+   "url": "https://www.blendkit.com/asset-gallery-detail/57727857-a721-4082-8ff9-6a2d765748bf/",
+   "cats": [
+    "foam"
+   ],
+   "views": "28 в закладках",
+   "tags": [
+    "foam",
+    "bubbles",
+    "liquid",
+    "airy"
+   ]
+  },
+  {
+   "id": "910c49dd-92e2-4b6b-b9fc-b292b8554317",
+   "title": "Lava",
+   "prompt": "This Shader can be applied to any 3D model made in Blender. Moreover, this Shader is also easy to change for ease of use. This Shader was created to facilitate the work of 3D artists working in the Blender program. Furth",
+   "handle": "5555dnl_3d ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8a7683e24f0f4cf9ae8245fd7a45ba41/files/thumbnail_745902d5-a3c1-49e7-bd66-c66b6792017f.png.512x512_q85_crop-%2C.png.webp?webp_generated=1781606507",
+   "url": "https://www.blendkit.com/asset-gallery-detail/910c49dd-92e2-4b6b-b9fc-b292b8554317/",
+   "cats": [
+    "lava"
+   ],
+   "views": "28 в закладках",
+   "tags": [
+    "lava",
+    "molten",
+    "magma",
+    "volcanic"
+   ]
+  },
+  {
+   "id": "9b195ace-bbef-424f-b9d6-5f8a30033a0c",
+   "title": "Procedural Gel",
+   "prompt": "Procedural Gel Material",
+   "handle": "Seamus Robertson",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/d34f9d01b88b4e7b86f8cd44da05be71/files/thumbnail_99e8de83-dc55-4c8c-9690-100d9268c18d.png.512x512_q85_crop-%2C.png.webp?webp_generated=1781702059",
+   "url": "https://www.blendkit.com/asset-gallery-detail/9b195ace-bbef-424f-b9d6-5f8a30033a0c/",
+   "cats": [
+    "gel"
+   ],
+   "views": "28 в закладках",
+   "tags": [
+    "gel",
+    "translucent",
+    "soft",
+    "glossy"
+   ]
+  },
+  {
+   "id": "a2c337eb-2392-4a0c-b3fc-48e2115f12ae",
+   "title": "Looping Animated Lava",
+   "prompt": "This Shader can be applied to any 3D model made in Blender. Moreover, this Shader is also easy to change for ease of use. This Shader was created to facilitate the work of 3D artists working in the Blender program. Furth",
+   "handle": "5555dnl_3d ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8ffeb6e204b643a3a0cae561ea34cb3f/files/thumbnail_6a66f34f-c30a-4cd5-8fcb-e1c17a49aaa3.png.512x512_q85_crop-%2C.png.webp?webp_generated=1781603516",
+   "url": "https://www.blendkit.com/asset-gallery-detail/a2c337eb-2392-4a0c-b3fc-48e2115f12ae/",
+   "cats": [
+    "lava"
+   ],
+   "views": "27 в закладках",
+   "tags": [
+    "lava",
+    "molten",
+    "magma",
+    "volcanic"
+   ]
+  },
+  {
+   "id": "ae434b0a-da3c-4f3b-849f-db4d23f66ee1",
+   "title": "Procedural Lava",
+   "prompt": "A high-quality shader for models made in Blender, designed for quick and convenient use in a wide variety of projects. Thanks to its flexible settings, it is easy to adapt it to the desired style and visual requirements.",
+   "handle": "555nkt ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/420901b9050a447aa3a3e84d7309e229/files/thumbnail_64aa8df2-97a4-463c-8d66-ea2d568ab3e2.png.512x512_q85_crop-%2C.png.webp?webp_generated=1781520163",
+   "url": "https://www.blendkit.com/asset-gallery-detail/ae434b0a-da3c-4f3b-849f-db4d23f66ee1/",
+   "cats": [
+    "lava"
+   ],
+   "views": "27 в закладках",
+   "tags": [
+    "lava",
+    "volcano",
+    "flame",
+    "volcanic"
+   ]
+  },
+  {
+   "id": "ccd1edea-4282-4c36-b054-29ce3da9be5b",
+   "title": "Procedural Honey",
+   "prompt": "A high-quality shader for models made in Blender, designed for quick and convenient use in a wide variety of projects. Thanks to its flexible settings, it is easy to adapt it to the desired style and visual requirements.",
+   "handle": "555nkt ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/79a365884d77490a8e3791e527453a40/files/thumbnail_708219bc-1a7c-4f09-9044-a33e18e6dbb4.png.512x512_q85_crop-%2C.png.webp?webp_generated=1781520166",
+   "url": "https://www.blendkit.com/asset-gallery-detail/ccd1edea-4282-4c36-b054-29ce3da9be5b/",
+   "cats": [
+    "honey"
+   ],
+   "views": "27 в закладках",
+   "tags": [
+    "honey",
+    "fluid",
+    "liquid",
+    "sweet"
+   ]
+  },
+  {
+   "id": "e53b4b4c-0048-4379-a3d4-316a80b0be6e",
+   "title": "Calm Water",
+   "prompt": "Calm Water is a light blue liquid surface with soft, wide ripples. The water bends the form behind it into gentle waves, the highlight spreads broadly, and the color stays clear and cool with no foam. Built for ponds, po",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/cf78d992b9e143cbac0d6a2713e82c2c/files/thumbnail_fdd878a1-2ade-414e-8ed8-d084c79c81ba.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788898071",
+   "url": "https://www.blendkit.com/asset-gallery-detail/e53b4b4c-0048-4379-a3d4-316a80b0be6e/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "26 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "calm",
+    "wet"
+   ]
+  },
+  {
+   "id": "deb0dd65-0dfc-483e-98c5-8ba80bf6cef0",
+   "title": "Realistic Honeycomb Material",
+   "prompt": "High-quality realistic honeycomb material with detailed hexagonal structure. Suitable for close-up renders, architectural elements, sci-fi panels, or decorative surfaces. Fully adjustable and ready to use in Blender.\r\n\r\n",
+   "handle": "GenPolygon ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/2bfd7a6d6a424f4bb9fd72bc462eb87c/files/thumbnail_0f9807b6-4f1b-44db-a8e5-d9e04cfe885b.png.512x512_q85_crop-%2C.png.webp?webp_generated=1770964262",
+   "url": "https://www.blendkit.com/asset-gallery-detail/deb0dd65-0dfc-483e-98c5-8ba80bf6cef0/",
+   "cats": [
+    "other"
+   ],
+   "views": "26 в закладках",
+   "tags": [
+    "honeycomb",
+    "hexagon",
+    "realistic",
+    "material"
+   ]
+  },
+  {
+   "id": "adec462d-61ce-4a27-965f-2afa56c76071",
+   "title": "Procedural Water",
+   "prompt": "A high-quality shader for models made in Blender, designed for quick and convenient use in a wide variety of projects. Thanks to its flexible settings, it is easy to adapt it to the desired style and visual requirements.",
+   "handle": "555nkt ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/b89db13577d74f228ab901e90574afff/files/thumbnail_95c523c2-4738-4a24-94f9-73270dd63ad8.png.512x512_q85_crop-%2C.png.webp?webp_generated=1786092779",
+   "url": "https://www.blendkit.com/asset-gallery-detail/adec462d-61ce-4a27-965f-2afa56c76071/",
+   "cats": [
+    "water",
+    "foam"
+   ],
+   "views": "26 в закладках",
+   "tags": [
+    "water",
+    "pool",
+    "liquid",
+    "wavy"
+   ]
+  },
+  {
+   "id": "aa198e2a-a27c-41ff-9fd3-381530d0cf38",
+   "title": "Lava",
+   "prompt": "Lava, animated loop, suitable for pools, volcano rivers and magma with displacement",
+   "handle": "James Middleton",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/da540df1b7d4403c918bebdb999f6ae3/files/thumbnail_50ccd01d-8377-4a63-b234-e5473c2bfd4a.png.512x512_q85_crop-%2C.png.webp?webp_generated=1770022868",
+   "url": "https://www.blendkit.com/asset-gallery-detail/aa198e2a-a27c-41ff-9fd3-381530d0cf38/",
+   "cats": [
+    "lava"
+   ],
+   "views": "24 в закладках",
+   "tags": [
+    "lava",
+    "animated",
+    "loop",
+    "pools"
+   ]
+  },
+  {
+   "id": "79aa0fb5-6c7b-4595-9bd8-5ff947b0004d",
+   "title": "Abstract Color Surface",
+   "prompt": "Abstract liquid-style surface featuring smooth color blending, soft flow transitions, and organic ink-like patterns. Ideal for artistic renders, motion graphics, abstract backgrounds, VFX elements, and modern design surf",
+   "handle": "RADHUNANDAN ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/47606e806f384d52b082fbaa1817432c/files/thumbnail_2ff010ad-3fbe-4746-83a3-3af6fc12052d.png.512x512_q85_crop-%2C.png.webp?webp_generated=1766402164",
+   "url": "https://www.blendkit.com/asset-gallery-detail/79aa0fb5-6c7b-4595-9bd8-5ff947b0004d/",
+   "cats": [
+    "other"
+   ],
+   "views": "24 в закладках",
+   "tags": [
+    "abstract",
+    "color",
+    "ink",
+    "liquid"
+   ]
+  },
+  {
+   "id": "cadab46c-6f5a-4beb-924e-0a25cde20be7",
+   "title": "Rippled Water",
+   "prompt": "Rippled Water is a teal liquid surface broken by soft overlapping waves. The crests carry broad white highlights while the troughs stay darker and translucent, so the surface reads as slow moving volume rather than a fla",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/15f4731f6af94ac88c58eda65f0f7978/files/thumbnail_5ed63865-2566-4261-ba3d-109a78b3d0d3.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788898154",
+   "url": "https://www.blendkit.com/asset-gallery-detail/cadab46c-6f5a-4beb-924e-0a25cde20be7/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "23 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "rippled",
+    "wet"
+   ]
+  },
+  {
+   "id": "a453ed3f-fb64-4114-80f5-b725477268f0",
+   "title": "Cloudy Water",
+   "prompt": "Cloudy Water is a pale grey white liquid with a soft, hazy body. Depth sinks in fast, the surface scatters light rather than reflecting it, and the color stays opaque enough to hide what sits behind. Built for murky pool",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/d895ec7604054cd5a287a7676498d924/files/thumbnail_6bf98d3f-0a74-4819-922a-b9b358686c43.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788898054",
+   "url": "https://www.blendkit.com/asset-gallery-detail/a453ed3f-fb64-4114-80f5-b725477268f0/",
+   "cats": [
+    "water",
+    "honey",
+    "gel"
+   ],
+   "views": "23 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "cloudy",
+    "wet"
+   ]
+  },
+  {
+   "id": "5a67aaee-fa9d-406d-9e3c-5fe2719f1b8b",
+   "title": "Molten Gold Jelly",
+   "prompt": "liquid gold jelly material featuring true physical displacement cavities and an intense internal thermal glow. Ideal for royal food environments, abstract art, and high-contrast luxury designs.",
+   "handle": "Sudipto Saha",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/ed446872d1bc49b2b305aa3f6d331351/files/thumbnail_e3cceda1-0f9f-4c54-b3f3-40cd9b5eb1e6.png.512x512_q85_crop-%2C.png.webp?webp_generated=1787739594",
+   "url": "https://www.blendkit.com/asset-gallery-detail/5a67aaee-fa9d-406d-9e3c-5fe2719f1b8b/",
+   "cats": [
+    "gel"
+   ],
+   "views": "23 в закладках",
+   "tags": [
+    "molten_gold",
+    "gold_jelly",
+    "jelly",
+    "gold"
+   ]
+  },
+  {
+   "id": "25ca8826-de5c-4af8-8912-5ca7fd871f1e",
+   "title": "Water jelly",
+   "prompt": "A realistic, translucent icy water jelly metarial featuring stunning refraction and subsrface scattering for dynamic fluid animation and frostyless resnder",
+   "handle": "Sudipto Saha",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/5e41766945ca42d4bd07fe5b4283e47f/files/thumbnail_98339045-0f16-4f01-b937-3b2f691a5559.png.512x512_q85_crop-%2C.png.webp?webp_generated=1784648090",
+   "url": "https://www.blendkit.com/asset-gallery-detail/25ca8826-de5c-4af8-8912-5ca7fd871f1e/",
+   "cats": [
+    "water"
+   ],
+   "views": "23 в закладках",
+   "tags": [
+    "water",
+    "icy_metarial",
+    "water_jelly",
+    "wet_surface"
+   ]
+  },
+  {
+   "id": "a5a93ffb-4467-4f05-b652-f9fc3a353676",
+   "title": "Custom Latte",
+   "prompt": "a customizable beverage material, complete control over the drink's visual appearance. You can easily change the colors of the milk, latte, and foam. You can also adjust the exact boundary positions between the milk, lat",
+   "handle": "Linka Palm",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/252cd504392d418f84b96cf77e21a74d/files/thumbnail_3277350a-860a-47dc-b2e2-251c8a8444c7.png.512x512_q85_crop-%2C.png.webp?webp_generated=1782108239",
+   "url": "https://www.blendkit.com/asset-gallery-detail/a5a93ffb-4467-4f05-b652-f9fc3a353676/",
+   "cats": [
+    "honey"
+   ],
+   "views": "20 в закладках",
+   "tags": [
+    "latte",
+    "drink",
+    "procedural",
+    "food"
+   ]
+  },
+  {
+   "id": "bd726c10-aeae-4a61-8e87-172c710d1c9c",
+   "title": "Clear Heavy Water",
+   "prompt": "Clear Heavy Water is a pale blue liquid with a dense, syrupy body. The surface refracts strongly, the edges thicken into a brighter rim, and the volume reads heavier than ordinary water, as though it would pour slowly. B",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/7b2b42bc673243e0a9eae25e7c59290d/files/thumbnail_6f85156d-5e56-4240-9de0-ef00c2254fee.png.512x512_q85_crop-%2C.png.webp?webp_generated=1790639206",
+   "url": "https://www.blendkit.com/asset-gallery-detail/bd726c10-aeae-4a61-8e87-172c710d1c9c/",
+   "cats": [
+    "water"
+   ],
+   "views": "19 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "rippled",
+    "dense"
+   ]
+  },
+  {
+   "id": "9426ee74-1edf-4f6c-a795-64a6edb11159",
+   "title": "Stylized Animated Lave",
+   "prompt": "A procedural stylized animated toon lava material designed to complement medieval and fantasy environments. The shader creates a slow flowing lava effect using a seamless looping animation, making it ideal for volcanic l",
+   "handle": "Reza NeoMasyaf",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/ddd478bb0aa842e799d9125b8bfe668e/files/thumbnail_74524d50-16ef-4c5b-b55f-564d878c8799.png.512x512_q85_crop-%2C.png.webp?webp_generated=1784266322",
+   "url": "https://www.blendkit.com/asset-gallery-detail/9426ee74-1edf-4f6c-a795-64a6edb11159/",
+   "cats": [
+    "lava"
+   ],
+   "views": "19 в закладках",
+   "tags": [
+    "medieval",
+    "fantasy",
+    "toon",
+    "fire"
+   ]
+  },
+  {
+   "id": "5babcb97-c2a3-4550-988a-d540792e83c0",
+   "title": "Water",
+   "prompt": "Clean water PBR texture with a glossy, reflective surface and subtle ripples. Ideal for pools, lakes, fountains, rivers, and realistic 3D environments.",
+   "handle": "Nikhil G krishnan",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/0e3ed5e036f34ac6b71feefe81fb08ab/files/thumbnail_c3bfee7b-9416-492a-8baf-cefc3d7cc7f8.png.512x512_q85_crop-%2C.png.webp?webp_generated=1789828477",
+   "url": "https://www.blendkit.com/asset-gallery-detail/5babcb97-c2a3-4550-988a-d540792e83c0/",
+   "cats": [
+    "water"
+   ],
+   "views": "18 в закладках",
+   "tags": [
+    "water",
+    "alpha",
+    "pbr",
+    "liquid"
+   ]
+  },
+  {
+   "id": "36cbc8db-98e6-4532-ae55-17150e006aea",
+   "title": "Lava",
+   "prompt": "A high-quality shader for models made in Blender, designed for quick and convenient use in a wide variety of projects. Thanks to its flexible settings, it is easy to adapt it to the desired style and visual requirements.",
+   "handle": "555nkt ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/70a4afbac7864422840071f0c5eb0080/files/thumbnail_6bbb15eb-7f0a-477b-a7d0-5df494bbdf0f.png.512x512_q85_crop-%2C.png.webp?webp_generated=1781256167",
+   "url": "https://www.blendkit.com/asset-gallery-detail/36cbc8db-98e6-4532-ae55-17150e006aea/",
+   "cats": [
+    "lava"
+   ],
+   "views": "16 в закладках",
+   "tags": [
+    "lava",
+    "volcano",
+    "flame",
+    "volcanic"
+   ]
+  },
+  {
+   "id": "09e20dc4-68fb-4b46-ac12-0bdee52741bc",
+   "title": "Bubble",
+   "prompt": "A high-quality shader for models made in Blender, designed for quick and convenient use in a wide variety of projects. Thanks to its flexible settings, it is easy to adapt it to the desired style and visual requirements.",
+   "handle": "555nkt ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/dae83db26745466cb3edc0744180ec9c/files/thumbnail_afc16084-c422-4771-8ae9-db0243f80ee4.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788755466",
+   "url": "https://www.blendkit.com/asset-gallery-detail/09e20dc4-68fb-4b46-ac12-0bdee52741bc/",
+   "cats": [
+    "gel",
+    "foam"
+   ],
+   "views": "14 в закладках",
+   "tags": [
+    "bubble",
+    "transparent",
+    "soap",
+    "liquid"
+   ]
+  },
+  {
+   "id": "d305a3a0-0064-41a2-af8d-6e866ac14dc5",
+   "title": "Neon Swirl Slime",
+   "prompt": "Neon Swirl Slime is a glowing gel marbled with lime green and violet. The colors fold over each other in sharp organic swirls, the surface stays wet and reflective, and the body reads as a thick fluid rather than a solid",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/d45db1f02024419b812620e73711a4ec/files/thumbnail_f09e9655-5213-4623-b85d-1a7f963a8215.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788898029",
+   "url": "https://www.blendkit.com/asset-gallery-detail/d305a3a0-0064-41a2-af8d-6e866ac14dc5/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "13 в закладках",
+   "tags": [
+    "liquid",
+    "neon",
+    "swirl",
+    "slime"
+   ]
+  },
+  {
+   "id": "846cb585-ac44-44d5-a6d4-6abe2eae5c76",
+   "title": "Caustics Pool Water",
+   "prompt": "Caustics Pool Water is a translucent liquid surface whose character is defined by cyan and turquoise. Clear turquoise and deep cyan water carries bright white caustic ribbons across a rippled, highly refractive surface w",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/0b6724520ce14c858b13101d68fe64a7/files/thumbnail_544f8aca-b9f5-41f5-94c4-c240a537b3af.png.512x512_q85_crop-%2C.png.webp?webp_generated=1792538877",
+   "url": "https://www.blendkit.com/asset-gallery-detail/846cb585-ac44-44d5-a6d4-6abe2eae5c76/",
+   "cats": [
+    "water"
+   ],
+   "views": "13 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "cyan",
+    "turquoise"
+   ]
+  },
+  {
+   "id": "c5c70347-9512-4dd7-8401-507f247add77",
+   "title": "Soap Bubble",
+   "prompt": "A high-quality shader for models made in Blender, designed for quick and convenient use in a wide variety of projects. Thanks to its flexible settings, it is easy to adapt it to the desired style and visual requirements.",
+   "handle": "555nkt ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/918f6a52d5fa48a58e2b7eb8fbed99e7/files/thumbnail_2a8a15ec-bab0-4836-84d2-eb0e9238ae9e.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788106890",
+   "url": "https://www.blendkit.com/asset-gallery-detail/c5c70347-9512-4dd7-8401-507f247add77/",
+   "cats": [
+    "gel",
+    "foam"
+   ],
+   "views": "13 в закладках",
+   "tags": [
+    "bubble",
+    "transparent",
+    "soap",
+    "liquid"
+   ]
+  },
+  {
+   "id": "5c13039e-4a27-4bdf-b135-e988d57e8e3f",
+   "title": "Procedural Water Surface",
+   "prompt": "A high-quality shader for models made in Blender, designed for quick and convenient use in a wide variety of projects. Thanks to its flexible settings, it is easy to adapt it to the desired style and visual requirements.",
+   "handle": "555nkt ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/b25a1703f48c43c0bc326781979cb2ec/files/thumbnail_9fd56a0f-9e38-499c-b2b8-18ae5d2d1492.png.512x512_q85_crop-%2C.png.webp?webp_generated=1788861681",
+   "url": "https://www.blendkit.com/asset-gallery-detail/5c13039e-4a27-4bdf-b135-e988d57e8e3f/",
+   "cats": [
+    "water",
+    "foam"
+   ],
+   "views": "13 в закладках",
+   "tags": [
+    "water",
+    "pool",
+    "liquid",
+    "wavy"
+   ]
+  },
+  {
+   "id": "fb112d2b-153b-4b34-b67e-7ef5693acc28",
+   "title": "Rapids Water",
+   "prompt": "Rapids Water is a teal river surface churned into fast, broken ripples. White crests break across the flow, the water bends what sits behind it, and the color stays saturated through the moving body. Built for rivers, wh",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/64bfa44cd8024fc6909bdc3046bef4de/files/thumbnail_a9d0be20-7edd-4fa9-942c-fad07466c7e1.png.512x512_q85_crop-%2C.png.webp?webp_generated=1790976774",
+   "url": "https://www.blendkit.com/asset-gallery-detail/fb112d2b-153b-4b34-b67e-7ef5693acc28/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "12 в закладках",
+   "tags": [
+    "liquid",
+    "water",
+    "rapids",
+    "rippled"
+   ]
+  },
+  {
+   "id": "87d75fc6-cd00-4c7c-be50-6ae3d459249a",
+   "title": "Stylized water",
+   "prompt": "Stylized water material with smooth waves, soft reflections, and a vibrant blue tone. Ideal for rivers, pools, lakes, and game environments.",
+   "handle": "Nikhil G krishnan",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/32918f85305e459f9ddd6818a10cd57d/files/thumbnail_ef457b06-8317-407d-b3c1-64a727ccb7e7.png.512x512_q85_crop-%2C.png.webp?webp_generated=1790077384",
+   "url": "https://www.blendkit.com/asset-gallery-detail/87d75fc6-cd00-4c7c-be50-6ae3d459249a/",
+   "cats": [
+    "water"
+   ],
+   "views": "11 в закладках",
+   "tags": [
+    "water",
+    "stylized",
+    "pbr"
+   ]
+  },
+  {
+   "id": "5773a597-8958-4945-a06d-0c6df8584aed",
+   "title": "Tropical Caustics Water",
+   "prompt": "Tropical Caustics Water is a turquoise liquid surface with bright, looping caustic patterns dancing across it. The light lines stay white and crisp while the water between them holds saturated blue green, and the surface",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/4a58ad5002b048639aa39365be6049a2/files/thumbnail_ad633445-878e-49e8-a65d-d9830cc35fcd.png.512x512_q85_crop-%2C.png.webp?webp_generated=1790975567",
+   "url": "https://www.blendkit.com/asset-gallery-detail/5773a597-8958-4945-a06d-0c6df8584aed/",
+   "cats": [
+    "water",
+    "honey"
+   ],
+   "views": "11 в закладках",
+   "tags": [
+    "liquid",
+    "caustic",
+    "water",
+    "tropical"
+   ]
+  },
+  {
+   "id": "659cfc2c-057e-475a-b00c-27dbed914533",
+   "title": "Spiked Ferrofluid Liquid Metal",
+   "prompt": "Glossy black ferrofluid with dense conical spikes and bright reflective liquid metal highlights. The sharp magnetic fluid appearance resembles spiky black chrome or an alien metallic skin. Useful for abstract sculptures,",
+   "handle": "Jackson Zheng",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/f80617d1f8084665a4aaf154cf226d49/files/thumbnail_ef1eed7f-031a-46b1-92e7-11130dcbe5be.png.512x512_q85_crop-%2C.png.webp?webp_generated=1792448196",
+   "url": "https://www.blendkit.com/asset-gallery-detail/659cfc2c-057e-475a-b00c-27dbed914533/",
+   "cats": [
+    "other"
+   ],
+   "views": "11 в закладках",
+   "tags": [
+    "ferrofluid",
+    "liquid",
+    "metal",
+    "black"
+   ]
+  },
+  {
+   "id": "b553c8f6-3acb-4c3d-8323-77bd2952772a",
+   "title": "Toxic Green Acid Liquid",
+   "prompt": "Toxic green acid liquid, suitable for mysterious, toxic, apocalyptic, sci-fi, and chemical environments. | PBR, 4K Texture",
+   "handle": "Mr. Naseriyan ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/b971ddece1fe44d68a071ac94e604ce0/files/thumbnail_f12255bc-b04f-44be-b6cc-2c49270c87b1.png.512x512_q85_crop-%2C.png.webp?webp_generated=1789411884",
+   "url": "https://www.blendkit.com/asset-gallery-detail/b553c8f6-3acb-4c3d-8323-77bd2952772a/",
+   "cats": [
+    "other"
+   ],
+   "views": "10 в закладках",
+   "tags": [
+    "toxic",
+    "liquid",
+    "apocalyptic",
+    "chemical"
+   ]
+  },
+  {
+   "id": "b82b4a88-bf2f-41c1-9a2f-430ce3194f08",
+   "title": "Viscous Gel",
+   "prompt": "Viscous Gel is a pale amber translucent fluid with a thick, glossy body. The surface holds its shape in slow blobs, the highlight sits wet on the crown, and light passing through carries a warm honey tone. Built for syru",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/a66cc549866f41d7841defba23315899/files/thumbnail_6595b7d6-c498-4a6a-ae42-2ecb044b5e81.png.512x512_q85_crop-%2C.png.webp?webp_generated=1790982984",
+   "url": "https://www.blendkit.com/asset-gallery-detail/b82b4a88-bf2f-41c1-9a2f-430ce3194f08/",
+   "cats": [
+    "water",
+    "gel"
+   ],
+   "views": "9 в закладках",
+   "tags": [
+    "liquid",
+    "gel",
+    "pool",
+    "viscous"
+   ]
+  },
+  {
+   "id": "fbf53eaf-04bb-4964-a768-624c30360905",
+   "title": "Chocolatey Choco",
+   "prompt": "dark chocolate syrup material with subtle nutty chunks, optimized for photorealistic food and dessert",
+   "handle": "Sudipto Saha",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/28ea9673bb0f4755978351c3da058c37/files/thumbnail_fc6c0b38-f319-4b18-a883-f1446dae2789.png.512x512_q85_crop-%2C.png.webp?webp_generated=1787548908",
+   "url": "https://www.blendkit.com/asset-gallery-detail/fbf53eaf-04bb-4964-a768-624c30360905/",
+   "cats": [
+    "honey"
+   ],
+   "views": "9 в закладках",
+   "tags": [
+    "Choco",
+    "Coco_metarial",
+    "Chocolate",
+    "Choco_liquid"
+   ]
+  },
+  {
+   "id": "54e6ea0f-d678-497c-b228-574b4654d0fc",
+   "title": "Clear Rippled Pool Water",
+   "prompt": "Clear Rippled Pool Water is a deep navy water surface broken by bright splash highlights. The crests flash almost white while the troughs stay dark blue, and the surface bends the shape behind it into soft warped bands. ",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/4533792c4d4445e0b4fe8cfc3b05c42e/files/thumbnail_34f93136-f12a-43e2-9cc4-1693b6c5488a.png.512x512_q85_crop-%2C.png.webp?webp_generated=1792629677",
+   "url": "https://www.blendkit.com/asset-gallery-detail/54e6ea0f-d678-497c-b228-574b4654d0fc/",
+   "cats": [
+    "water"
+   ],
+   "views": "8 в закладках",
+   "tags": [
+    "water",
+    "blue",
+    "navy",
+    "slate"
+   ]
+  },
+  {
+   "id": "4afe7b1a-1920-47d6-8881-cdbd902fa253",
+   "title": "Stylized Water",
+   "prompt": "A high-quality shader for models made in Blender, designed for quick and convenient use in a wide variety of projects. Thanks to its flexible settings, it is easy to adapt it to the desired style and visual requirements.",
+   "handle": "555nkt ",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/8daad1a28f6c4d6aa7e0a3c3342d55c3/files/thumbnail_8e4b9d45-2cd1-4a68-8665-7309c81e5537.png.512x512_q85_crop-%2C.png.webp?webp_generated=1789673305",
+   "url": "https://www.blendkit.com/asset-gallery-detail/4afe7b1a-1920-47d6-8881-cdbd902fa253/",
+   "cats": [
+    "water",
+    "foam"
+   ],
+   "views": "8 в закладках",
+   "tags": [
+    "water",
+    "pool",
+    "liquid",
+    "wavy"
+   ]
+  },
+  {
+   "id": "9bd3767d-ff7a-4ce9-affe-1fc24d9ca832",
+   "title": "Smooth Black Ferrofluid",
+   "prompt": "Smooth black ferrofluid with a glossy, mirrorlike liquid metal surface and rounded reflections. Its dark chrome and oil like appearance suits abstract sculptures, futuristic objects, black metallic props, alien surfaces ",
+   "handle": "Jackson Zheng",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/d38256632b684563ab7d158723a92261/files/thumbnail_9ddc377f-dca6-4d90-9c90-053e1c82fa4d.png.512x512_q85_crop-%2C.png.webp?webp_generated=1792448244",
+   "url": "https://www.blendkit.com/asset-gallery-detail/9bd3767d-ff7a-4ce9-affe-1fc24d9ca832/",
+   "cats": [
+    "honey"
+   ],
+   "views": "7 в закладках",
+   "tags": [
+    "ferrofluid",
+    "liquid",
+    "black",
+    "glossy"
+   ]
+  },
+  {
+   "id": "a307fae1-4531-4d99-a62a-aecc63fdeed8",
+   "title": "Realistic Oil",
+   "prompt": "Realistic Oil gives you a glossy liquid with glossy, iridescent and slick worked through it. Set up as an iridescent liquid surface, with slick worked into the surface detail. Fits well in lab and kitchen setups or bever",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/58b2500711f74a0cb649ed0d4820cc6f/files/thumbnail_270f3c16-2532-4caa-99da-1e1d0a33b271.png.512x512_q85_crop-%2C.png.webp?webp_generated=1791053815",
+   "url": "https://www.blendkit.com/asset-gallery-detail/a307fae1-4531-4d99-a62a-aecc63fdeed8/",
+   "cats": [
+    "honey",
+    "gel"
+   ],
+   "views": "6 в закладках",
+   "tags": [
+    "liquid",
+    "oil",
+    "glossy",
+    "iridescent"
+   ]
+  },
+  {
+   "id": "b24e703e-d6a9-454c-9ea1-0e13965fe166",
+   "title": "Stormy Sea Water",
+   "prompt": "Stormy Sea Water is a water surface whose look comes from ocean, teal and turquoise. This stormy water material features deep teal and turquoise tones with a glossy, translucent appearance. Broad rolling distortions and ",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/dc6cc0fda11a48f2b3e0eea38f9c63dc/files/thumbnail_29916ee6-fb73-427f-85e7-224dce23296f.png.512x512_q85_crop-%2C.png.webp?webp_generated=1793459531",
+   "url": "https://www.blendkit.com/asset-gallery-detail/b24e703e-d6a9-454c-9ea1-0e13965fe166/",
+   "cats": [
+    "water"
+   ],
+   "views": "5 в закладках",
+   "tags": [
+    "water",
+    "ocean",
+    "stormy",
+    "teal"
+   ]
+  },
+  {
+   "id": "0c04b6b5-16c1-4afe-a4f9-074c26e48190",
+   "title": "Stylized water",
+   "prompt": "Stylized water material with smooth waves, soft reflections, and a vibrant blue tone. Ideal for rivers, pools, lakes, and game environments.",
+   "handle": "Nikhil G krishnan",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/73b83538148141cc9a1a85780650109a/files/thumbnail_c3873b3b-5981-4be4-b5b5-7d937eb4183c.png.512x512_q85_crop-%2C.png.webp?webp_generated=1790077503",
+   "url": "https://www.blendkit.com/asset-gallery-detail/0c04b6b5-16c1-4afe-a4f9-074c26e48190/",
+   "cats": [
+    "water"
+   ],
+   "views": "5 в закладках",
+   "tags": [
+    "water",
+    "stylized",
+    "pbr"
+   ]
+  },
+  {
+   "id": "9e5d42a3-121c-41da-a748-68e2fb9bba7c",
+   "title": "Clear Lagoon Waves Water",
+   "prompt": "Clear Lagoon Waves Water is a water surface whose look comes from blue, navy and glossy. This lagoon water material features deep navy and blue tones with a glossy, translucent character. Broad flowing waves distort the ",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/bb90db6974e34526be365f0abccf9bf9/files/thumbnail_f65e6ba1-f9b9-48d0-9e02-d25c4725b917.png.512x512_q85_crop-%2C.png.webp?webp_generated=1793459516",
+   "url": "https://www.blendkit.com/asset-gallery-detail/9e5d42a3-121c-41da-a748-68e2fb9bba7c/",
+   "cats": [
+    "water"
+   ],
+   "views": "5 в закладках",
+   "tags": [
+    "water",
+    "lagoon",
+    "blue",
+    "navy"
+   ]
+  },
+  {
+   "id": "a90a5043-9cfc-4fa4-9c76-f5432a76ef1e",
+   "title": "Wind Ripple Lake Water",
+   "prompt": "Wind Ripple Lake Water is a water surface whose look comes from ripples, green and glossy. This lake water material features dark green and blue-green tones shaped by dense, wind-driven ripples. Uneven ridges produce str",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/abd836ca3b0b46ce8a1e8c7b5c9ea0be/files/thumbnail_785a5ace-2406-490e-90c9-7754400792dc.png.512x512_q85_crop-%2C.png.webp?webp_generated=1793459528",
+   "url": "https://www.blendkit.com/asset-gallery-detail/a90a5043-9cfc-4fa4-9c76-f5432a76ef1e/",
+   "cats": [
+    "water"
+   ],
+   "views": "5 в закладках",
+   "tags": [
+    "water",
+    "lake",
+    "ripples",
+    "wind"
+   ]
+  },
+  {
+   "id": "d9dbbfa1-7991-409b-a4eb-b4f3900b9f85",
+   "title": "Soft Blue Caustic Effect",
+   "prompt": "Soft Blue Caustic Effect is a navy blue liquid surface webbed with fine pale caustic lines. The light pattern spreads in soft nets across the body while the water between them stays deep blue, and the contrast stays low ",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/0901401702ec43e2b351637b2a799a22/files/thumbnail_88ff1289-5238-4a09-835f-24d4efa3fff2.png.512x512_q85_crop-%2C.png.webp?webp_generated=1792765222",
+   "url": "https://www.blendkit.com/asset-gallery-detail/d9dbbfa1-7991-409b-a4eb-b4f3900b9f85/",
+   "cats": [
+    "water"
+   ],
+   "views": "4 в закладках",
+   "tags": [
+    "caustics",
+    "cyan",
+    "blue",
+    "navy"
+   ]
+  },
+  {
+   "id": "dfbfae02-315f-4844-a9cc-b719981cf172",
+   "title": "Caustic Lagoon Water",
+   "prompt": "Caustic Lagoon Water is a turquoise water surface rippled into soft caustic waves. The colour stays bright on the crests and deeper in the troughs. Ripples break into finer rings toward the edge. Built for pools, lagoons",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/da7e6f29ec9f46929fa2ac8cc4786faf/files/thumbnail_83a19596-45df-415c-9240-3e8de5d1b680.png.512x512_q85_crop-%2C.png.webp?webp_generated=1792937939",
+   "url": "https://www.blendkit.com/asset-gallery-detail/dfbfae02-315f-4844-a9cc-b719981cf172/",
+   "cats": [
+    "water"
+   ],
+   "views": "4 в закладках",
+   "tags": [
+    "water",
+    "lagoon",
+    "caustic",
+    "turquoise"
+   ]
+  },
+  {
+   "id": "e5291431-b026-439c-81d5-a18a072aaa6f",
+   "title": "Dirt water",
+   "prompt": "Realistic muddy water PBR texture with murky brown tones, subtle sediment, uneven ripples, and a wet reflective surface. Suitable for terrain, puddles, rivers, and 3D environments.",
+   "handle": "Nikhil G krishnan",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/1576eb8accfd491dae6dff9c3004966a/files/thumbnail_0da8b4f1-61c8-4156-ac0e-54ca2e2eef57.png.512x512_q85_crop-%2C.png.webp?webp_generated=1791039904",
+   "url": "https://www.blendkit.com/asset-gallery-detail/e5291431-b026-439c-81d5-a18a072aaa6f/",
+   "cats": [
+    "water"
+   ],
+   "views": "4 в закладках",
+   "tags": [
+    "Dirt",
+    "water",
+    "PBR"
+   ]
+  },
+  {
+   "id": "1ee6bb53-bac1-4e9e-a7d1-221c50191dea",
+   "title": "Foamy Water",
+   "prompt": "A water surface with foamy textures blended.",
+   "handle": "Sovereign Artist",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/49c663e0254c45128e80a3f21737286e/files/thumbnail_c5a9e121-8228-4757-9c9b-c4626ad4f366.png.512x512_q85_crop-%2C.png.webp?webp_generated=1789125325",
+   "url": "https://www.blendkit.com/asset-gallery-detail/1ee6bb53-bac1-4e9e-a7d1-221c50191dea/",
+   "cats": [
+    "water",
+    "foam"
+   ],
+   "views": "4 в закладках",
+   "tags": [
+    "water",
+    "soapy",
+    "foam",
+    "foamy"
+   ]
+  },
+  {
+   "id": "dfa1f32d-c243-4c22-98ad-ea5aef04b2c9",
+   "title": "Frosted Icy Pool Water",
+   "prompt": "With its mottled liquid base, Frosted Icy Pool Water leans on blue and cyan for the detail. Ideal for frozen lake surfaces viewed from above, frosted aquarium glazing, and arctic pool planes on displaced terrain or produ",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/9cf02e9428d74f6cb0997b9a6859f4a5/files/thumbnail_281c3914-dda8-4f46-96db-c8f358c1602a.png.512x512_q85_crop-%2C.png.webp?webp_generated=1792867454",
+   "url": "https://www.blendkit.com/asset-gallery-detail/dfa1f32d-c243-4c22-98ad-ea5aef04b2c9/",
+   "cats": [
+    "water"
+   ],
+   "views": "2 в закладках",
+   "tags": [
+    "water",
+    "blue",
+    "cyan",
+    "gray"
+   ]
+  },
+  {
+   "id": "cc74ebba-0555-40d0-bda4-74b0304c1571",
+   "title": "Water",
+   "prompt": "a realistic fluid material with natural transparency, reflections, and subtle surface ripples, ideal for pools, lakes, rivers, and other water surfaces.",
+   "handle": "Nikhil G krishnan",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/89d68ef798c24aada73837839b319fe1/files/thumbnail_3510bac0-a7c3-4a4c-922a-faee2bcc70ce.png.512x512_q85_crop-%2C.png.webp?webp_generated=1790322594",
+   "url": "https://www.blendkit.com/asset-gallery-detail/cc74ebba-0555-40d0-bda4-74b0304c1571/",
+   "cats": [
+    "water"
+   ],
+   "views": "1 в закладках",
+   "tags": [
+    "water",
+    "pbr",
+    "realistic",
+    "nature"
+   ]
+  },
+  {
+   "id": "f974abda-91f5-45ad-a8ae-7bd8cff843c1",
+   "title": "Fresh Dark Blood",
+   "prompt": "Fresh Dark Blood shows a deep red body with burgundy shading and a hard wet gloss, gentle mottling and a slightly uneven skin breaking up the surface between broad highlights. Built for medical visualisation, horror scen",
+   "handle": "Paco Salas",
+   "poster": "https://public.blenderkit.com/thumbnails/assets/500e9007080940c9ad0d5faf3a50a056/files/thumbnail_4e49c02a-e6ee-4a33-bb95-4163d42f30d6.png.512x512_q85_crop-%2C.png.webp?webp_generated=1793569473",
+   "url": "https://www.blendkit.com/asset-gallery-detail/f974abda-91f5-45ad-a8ae-7bd8cff843c1/",
+   "cats": [
+    "blood"
+   ],
+   "views": "0 в закладках",
+   "tags": [
+    "blood",
+    "red",
+    "crimson",
+    "burgundy"
+   ]
+  }
+ ],
+ "source": "https://www.blendkit.com/?query=category_subtree:liquid"
+}

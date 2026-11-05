@@ -453,10 +453,10 @@ function renderCollections(){
       '<span class="coll-ico">▶</span>' +
       '<span class="coll-txt"><b>' + esc(c.title) + '</b>' +
         '<div class="desc">' + esc(c.note) + '</div>' +
-        '<div class="coll-meta">' + (c.n || (c.items || []).length) + ' ' + plural(c.n || (c.items || []).length,'промпт','промпта','промптов') +
+        '<div class="coll-meta">' + (c.n || (c.items || []).length) + ' ' + plural(c.n || (c.items || []).length, ...(c.kind === 'assets' ? ['ассет','ассета','ассетов'] : ['промпт','промпта','промптов'])) +
           '<span class="dot">·</span>' + Object.keys(c.cats || {}).length + ' ' + plural(Object.keys(c.cats||{}).length,'раздел','раздела','разделов') +
           '<span class="dot">·</span>' + esc(c.source_label || '') + '</div></span>' +
-      '<span class="coll-cta">Открыть список →</span>' +
+      '<span class="coll-cta">' + (c.kind === 'assets' ? 'Открыть галерею →' : 'Открыть список →') + '</span>' +
     '</button>').join('');
 }
 
@@ -482,23 +482,25 @@ function pmFiltered(){
 
 function pmItemHTML(it){
   const tags = (it.cats||[]).map(c => (pmCol.cats||{})[c] || c);
+  const isAssets = pmCol.kind === 'assets';
   return '<article class="pm-item">' +
     '<div class="pm-shot' + (it.vertical ? ' v' : '') + '" data-vid="' + esc(it.id) + '"' +
       (it.ar ? ' style="aspect-ratio:' + esc(it.ar) + '"' : '') + '>' +
       '<img src="' + esc(it.poster) + '" alt="" loading="lazy" decoding="async">' +
-      '<button class="pm-play" aria-label="Смотреть превью"><i>▶</i></button>' +
+      (it.video ? '<button class="pm-play" aria-label="Смотреть превью"><i>▶</i></button>' : '') +
     '</div>' +
     '<div class="pm-main">' +
       '<div class="pm-h"><b>' + esc(it.title) + '</b>' +
-        '<a class="who" href="' + esc(it.profile || ('https://x.com/' + it.handle)) + '" target="_blank" rel="noopener">@' + esc(it.handle) + '</a>' +
-        (it.views ? '<span class="who" style="color:var(--ink4)">' + esc(it.views) + ' просм.</span>' : '') +
+        '<a class="who" href="' + esc(it.profile || ('https://x.com/' + it.handle)) + '" target="_blank" rel="noopener">' + (isAssets ? esc(it.handle) : '@' + esc(it.handle)) + '</a>' +
+        (it.views ? '<span class="who" style="color:var(--ink4)">' + esc(it.views) + '</span>' : '') +
       '</div>' +
       '<div class="pm-tags">' + tags.map(t => '<span>' + esc(t) + '</span>').join('') + '</div>' +
       '<div class="pm-prompt" data-exp="' + esc(it.id) + '" title="Развернуть">' + esc(it.prompt) + '</div>' +
       '<div class="pm-acts">' +
-        '<button class="pm-btn dark" data-copy="' + esc(it.id) + '">Скопировать промпт</button>' +
-        '<a class="pm-btn" href="' + esc(it.url) + '" target="_blank" rel="noopener">Оригинал ↗</a>' +
-        '<a class="pm-btn vid" href="' + esc(it.video || it.url) + '" target="_blank" rel="noopener">Видео ↗</a>' +
+        (isAssets ? '' : '<button class="pm-btn dark" data-copy="' + esc(it.id) + '">Скопировать промпт</button>') +
+        '<a class="pm-btn' + (isAssets ? ' dark' : '') + '" href="' + esc(it.url) + '" target="_blank" rel="noopener">' +
+          (isAssets ? 'Открыть ассет ↗' : 'Оригинал ↗') + '</a>' +
+        (it.video ? '<a class="pm-btn vid" href="' + esc(it.video) + '" target="_blank" rel="noopener">Видео ↗</a>' : '') +
       '</div>' +
     '</div></article>';
 }
@@ -530,6 +532,9 @@ async function openPM(slug){
   if(!meta) return;
   pmCol = null;
   pmCat = 'all'; pmQ = ''; pmShown = 30; el('pm-q').value = '';
+  el('pm-q').placeholder = meta.kind === 'assets'
+    ? 'Поиск по ассетам — вода, лава, пена, гель…'
+    : 'Поиск по промптам — интерфейс, частицы, лого…';
   el('pm-title').textContent = meta.title;
   el('pm-note').textContent = meta.note;
   el('pm-src').innerHTML = 'Источник: <a href="' + esc(meta.source) + '" target="_blank" rel="noopener">' +

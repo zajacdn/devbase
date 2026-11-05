@@ -4006,6 +4006,23 @@
   "path": "links/learning/you-dont-know-js.md"
  },
  {
+  "title": "BlenderKit — жидкости и вода",
+  "url": "https://www.blendkit.com/?query=category_subtree:liquid",
+  "category": "gamedev",
+  "tags": [
+   "blender",
+   "materials",
+   "water",
+   "liquid",
+   "free",
+   "assets"
+  ],
+  "added": "2026-11-05",
+  "added_by": "Заяц",
+  "note": "229 бесплатных процедурных материалов: вода, лава, мёд, кровь, гель, пена. Royalty-free, ставится в Blender одной кнопкой. В портале есть галерея с превью — коллекция «BlenderKit — жидкости».",
+  "path": "links/gamedev/blenderkit.md"
+ },
+ {
   "title": "anything.rip",
   "url": "https://anything.rip/",
   "category": "utils",
