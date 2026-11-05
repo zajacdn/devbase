@@ -599,6 +599,36 @@
   "path": "links/fonts/google-fonts.md"
  },
  {
+  "title": "RR Opague (Rüdiger)",
+  "url": "https://type.today/en/fonts/opague",
+  "category": "fonts",
+  "tags": [
+   "grotesk",
+   "cyrillic",
+   "paid",
+   "german"
+  ],
+  "added": "2026-11-05",
+  "added_by": "Заяц",
+  "note": "Гротеск Philipp Neumeyer. Полная кириллица + польские диакритики + греческий, 9 весов + курсивы. От $90. Локальная копия — /root/fonts-library/rr-opague (триал, лицензию купить).",
+  "path": "links/fonts/rr-opague.md"
+ },
+ {
+  "title": "Sharp Grotesk Pan Euro (Sharp Type)",
+  "url": "https://sharptype.co/licensing",
+  "category": "fonts",
+  "tags": [
+   "grotesk",
+   "cyrillic",
+   "paid",
+   "superfamily"
+  ],
+  "added": "2026-11-05",
+  "added_by": "Заяц",
+  "note": "Суперсемейство: 12 весов × 7 ширин, Latin + Greek + Cyrillic. Дорого, но лучший выбор для крупного бренда. Локально только trial-начертание Book 23.",
+  "path": "links/fonts/sharp-grotesk.md"
+ },
+ {
   "title": "Velvetyne",
   "url": "https://velvetyne.fr",
   "category": "fonts",
