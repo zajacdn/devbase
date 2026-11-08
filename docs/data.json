@@ -1108,6 +1108,25 @@
   "path": "links/ai/free-router.md"
  },
  {
+  "title": "gpt-oss",
+  "url": "https://github.com/openai/gpt-oss",
+  "category": "ai",
+  "tags": [
+   "python",
+   "chatgpt",
+   "deepseek",
+   "gpt-oss-120b",
+   "gpt-oss-20b",
+   "open-weight",
+   "language",
+   "models"
+  ],
+  "added": "2026-11-08",
+  "added_by": "Hermes",
+  "note": "★21K. gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI",
+  "path": "links/ai/gpt-oss.md"
+ },
+ {
   "title": "gstack",
   "url": "https://github.com/garrytan/gstack",
   "category": "ai",
@@ -1424,6 +1443,32 @@
   "added_by": "Hermes",
   "note": "★136K. 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
   "path": "links/ai/moneyprinterturbo.md"
+ },
+ {
+  "title": "ollama",
+  "url": "https://github.com/ollama/ollama",
+  "category": "ai",
+  "tags": [
+   "go",
+   "deepseek",
+   "gemma",
+   "glm",
+   "golang",
+   "gpt-oss",
+   "llama",
+   "llm",
+   "llms",
+   "minimax",
+   "mistral",
+   "muse",
+   "ollama",
+   "qwen",
+   "chatgpt"
+  ],
+  "added": "2026-11-08",
+  "added_by": "Hermes",
+  "note": "★186K. Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "path": "links/ai/ollama.md"
  },
  {
   "title": "openai-cookbook",
@@ -3199,6 +3244,20 @@
   "path": "links/learning/cs-video-courses.md"
  },
  {
+  "title": "DeepSeek-V3",
+  "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+  "category": "learning",
+  "tags": [
+   "python",
+   "chatgpt",
+   "deepseek"
+  ],
+  "added": "2026-11-08",
+  "added_by": "Hermes",
+  "note": "★105K. ",
+  "path": "links/learning/deepseek-v3.md"
+ },
+ {
   "title": "developer-roadmap",
   "url": "https://github.com/nilbuild/developer-roadmap",
   "category": "learning",
@@ -3919,6 +3978,25 @@
   "added_by": "Hermes",
   "note": "★42K. 📖 A collection of pure bash alternatives to external processes.",
   "path": "links/learning/pure-bash-bible.md"
+ },
+ {
+  "title": "Qwen3",
+  "url": "https://github.com/QwenLM/Qwen3",
+  "category": "learning",
+  "tags": [
+   "python",
+   "chatgpt",
+   "deepseek",
+   "qwen3",
+   "large",
+   "language",
+   "model",
+   "series"
+  ],
+  "added": "2026-11-08",
+  "added_by": "Hermes",
+  "note": "★28K. Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.",
+  "path": "links/learning/qwen3.md"
  },
  {
   "title": "roadmap.sh",
