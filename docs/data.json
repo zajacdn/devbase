@@ -4082,6 +4082,23 @@
   "path": "links/learning/pure-bash-bible.md"
  },
  {
+  "title": "python-telegram-bot",
+  "url": "https://github.com/python-telegram-bot/python-telegram-bot",
+  "category": "learning",
+  "tags": [
+   "python",
+   "bot",
+   "chatbot",
+   "framework",
+   "telegram",
+   "chatgpt"
+  ],
+  "added": "2026-11-10",
+  "added_by": "Hermes",
+  "note": "★30K. We have made you a wrapper you can't refuse",
+  "path": "links/learning/python-telegram-bot.md"
+ },
+ {
   "title": "Qwen3",
   "url": "https://github.com/QwenLM/Qwen3",
   "category": "learning",
