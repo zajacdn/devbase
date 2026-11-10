@@ -870,6 +870,39 @@
   "path": "links/ai/awesome-llm-apps.md"
  },
  {
+  "title": "Awesome-Prompt-Engineering",
+  "url": "https://github.com/promptslab/Awesome-Prompt-Engineering",
+  "category": "ai",
+  "tags": [
+   "awesome",
+   "awesome-list",
+   "typescript",
+   "chatgpt",
+   "chatgpt-api",
+   "deep-learning",
+   "few-shot-learning",
+   "gpt",
+   "gpt-3",
+   "machine-learning",
+   "openai",
+   "prompt",
+   "prompt-based-learning",
+   "prompt-engineering",
+   "prompt-generator",
+   "prompt-learning",
+   "prompt-toolkit",
+   "prompt-tuning",
+   "promptengineering",
+   "text-to-image",
+   "text-to-speech",
+   "text-to-video"
+  ],
+  "added": "2026-11-10",
+  "added_by": "Hermes",
+  "note": "★6K. This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc",
+  "path": "links/ai/awesome-prompt-engineering.md"
+ },
+ {
   "title": "baoyu-design",
   "url": "https://github.com/JimLiu/baoyu-design",
   "category": "ai",
@@ -1593,6 +1626,25 @@
   "added_by": "Заяц",
   "note": "Плагины Spotify для Claude Code: рутина уходит на дешёвые модели, экономия до 90% токенов.",
   "path": "links/ai/portal-spotify.md"
+ },
+ {
+  "title": "prompt-engineering",
+  "url": "https://github.com/brexhq/prompt-engineering",
+  "category": "ai",
+  "tags": [
+   "chatgpt",
+   "tips",
+   "tricks",
+   "working",
+   "large",
+   "language",
+   "models",
+   "like"
+  ],
+  "added": "2026-11-10",
+  "added_by": "Hermes",
+  "note": "★10K. Tips and tricks for working with Large Language Models like OpenAI's GPT-4.",
+  "path": "links/ai/prompt-engineering.md"
  },
  {
   "title": "Prompt-Engineering-Guide",
@@ -2830,6 +2882,27 @@
   "path": "links/learning/awesome-android-ui.md"
  },
  {
+  "title": "awesome-copilot",
+  "url": "https://github.com/github/awesome-copilot",
+  "category": "learning",
+  "tags": [
+   "awesome",
+   "awesome-list",
+   "javascript",
+   "agent-skills",
+   "agents",
+   "ai",
+   "custom-agents",
+   "github-copilot",
+   "prompt-engineering",
+   "chatgpt"
+  ],
+  "added": "2026-11-10",
+  "added_by": "Hermes",
+  "note": "★41K. Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+  "path": "links/learning/awesome-copilot.md"
+ },
+ {
   "title": "awesome-courses",
   "url": "https://github.com/prakhar1989/awesome-courses",
   "category": "learning",
@@ -4057,6 +4130,22 @@
   "added_by": "Hermes",
   "note": "★48K. A list of practical projects that anyone can solve in any programming language.",
   "path": "links/learning/projects.md"
+ },
+ {
+  "title": "promptbase",
+  "url": "https://github.com/microsoft/promptbase",
+  "category": "learning",
+  "tags": [
+   "python",
+   "chatgpt",
+   "things",
+   "prompt",
+   "engineering"
+  ],
+  "added": "2026-11-10",
+  "added_by": "Hermes",
+  "note": "★6K. All things prompt engineering",
+  "path": "links/learning/promptbase.md"
  },
  {
   "title": "pure-bash-bible",
