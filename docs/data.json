@@ -1031,6 +1031,25 @@
   "path": "links/ai/claude-code-best-practice.md"
  },
  {
+  "title": "claude-cookbooks",
+  "url": "https://github.com/anthropics/claude-cookbooks",
+  "category": "ai",
+  "tags": [
+   "jupyter-notebook",
+   "claude",
+   "chatgpt",
+   "notebooks",
+   "recipes",
+   "showcasing",
+   "effective",
+   "ways"
+  ],
+  "added": "2026-11-14",
+  "added_by": "Hermes",
+  "note": "★55K. A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+  "path": "links/ai/claude-cookbooks.md"
+ },
+ {
   "title": "claude-howto",
   "url": "https://github.com/luongnv89/claude-howto",
   "category": "ai",
@@ -3405,6 +3424,25 @@
   "path": "links/learning/dive-into-deep-learning.md"
  },
  {
+  "title": "drawio-desktop",
+  "url": "https://github.com/jgraph/drawio-desktop",
+  "category": "learning",
+  "tags": [
+   "javascript",
+   "diagram-editor",
+   "electron-app",
+   "graphics",
+   "javascript-applications",
+   "official",
+   "electron",
+   "build"
+  ],
+  "added": "2026-11-14",
+  "added_by": "Hermes",
+  "note": "★64K. Official electron build of draw.io",
+  "path": "links/learning/drawio-desktop.md"
+ },
+ {
   "title": "Educational Channels",
   "url": "https://educational-channels.com/ru",
   "category": "learning",
@@ -3891,6 +3929,28 @@
   "path": "links/learning/linux-insides.md"
  },
  {
+  "title": "lossless-cut",
+  "url": "https://github.com/mifi/lossless-cut",
+  "category": "learning",
+  "tags": [
+   "typescript",
+   "codec",
+   "cut",
+   "editor",
+   "ffmpeg",
+   "lossless",
+   "losslesscut",
+   "player",
+   "video",
+   "video-editor",
+   "video-files"
+  ],
+  "added": "2026-11-14",
+  "added_by": "Hermes",
+  "note": "★46K. The swiss army knife of lossless video/audio editing",
+  "path": "links/learning/lossless-cut.md"
+ },
+ {
   "title": "Lyte Code",
   "url": "https://lyte-code.com/",
   "category": "learning",
@@ -4237,6 +4297,25 @@
   "added_by": "Hermes",
   "note": "★65K. Small exercises to get you used to reading and writing Rust code!",
   "path": "links/learning/rustlings.md"
+ },
+ {
+  "title": "skills",
+  "url": "https://github.com/mattpocock/skills",
+  "category": "learning",
+  "tags": [
+   "shell",
+   "claude",
+   "chatgpt",
+   "skills",
+   "real",
+   "engineers",
+   "straight",
+   "agents"
+  ],
+  "added": "2026-11-14",
+  "added_by": "Hermes",
+  "note": "★324K. Skills for Real Engineers. Straight from my .agents directory.",
+  "path": "links/learning/skills.md"
  },
  {
   "title": "stable-diffusion-webui",
@@ -4640,6 +4719,38 @@
   "added_by": "Заяц",
   "note": "Расширение для Google Meet: запоминает фон пустой комнаты и растворяет тебя в частицы — можно уйти с созвона.",
   "path": "links/utils/snap-meet.md"
+ },
+ {
+  "title": "super-productivity",
+  "url": "https://github.com/super-productivity/super-productivity",
+  "category": "utils",
+  "tags": [
+   "typescript",
+   "android",
+   "flowmodoro",
+   "flowtime",
+   "habit-tracker",
+   "ios",
+   "issue-tracker",
+   "linux",
+   "local-first",
+   "macos",
+   "open-source",
+   "pomodoro",
+   "pomodoro-timer",
+   "privacy",
+   "productivity",
+   "task-manager",
+   "time-tracker",
+   "time-tracking",
+   "to-do-list",
+   "todo",
+   "windows"
+  ],
+  "added": "2026-11-14",
+  "added_by": "Hermes",
+  "note": "★24K. Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
+  "path": "links/utils/super-productivity.md"
  },
  {
   "title": "SyncUp",
