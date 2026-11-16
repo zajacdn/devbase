@@ -2780,6 +2780,21 @@
   "path": "links/learning/agents-course.md"
  },
  {
+  "title": "ai-hedge-fund",
+  "url": "https://github.com/virattt/ai-hedge-fund",
+  "category": "learning",
+  "tags": [
+   "python",
+   "hedge",
+   "fund",
+   "team"
+  ],
+  "added": "2026-11-16",
+  "added_by": "Hermes",
+  "note": "★65K. An AI Hedge Fund Team",
+  "path": "links/learning/ai-hedge-fund.md"
+ },
+ {
   "title": "Anthropic Academy",
   "url": "https://anthropic.skilljar.com/",
   "category": "learning",
