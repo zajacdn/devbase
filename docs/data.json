@@ -3774,6 +3774,29 @@
   "path": "links/learning/hacker-laws.md"
  },
  {
+  "title": "hello-algo",
+  "url": "https://github.com/krahets/hello-algo",
+  "category": "learning",
+  "tags": [
+   "python",
+   "algo",
+   "algorithm",
+   "algorithms",
+   "book",
+   "data-structure",
+   "data-structures",
+   "data-structures-and-algorithms",
+   "dsa",
+   "education",
+   "leetcode",
+   "programming"
+  ],
+  "added": "2026-11-17",
+  "added_by": "Hermes",
+  "note": "★132K. 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+  "path": "links/learning/hello-algo.md"
+ },
+ {
   "title": "How to Train Your GPT",
   "url": "https://github.com/raiyanyahya/how-to-train-your-gpt",
   "category": "learning",
