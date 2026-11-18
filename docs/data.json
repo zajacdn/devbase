@@ -2916,6 +2916,27 @@
   "path": "links/learning/awesome-android-ui.md"
  },
  {
+  "title": "awesome-certificates",
+  "url": "https://github.com/PanXProject/awesome-certificates",
+  "category": "learning",
+  "tags": [
+   "awesome",
+   "awesome-list",
+   "html",
+   "badges",
+   "career",
+   "certificate",
+   "certificates",
+   "certifications",
+   "courses",
+   "free"
+  ],
+  "added": "2026-11-18",
+  "added_by": "Hermes",
+  "note": "★6K. Curated list of 20,000+ hours and 200+ free courses with certificates in IT, CS, Design and Business.",
+  "path": "links/learning/awesome-certificates.md"
+ },
+ {
   "title": "awesome-copilot",
   "url": "https://github.com/github/awesome-copilot",
   "category": "learning",
@@ -3115,6 +3136,58 @@
   "added_by": "Hermes",
   "note": "★49K. A curated list of awesome frameworks, libraries and software for the Java programming language.",
   "path": "links/learning/awesome-java.md"
+ },
+ {
+  "title": "awesome-mlops",
+  "url": "https://github.com/visenger/awesome-mlops",
+  "category": "learning",
+  "tags": [
+   "awesome",
+   "awesome-list",
+   "ai",
+   "data-science",
+   "devops",
+   "engineering",
+   "federated-learning",
+   "machine-learning",
+   "ml",
+   "mlops",
+   "software-engineering"
+  ],
+  "added": "2026-11-18",
+  "added_by": "Hermes",
+  "note": "★14K. A curated list of references for MLOps",
+  "path": "links/learning/awesome-mlops.md"
+ },
+ {
+  "title": "awesome-production-machine-learning",
+  "url": "https://github.com/EthicalML/awesome-production-machine-learning",
+  "category": "learning",
+  "tags": [
+   "awesome",
+   "awesome-list",
+   "data-mining",
+   "deep-learning",
+   "explainability",
+   "interpretability",
+   "large-scale-machine-learning",
+   "large-scale-ml",
+   "machine-learning",
+   "machine-learning-operations",
+   "ml-operations",
+   "ml-ops",
+   "mlops",
+   "privacy-preserving",
+   "privacy-preserving-machine-learning",
+   "privacy-preserving-ml",
+   "production-machine-learning",
+   "production-ml",
+   "responsible-ai"
+  ],
+  "added": "2026-11-18",
+  "added_by": "Hermes",
+  "note": "★21K. A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning",
+  "path": "links/learning/awesome-production-machine-learning.md"
  },
  {
   "title": "awesome-public-datasets",
@@ -4053,6 +4126,23 @@
   "added_by": "Hermes",
   "note": "★11K. Open Machine Learning Course",
   "path": "links/learning/mlcourse-ai.md"
+ },
+ {
+  "title": "mlops-zoomcamp",
+  "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+  "category": "learning",
+  "tags": [
+   "jupyter-notebook",
+   "machine-learning",
+   "mlops",
+   "model-deployment",
+   "model-monitoring",
+   "workflow-orchestration"
+  ],
+  "added": "2026-11-18",
+  "added_by": "Hermes",
+  "note": "★16K. Free MLOps course from DataTalks.Club. Register here 👇🏼 to get notified about the next cohort",
+  "path": "links/learning/mlops-zoomcamp.md"
  },
  {
   "title": "odysseus",
