@@ -4291,6 +4291,53 @@
   "path": "links/learning/pure-bash-bible.md"
  },
  {
+  "title": "Python-100-Days",
+  "url": "https://github.com/jackfrued/Python-100-Days",
+  "category": "learning",
+  "tags": [
+   "jupyter-notebook",
+   "python"
+  ],
+  "added": "2026-11-18",
+  "added_by": "Hermes",
+  "note": "★188K. Python - 100天从新手到大师",
+  "path": "links/learning/python-100-days.md"
+ },
+ {
+  "title": "python-guide",
+  "url": "https://github.com/realpython/python-guide",
+  "category": "learning",
+  "tags": [
+   "batchfile",
+   "book",
+   "guide",
+   "python",
+   "best",
+   "practices",
+   "guidebook",
+   "written"
+  ],
+  "added": "2026-11-18",
+  "added_by": "Hermes",
+  "note": "★30K. Python best practices guidebook, written for humans.",
+  "path": "links/learning/python-guide.md"
+ },
+ {
+  "title": "Python-programming-exercises",
+  "url": "https://github.com/zhiwehu/Python-programming-exercises",
+  "category": "learning",
+  "tags": [
+   "python",
+   "challenging",
+   "programming",
+   "exercises"
+  ],
+  "added": "2026-11-18",
+  "added_by": "Hermes",
+  "note": "★30K. 100+ Python challenging programming exercises",
+  "path": "links/learning/python-programming-exercises.md"
+ },
+ {
   "title": "python-telegram-bot",
   "url": "https://github.com/python-telegram-bot/python-telegram-bot",
   "category": "learning",
