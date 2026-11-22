@@ -760,6 +760,38 @@
   "path": "links/ai/apiyi.md"
  },
  {
+  "title": "app-store-compliance",
+  "url": "https://github.com/mjmirza/app-store-compliance",
+  "category": "ai",
+  "tags": [
+   "shell",
+   "accessibility",
+   "ai-agents",
+   "android",
+   "app-review-guidelines",
+   "app-store",
+   "app-store-connect",
+   "app-store-rejection",
+   "app-store-review",
+   "claude-code",
+   "coppa",
+   "data-safety",
+   "eu-ai-act",
+   "gdpr",
+   "google-play",
+   "google-play-policy",
+   "ios",
+   "mobile-compliance",
+   "play-console",
+   "pre-submission-checklist",
+   "privacy-manifest"
+  ],
+  "added": "2026-11-22",
+  "added_by": "Hermes",
+  "note": "★4K. Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA,…",
+  "path": "links/ai/app-store-compliance.md"
+ },
+ {
   "title": "Arena Skill",
   "url": "https://github.com/jakeschincariol/arena-skill",
   "category": "ai",
@@ -1144,6 +1176,26 @@
   "added_by": "Заяц",
   "note": "Дешёвая модель с уровнем топовых: $0.003 за 1М входных токенов и $0.6 за 1М выходных.",
   "path": "links/ai/deepseek-v41-flash.md"
+ },
+ {
+  "title": "diagram-design",
+  "url": "https://github.com/cathrynlavery/diagram-design",
+  "category": "ai",
+  "tags": [
+   "html",
+   "agent-skills",
+   "claude-code",
+   "codex",
+   "data-visualization",
+   "diagrams",
+   "drawio",
+   "mermaid",
+   "svg"
+  ],
+  "added": "2026-11-22",
+  "added_by": "Hermes",
+  "note": "★70K. Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+  "path": "links/ai/diagram-design.md"
  },
  {
   "title": "dsh-our-free-model",
