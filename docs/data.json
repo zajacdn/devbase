@@ -1653,6 +1653,34 @@
   "path": "links/ai/open-code-review.md"
  },
  {
+  "title": "open-webui",
+  "url": "https://github.com/open-webui/open-webui",
+  "category": "ai",
+  "tags": [
+   "svelte",
+   "ai",
+   "llm",
+   "llm-ui",
+   "llm-webui",
+   "llms",
+   "mcp",
+   "ollama",
+   "ollama-webui",
+   "open-webui",
+   "openai",
+   "openapi",
+   "rag",
+   "self-hosted",
+   "ui",
+   "webui",
+   "vps"
+  ],
+  "added": "2026-11-23",
+  "added_by": "Hermes",
+  "note": "★159K. User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+  "path": "links/ai/open-webui.md"
+ },
+ {
   "title": "openai-cookbook",
   "url": "https://github.com/openai/openai-cookbook",
   "category": "ai",
@@ -4803,6 +4831,31 @@
   "path": "links/learning/stable-diffusion-webui.md"
  },
  {
+  "title": "Stirling-PDF",
+  "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+  "category": "learning",
+  "tags": [
+   "typescript",
+   "docker",
+   "java",
+   "pdf",
+   "pdf-converter",
+   "pdf-editor",
+   "pdf-manipulation",
+   "pdf-merger",
+   "pdf-ocr",
+   "pdf-tools",
+   "pdf-web-apps",
+   "pdfmerger",
+   "self-hosted",
+   "vps"
+  ],
+  "added": "2026-11-23",
+  "added_by": "Hermes",
+  "note": "★97K. #1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+  "path": "links/learning/stirling-pdf.md"
+ },
+ {
   "title": "System Design Notes",
   "url": "https://github.com/liquidslr/system-design-notes",
   "category": "learning",
@@ -4859,6 +4912,31 @@
   "added_by": "Hermes",
   "note": "★91K. Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
   "path": "links/learning/system-design-101.md"
+ },
+ {
+  "title": "uptime-kuma",
+  "url": "https://github.com/louislam/uptime-kuma",
+  "category": "learning",
+  "tags": [
+   "javascript",
+   "docker",
+   "monitor",
+   "monitoring",
+   "responsive",
+   "self-hosted",
+   "selfhosted",
+   "single-page-app",
+   "socket-io",
+   "uptime",
+   "uptime-monitoring",
+   "webapp",
+   "websocket",
+   "vps"
+  ],
+  "added": "2026-11-23",
+  "added_by": "Hermes",
+  "note": "★95K. A fancy self-hosted monitoring tool",
+  "path": "links/learning/uptime-kuma.md"
  },
  {
   "title": "wordcraft",
